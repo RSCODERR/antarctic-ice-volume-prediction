@@ -1,0 +1,6 @@
+Subcell_Coverage_k,Cell_Type_Classification,Macro_Cell_Count,Native_500m_Subcells,Nominal_Projected_Area_km2,WGS84_Ellipsoidal_Area_km2,WGS84_Integrated_Volume_km3,Volume_Fraction_Pct,Discrete_Treatment_in_SSA
+k = 1 (alpha = 0.25),Boundary Transition (1/4 subcells),5988,5988,1497.0,1471.3968168137899,145.61150792768683,0.10348891994015373,Area-fraction weighted weak form (residual * alpha_I)
+k = 2 (alpha = 0.50),Boundary Transition (2/4 subcells),9104,18208,4552.0,4482.391186003759,516.4725264975198,0.36706703135396784,Area-fraction weighted weak form (residual * alpha_I)
+k = 3 (alpha = 0.75),Boundary Transition (3/4 subcells),10718,32154,8038.5,7926.3217834401385,891.1373890231785,0.6333486083675255,Area-fraction weighted weak form (residual * alpha_I)
+k = 4 (alpha = 1.00),Interior Fully Grounded,202502,810008,202502.0,202182.06122927973,139149.28508008807,98.89609295533396,Standard 2D SSA 9-point stencil
+Total Domain A Macro-Mesh,Authoritative Grounded Domain,228312,866358,216589.5,216062.17,140702.51,100.0,Exact Finite-Volume Volume & Mass Conservation (0.0000% Error)

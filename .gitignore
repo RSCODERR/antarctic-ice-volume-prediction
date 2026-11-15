@@ -1,0 +1,89 @@
+# ==============================================================================
+# Antarctic Ice-Volume Prediction: Git Ignore Configuration
+# ==============================================================================
+
+# Python Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Data Directories (Preserve directory structure via .gitkeep)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/features/*
+!data/features/.gitkeep
+
+# Large Cryosphere and Geospatial Datasets
+*.nc
+*.nc4
+*.h5
+*.hdf5
+*.tif
+*.tiff
+*.geotiff
+*.zarr/
+*.tar
+*.tar.gz
+*.zip
+*.gz
+*.parquet
+*.feather
+
+# Vector GIS Files (Intermediate shapefile components)
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.gpkg-shm
+*.gpkg-wal
+
+# Model Weights and Artifacts
+models/*
+!models/.gitkeep
+*.joblib
+*.pkl
+*.pickle
+*.onnx
+*.pt
+*.pth
+
+# Reports / Temporary outputs
+reports/*.html
+reports/*.pdf
+!reports/.gitkeep
+!reports/*.md
+
+# Environment Credentials and Sensitive Data (e.g. Earthdata tokens)
+.env
+.env.*
+.netrc
+_netrc
+*.key
+*.token
+
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+

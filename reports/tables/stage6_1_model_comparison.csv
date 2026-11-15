@@ -1,0 +1,7 @@
+Model_ID,Model_Name,Model_Class,Hyperparameters,Validation_RMSE_Gt_yr,Validation_MAE_Gt_yr,Validation_Bias_Gt_yr,Validation_R2,Val_MAE_Improvement_vs_HistMean_pct,Test_Refit_RMSE_Gt_yr,Test_Refit_MAE_Gt_yr,Test_Refit_Bias_Gt_yr,Test_Refit_R2,Test_TrainOnly_RMSE_Gt_yr,Test_TrainOnly_MAE_Gt_yr,Test_TrainOnly_R2,Test_MAE_Improvement_vs_HistMean_pct,Model_Status
+MOD-04,ElasticNet,Regularized Linear (ElasticNet),"alpha=0.1, l1_ratio=0.9, weighted=True",14.77,12.09,2.07,-0.137,16.5,14.65,9.52,-4.94,-0.087,13.56,9.61,0.069,12.6,SELECTED_PRIMARY_MODEL
+MOD-05,Random Forest,Ensemble Bagging (Random Forest),"n_est=50, max_depth=2, min_leaf=10, max_feat=sqrt",15.49,13.96,6.8,-0.251,3.6,13.95,10.4,-0.26,0.014,13.78,10.64,0.038,4.6,BENCHMARK_CANDIDATE
+MOD-03,Bayesian Ridge,Bayesian Ridge Regression,"alpha_1=1e-6, lambda_1=1e-6, weighted=True",15.77,14.37,7.54,-0.296,0.8,14.05,10.39,-0.23,-0.0,14.19,10.85,-0.02,4.7,BENCHMARK_CANDIDATE
+MOD-01,Historical Basin Mean,Baseline (Basin Empirical Mean),Fixed historical basin mean,15.82,14.49,7.87,-0.305,0.0,13.59,10.2,0.71,0.065,14.11,10.9,-0.008,6.4,BASELINE_BENCHMARK
+MOD-06,Gradient Boosting,Ensemble Boosting (Gradient Boosting),"n_est=25, max_depth=1, lr=0.01, min_leaf=10, subsample=0.7",16.31,14.98,8.13,-0.387,-3.4,14.1,10.47,0.48,-0.007,14.17,10.89,-0.017,3.9,BENCHMARK_CANDIDATE
+MOD-02,Persistence,Baseline (Autoregressive Lag-1),y_{t-1} autoregressive persistence,25.26,19.37,-2.38,-2.328,-33.7,19.67,16.85,-0.25,-0.961,19.67,16.85,-0.961,-54.6,BASELINE_BENCHMARK

@@ -1,0 +1,10 @@
+Metric,Source_Reported_Value,Audited_Recalculated_Value,Verification_Status,Physical_Notes
+Dataset Identifier / DOI,GB/NERC/BAS/PDC/02074 (doi:10.5285/128c5e33-5224-4197-82f0-19dcc95b80a0),Verified matching BAS RAMADDA metadata,PASSED (Exact Match),IMBIE-3 v1.0 software v3.1
+Temporal Coverage & Record Count,1979-01-01 to 2023-12-01 (540 monthly records),540 consecutive monthly records (1979–2023),PASSED (540/540 complete),"Zero nulls, zero gaps across 45 years"
+Spatial Aggregation Domain,Antarctic Peninsula Ice Sheet (APIS),Entire regional sector (IMBIE APIS),PASSED,Aggregate benchmark only; MUST NOT be treated as basin-level truth
+Rate Component Sum: MB == SMB + Dyn,MB = SMB_anomaly + Dyn_anomaly,Max residual = 4.00e-08 Gt/yr,PASSED (Identical to Machine Precision),Rates are in Gt/yr. Positive = mass gain; negative = mass loss
+Cumulative Mass Balance (Dec 2023 Endpoint),-816.9743 Gt,-816.9743 Gt (numerical cumsum),PASSED (Exact Match within 0.0002 Gt),Represents -817.0 Gt total grounded mass loss over 1979–2023
+Cumulative SMB Anomaly (Dec 2023 Endpoint),51.5109 Gt,51.5109 Gt (numerical cumsum),PASSED (Exact Match within 0.0001 Gt),Positive anomaly indicates net accumulation buffer over 45 years
+Cumulative Dynamics Anomaly (Dec 2023 Endpoint),-868.4853 Gt,-868.4853 Gt (numerical cumsum),PASSED (Exact Match within 0.0001 Gt),Dynamic discharge loss dominates total signal (-868.5 Gt)
+Reported Uncertainty Characterization,+/- 108.7695 Gt (Cumulative MB uncertainty at Dec 2023),Confirmed 1-sigma (68.3% confidence level),PASSED (Documented in Metadata Comment),Includes sqrt(12) inter-month correlation scaling per year
+Solid Ice Volume Equivalent of Cumulative Mass Loss,N/A (IMBIE reports Gt),890.92 km3 ice-equivalent (+/- 118.61 km3),VERIFIED (rho_ice = 0.917 Gt/km3),Corresponds to 890.9 +/- 118.6 km3 ice-equivalent volume loss

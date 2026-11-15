@@ -1,0 +1,6 @@
+Discretization_Level,Physical_Area_Convention,Integrated_Volume_km3,Baseline_Target_km3,Discrepancy_vs_Target_km3,Relative_Error_Pct,Conservation_Verdict
+Native 500 m Grid,Nominal Projected Area (0.25 km²/cell),140049.2,140049.2,0.0,0.0,EXACT BASELINE FOR PROJECTED INTEGRATION
+1 km Macro-Mesh (Conservative Area Fractions),Nominal Projected Area (alpha_I * 1.0 km²),140049.2057374647,140049.2,0.005737464700359851,4.096749356911607e-06,EXACT CONSERVATION (0.0000% Error)
+Native 500 m Grid,"WGS84 Ellipsoidal Ground Area (A_true,i)",140702.50650353642,140702.51,-0.003496463585179299,-2.4850044147608305e-06,EXACT MATCH TO APPROVED BM4 BASELINE (-0.0035 km³)
+1 km Macro-Mesh (Conservative Area Fractions),WGS84 Ellipsoidal Ground Area (Subcell Aggregated),140702.50650353642,140702.51,-0.003496463585179299,-2.4850044147608305e-06,EXACT CONSERVATION (0.0000% Error vs 500m Ellipsoidal)
+1 km Binary Majority Mesh (Non-Conservative),Nominal Projected Area (1.0 km²/cell),140721.12579310057,140049.2,671.9257931005559,0.479778387238596,"REJECTED: Violates Volume Conservation (+671.93 km³, +0.48%)"

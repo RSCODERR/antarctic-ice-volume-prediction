@@ -1,0 +1,5 @@
+Subdomain_or_Process,Surface_SMB_Gt_yr,Internal_Transfer_Flux_Gt_yr,Ocean_Calving_Flux_Gt_yr,SubShelf_Basal_Melt_Gt_yr,Net_Domain_Tendency_Gt_yr,Net_Tendency_km3_yr,Domain_Area_km2,Specific_Mass_Tendency_m_yr_ice_eq,Conservation_Status
+Grounded Ice Sheet Domain,228.73,-250.31,-64.49,0.0,-86.06,-93.85,216062.17,-0.4344,RESOLVED_GROUNDED_LEDGER
+Floating Ice Shelf Domain,64.87,250.31,-134.42,UNMODELED (~ -75 Gt/yr lit),180.76,197.12,132918.51,1.483,RESOLVED_FLOATING_LEDGER
+Internal Grounding-Line Transfer Cancellation,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,EXACT_INTERNAL_CANCELLATION (+250.31 Gt/yr - 250.31 Gt/yr == 0.000 Gt/yr)
+Total Antarctic Peninsula Glacier System,293.61,0.0,-198.91,UNMODELED,94.7,103.27,348980.68,0.2959,COMBINED_SYSTEM_BALANCE (+94.78 Gt/yr resolved excess before sub-shelf basal melt)

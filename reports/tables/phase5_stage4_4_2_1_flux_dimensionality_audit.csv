@@ -1,0 +1,13 @@
+Test_ID,Quantity_Name,Option_B_Equation,Option_B_Units,Option_B_Value,Option_A_Equation,Option_A_Units,Option_A_Value,Ratio_B_over_A,Scaling_Constant,Dimensional_Consistency_Status
+TEST-1,Vertical Internal Face Flux,F_mass = rho_i * H * u * dy,kg/s,4.547474e-13,F_vol = H * u * dy,m^3/s,-1.332268e-15,917.0,rho_i = 917 kg/m^3,VERIFIED_EXACT
+TEST-1,Pairwise Face Error,F_mass(I->J) + F_mass(J->I),kg/s,0.000000e+00,F_vol(I->J) + F_vol(J->I),m^3/s,0.000000e+00,1.0,Identity 0.0 == 0.0,VERIFIED_EXACT
+TEST-1,Global Net Outflow Sum,sum(div F_mass),kg/s,4.547474e-13,sum(div F_vol),m^3/s,-1.332268e-15,917.0,rho_i = 917 kg/m^3,VERIFIED_EXACT
+TEST-2,AMR Macro-Face Flux,F_macro_mass = int rho_i * H * u / k dy,kg/s,1.613449e+03,F_macro_vol = int H * u / k dy,m^3/s,1.759487e+00,917.0,rho_i = 917 kg/m^3,VERIFIED_EXACT
+TEST-2,AMR Sub-Face 1 Flux,F_sub1_mass = int rho_i * H * u / k dy,kg/s,6.821531e+02,F_sub1_vol = int H * u / k dy,m^3/s,7.438965e-01,917.0,rho_i = 917 kg/m^3,VERIFIED_EXACT
+TEST-2,AMR Sub-Face 2 Flux,F_sub2_mass = int rho_i * H * u / k dy,kg/s,9.312962e+02,F_sub2_vol = int H * u / k dy,m^3/s,1.015590e+00,917.0,rho_i = 917 kg/m^3,VERIFIED_EXACT
+TEST-2,AMR Interface Residual,|F_macro - (F_sub1 + F_sub2)|,kg/s,0.000000e+00,|F_macro - (F_sub1 + F_sub2)|,m^3/s,0.000000e+00,917.0,rho_i = 917 kg/m^3,VERIFIED_EXACT
+TEST-2,Naive Unmatched Discretization Mismatch,F_macro_naive - sum F_sub_naive,kg/s,8.898894e+00,F_macro_naive - sum F_sub_naive,m^3/s,9.704355e-03,917.0,rho_i = 917 kg/m^3,VERIFIED_EXACT
+TEST-3,SMB Surface Source Rate,S_mass = rho_i * A_ice * smb,kg/s,7.264494e+00,S_vol = A_ice * smb,m^3/s,7.922022e-03,917.0,rho_i = 917 kg/m^3; smb=1.584e-8 m/s,VERIFIED_EXACT
+TEST-3,Net Advective Face Outflow,sum beta_f * L_f * (rho_i * H * u_n),kg/s,1.136868e-13,sum beta_f * L_f * (H * u_n),m^3/s,1.110223e-16,917.0,rho_i = 917 kg/m^3,VERIFIED_EXACT
+TEST-3,Cut-Cell Conservation Residual,|dM/dt - (S_mass - NetAdv)|,kg/s,0.000000e+00,|dV/dt - (S_vol - NetAdv)|,m^3/s,0.000000e+00,917.0,rho_i = 917 kg/m^3,VERIFIED_EXACT
+TEST-3,Naive Cell-Fraction Imbalance,|NetAdv_naive - NetAdv_exact|,kg/s,2.990041e+02,|NetAdv_naive - NetAdv_exact|,m^3/s,3.260677e-01,917.0,rho_i = 917 kg/m^3 (50.0% error),VERIFIED_EXACT

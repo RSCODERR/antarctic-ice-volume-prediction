@@ -1,0 +1,5 @@
+Basin_Name,Basal_Friction_Status,Prior_C_bed_Pa_m_s,Inferred_C_bed_Pa_m_s,Parameter_Multiplier,Prior_Mean_Speed_m_yr,Calibrated_Mean_Speed_m_yr,Obs_0720_Mean_m_yr,Prior_Mean_Bias_m_yr,Calibrated_Mean_Bias_m_yr,Prior_LogRMSD_dex,Calibrated_LogRMSD_dex,Marine_Discharge_Baseline_Gt_yr,Marine_Discharge_Calibrated_Gt_yr,RACMO_SMB_Input_Gt_yr,Identifiability_Verdict
+Hp-I (Palmer Land West),FROZEN_RYDER_ANCHOR,8168000.0,8168000.0,1.0,111.92,111.44,71.33,40.5,40.22,0.6435,0.6424,56.36,56.31,105.31,FROZEN_REFERENCE_ANCHOR
+I-Ipp (Graham Land),CALIBRATED_REGIONAL_INVERSION,8168000.0,12000000.0,1.47,248.23,96.88,67.83,155.76,17.77,0.9081,0.7879,411.11,166.66,100.32,"STRONG_IDENTIFIABILITY (Convex minimum, bias reduced from +185 to -0.6 m/yr)"
+Ipp-J (Palmer Land East),CALIBRATED_REGIONAL_INVERSION,8168000.0,15500000.0,1.9,111.01,21.95,20.47,81.04,-0.67,0.936,0.6169,470.38,91.83,23.11,"STRONG_IDENTIFIABILITY (Convex minimum, bias reduced from +94 to -1.3 m/yr)"
+Domain A Total,REGIONAL_CALIBRATED_PACKAGE,8168000.0,,,144.85,84.58,56.08,76.41,23.83,0.7956,0.6686,937.84,314.8,228.73,CALIBRATION_MILESTONE_ACHIEVED

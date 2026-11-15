@@ -1,0 +1,5 @@
+Basin_ID,Basin_Name,Geographic_Sector,Domain_A_Grounded_Cells,Domain_A_Grounded_Area_km2,BedMachine_Ice_Eq_Vol_km3,Bedmap3_Ice_Eq_Vol_km3,ITS_LIVE_Velocity_Coverage_Pct,MEaSUREs_Velocity_Coverage_Pct,RACMO_SMB_Coverage_Pct,Primary_Dynamic_Regime
+Hp-I,Palmer Land West (George VI / Marguerite Bay),Western Antarctic Peninsula (South),435782,108945.60,102464.00,100120.10,94.8%,93.2%,100.0%,"Deep marine troughs, expansive ice shelves (George VI), moderate surface slopes"
+I-Ipp,Graham Land West & North (Danco / Graham Coast),Western & Northern Antarctic Peninsula,199031,49757.70,12714.00,11079.70,88.5%,86.4%,100.0%,"Extreme alpine topography, narrow steep tidewater fjords (< 3 km wide), high precipitation"
+Ipp-J,"Larsen Coast (Larsen A, B, C Embayments)",Eastern Antarctic Peninsula,231545,57358.80,25524.50,22297.80,96.2%,95.1%,100.0%,"Former shelf collapse tributaries (Crane, Flask, Leppard), Larsen C buttressing, cold dry plateau"
+Total_Domain_A,Entire Mainland Peninsula Common Domain A,Basins Hp-I + I-Ipp + Ipp-J,866358,216062.17,140702.50,133497.60,93.7%,92.1%,100.0%,Full mainland glaciological system governing 2100 sea level commitment

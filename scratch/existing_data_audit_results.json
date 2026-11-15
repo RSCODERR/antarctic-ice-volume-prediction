@@ -1,0 +1,248 @@
+[
+  {
+    "name": "BedMachine v4.1 Raw NetCDF",
+    "path": "data/raw/bedmachine/NSIDC-0756_BedMachineAntarctica_19700101-20191001_V04.1.nc",
+    "size": 1198815840,
+    "sha256": "6bd08dbbe1a781834450cd25f7b5f438463a540a873d819bb781912e7ecb1538",
+    "variables": [
+      "mapping",
+      "x",
+      "y",
+      "mask",
+      "firn",
+      "surface",
+      "thickness",
+      "bed",
+      "errbed",
+      "source",
+      "dataid",
+      "geoid",
+      "rgi"
+    ],
+    "dimensions": {
+      "x": 13333,
+      "y": 13333
+    }
+  },
+  {
+    "name": "BedMachine v4.1 Peninsula Processed NetCDF",
+    "path": "data/processed/bedmachine_v4.1_peninsula_500m.nc",
+    "size": 64512020,
+    "sha256": "4c1717cc974385387e61a1be672d445a058a36f4a362efb5819b4b64a97c6d31",
+    "variables": [
+      "mapping",
+      "mask",
+      "firn",
+      "surface",
+      "thickness",
+      "bed",
+      "errbed",
+      "source",
+      "dataid",
+      "geoid",
+      "rgi",
+      "x",
+      "y"
+    ],
+    "dimensions": {
+      "string1": 1,
+      "y": 3401,
+      "x": 2601
+    }
+  },
+  {
+    "name": "Bedmap3 Bed GeoTIFF",
+    "path": "data/raw/bedmap3/bm3_bed.tif",
+    "size": 361469296,
+    "sha256": "196cc530554c9616a2f181a77dd8f2f86ccc3235b54daa078935a19ab5154887",
+    "width": 13334,
+    "height": 13334,
+    "crs": "EPSG:3031",
+    "bounds": [
+      -3333500.0,
+      -3333500.0,
+      3333500.0,
+      3333500.0
+    ],
+    "transform": [
+      500.0,
+      0.0,
+      -3333500.0,
+      0.0,
+      -500.0,
+      3333500.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "name": "Bedmap3 Surface GeoTIFF",
+    "path": "data/raw/bedmap3/bm3_surface.tif",
+    "size": 361469320,
+    "sha256": "9f729c341708c1ad9af53ccc57738f63798202191711d26c7d2cb02eee49cc8a",
+    "width": 13334,
+    "height": 13334,
+    "crs": "EPSG:3031",
+    "bounds": [
+      -3333500.0,
+      -3333500.0,
+      3333500.0,
+      3333500.0
+    ],
+    "transform": [
+      500.0,
+      0.0,
+      -3333500.0,
+      0.0,
+      -500.0,
+      3333500.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "name": "Bedmap3 Thickness GeoTIFF",
+    "path": "data/raw/bedmap3/bm3_thickness.tif",
+    "size": 361469320,
+    "sha256": "44f4285b715e8803d216d297a6c7b6d4d51be5e4a1f541f2db252a773cb5df1b",
+    "width": 13334,
+    "height": 13334,
+    "crs": "EPSG:3031",
+    "bounds": [
+      -3333500.0,
+      -3333500.0,
+      3333500.0,
+      3333500.0
+    ],
+    "transform": [
+      500.0,
+      0.0,
+      -3333500.0,
+      0.0,
+      -500.0,
+      3333500.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "name": "Bedmap3 Masks GeoTIFF",
+    "path": "data/raw/bedmap3/bm3_masks.tif",
+    "size": 361469320,
+    "sha256": "0cb918f4af7a39c00832cc3c04c1066256ab2424b99bae2c5200c0c3c2cc0ae6",
+    "width": 13334,
+    "height": 13334,
+    "crs": "EPSG:3031",
+    "bounds": [
+      -3333500.0,
+      -3333500.0,
+      3333500.0,
+      3333500.0
+    ],
+    "transform": [
+      500.0,
+      0.0,
+      -3333500.0,
+      0.0,
+      -500.0,
+      3333500.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "name": "Bedmap3 Uncertainty GeoTIFF",
+    "path": "data/raw/bedmap3/bm3_thickness_uncertainty.tif",
+    "size": 361469320,
+    "sha256": "d6319adf41098e9d75088d8664fb0ad9a9df1f4e61614030a049a7a4fe6ad829",
+    "width": 13334,
+    "height": 13334,
+    "crs": "EPSG:3031",
+    "bounds": [
+      -3333500.0,
+      -3333500.0,
+      3333500.0,
+      3333500.0
+    ],
+    "transform": [
+      500.0,
+      0.0,
+      -3333500.0,
+      0.0,
+      -500.0,
+      3333500.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "name": "Bedmap3 Peninsula Masks Processed",
+    "path": "data/processed/bedmap3_masks_peninsula_500m.tif",
+    "size": 274489,
+    "sha256": "10268bd3e3abb77e1fb466adcd4af2fdad1ba197da4e7d5e6fec3d830de4bd99",
+    "width": 2600,
+    "height": 3400,
+    "crs": "EPSG:3031",
+    "bounds": [
+      -2700000.0,
+      250000.0,
+      -1400000.0,
+      1950000.0
+    ],
+    "transform": [
+      500.0,
+      0.0,
+      -2700000.0,
+      0.0,
+      -500.0,
+      1950000.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "name": "Bedmap3 Peninsula Thickness Processed",
+    "path": "data/processed/bedmap3_thickness_peninsula_500m.tif",
+    "size": 3497841,
+    "sha256": "1a7991085ed3c2e321eb26b66499f2e23f0296b5f1029a3c124a1b0213e2b315",
+    "width": 2600,
+    "height": 3400,
+    "crs": "EPSG:3031",
+    "bounds": [
+      -2700000.0,
+      250000.0,
+      -1400000.0,
+      1950000.0
+    ],
+    "transform": [
+      500.0,
+      0.0,
+      -2700000.0,
+      0.0,
+      -500.0,
+      1950000.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "name": "IMBIE Basins Shapefile",
+    "path": "data/raw/imbie_basins/IMBIE_AIS_Regional_Delineations.shp",
+    "status": "NOT FOUND"
+  },
+  {
+    "name": "IMBIE 3 Mass Balance CSV",
+    "path": "data/raw/imbie/imbie3_antarctic_peninsula_Gt_partitioned.csv",
+    "size": 82196,
+    "sha256": "ff144cc08fb3f78e8f511743294c17f8ab178a021ee4068ad7356fb46c0122eb",
+    "header": "# id: GB/NERC/BAS/PDC/02074",
+    "sample_rows": 4
+  }
+]

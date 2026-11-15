@@ -1,0 +1,20 @@
+Relative_Path,File_Size_Bytes,SHA256_Checksum,File_Type,Stage_4_2_Role
+src/physics/ssa_2d/constants.py,3395,4ae422dcd57a4dcc6b3379093b00123aaf7268f126ef2541ea8b319817af302f,Python Source,2D SSA Solver Implementation / Verification
+src/physics/ssa_2d/grid.py,3463,203f0fe384a260a5d9f57789ae4099defd95d51616f817c5d61bbc0b671cace3,Python Source,2D SSA Solver Implementation / Verification
+src/physics/ssa_2d/rheology.py,4137,04fa0a5f7191826325588f30b7860429f6aaed574e0b75fb502c9c1ac3407965,Python Source,2D SSA Solver Implementation / Verification
+src/physics/ssa_2d/friction.py,3802,9c8976c33d44d712d87b35384b3fb6e04d211eb381e1d804d27a9464e482cc3a,Python Source,2D SSA Solver Implementation / Verification
+src/physics/ssa_2d/boundary.py,2504,cc4b000ae5e5acc96292811eb0e3f8b4d6fddb43b44154b8219ac1d3babba352,Python Source,2D SSA Solver Implementation / Verification
+src/physics/ssa_2d/assembly.py,9568,fb4faadce3dd083a04e60a2608210d0c5c6de4a1726ed4d695e59d0d7d1882af,Python Source,2D SSA Solver Implementation / Verification
+src/physics/ssa_2d/solver.py,9743,2cc24aa71999330f006f92c006f37d42d36c0677bafd62b0a861e974e17d88b5,Python Source,2D SSA Solver Implementation / Verification
+src/physics/ssa_2d/continuity.py,7008,36fbe9c1920ed57fcd93c703163a0c85a82a121347306d76552d500741d3876c,Python Source,2D SSA Solver Implementation / Verification
+src/physics/ssa_2d/mismip_plus.py,4325,3531d2881c0425362db8f34621ab9f9c35b9eea278b76fcf1922b6bc0a364c23,Python Source,2D SSA Solver Implementation / Verification
+src/physics/ssa_2d/__init__.py,1602,896b512f354f0a739cd3bad0ac2ece6c0e6fe3a6885c3a983c4437cf3377728f,Python Source,2D SSA Solver Implementation / Verification
+tests/test_ssa_2d_unit.py,10592,eee84de26a5eb679168825de7c05825c3f878315e7f85739a3961a79754a2e92,Python Source,2D SSA Solver Implementation / Verification
+tests/test_ssa_2d_synthetic.py,9018,8429e2cfa50647627d85e007f34e0829ca900e5f92613fba908671815cb247ba,Python Source,2D SSA Solver Implementation / Verification
+tests/test_ssa_2d_mismip.py,5412,2791e1d9c262707d8c924c985d8b0a3cc7f2bec4553e6230f815eb88bfeec426,Python Source,2D SSA Solver Implementation / Verification
+reports/tables/phase5_stage4_2_equations_and_discretization.csv,2651,234571ec30fe1e1f78b207e3e18736fea4bce2a7d34445c647ff99a86fe2d9e5,CSV Table,2D SSA Solver Implementation / Verification
+reports/tables/phase5_stage4_2_synthetic_test_results.csv,1852,88114dbdaa46fac751e255221f1100a43ad8163f6a176d62b7c091fcf64252bb,CSV Table,2D SSA Solver Implementation / Verification
+reports/tables/phase5_stage4_2_solver_convergence_report.csv,1253,ea014b1c2cbc32e980d119d4c1f8d842386e096dd2865e45ae4c57d147b2e3f2,CSV Table,2D SSA Solver Implementation / Verification
+reports/tables/phase5_stage4_2_mismip_plus_benchmark_results.csv,823,f9e66868112aeb3a4216ebb1a7cc4958a4b7b7a9be2d5fc37b9e832975d07390,CSV Table,2D SSA Solver Implementation / Verification
+reports/tables/phase5_stage4_2_risk_register.csv,2060,14d5b8e22303df2d346dda0d6961dfb40193993400e446c57c2b1308df7fb80c,CSV Table,2D SSA Solver Implementation / Verification
+reports/phase5_stage4_2_minimal_ssa_solver_report.md,31511,8dad6e647015044481e1cf1b5512278f89b6b26f0ffffd67c564de81b228d0a6,Markdown Report,Stage 4.2 Comprehensive Synthesis Report

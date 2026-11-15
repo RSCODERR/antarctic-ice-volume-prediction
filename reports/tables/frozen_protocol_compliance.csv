@@ -1,0 +1,9 @@
+Model_Name,Pre_Registered_Role,Listed_in_Phase4B2_Manifest,Pre_Test_Pipeline_Frozen,Test_Evaluation_Timing,Post_Unsealing_Modifications,Protocol_Compliance_Status
+M2_Bayesian_Ridge_Weighted,Primary Candidate Model,True,True,Single-pass execution in test_evaluator.py,None (Zero hyperparameter or feature modification),STRICTLY COMPLIANT
+M0_Persistence,Mandatory Dynamic Benchmark,True,True,Single-pass execution in test_evaluator.py,None (Fixed algebraic lag-1 predictor),STRICTLY COMPLIANT
+M0_Historical_Mean,Mandatory Climatological Benchmark,True,True,Single-pass execution in test_evaluator.py,None (Fixed pre-test historical training mean),STRICTLY COMPLIANT
+M2_Bayesian_Ridge (Unweighted),Mandatory Reference Benchmark,True,True,Single-pass execution in test_evaluator.py,None (Unweighted Bayesian Ridge formulation),STRICTLY COMPLIANT
+M3_ElasticNet,Secondary Candidate Model (Pre-registered in Row 1),True,True,Single-pass execution in test_evaluator.py,None (Identical pipeline to Phase 4B),STRICTLY COMPLIANT
+M4_Random_Forest,Secondary Candidate Model (Pre-registered in Row 1),True,True,Single-pass execution in test_evaluator.py,None (Identical shallow RF configuration),STRICTLY COMPLIANT
+M5_Gradient_Boosting,Secondary Candidate Model (Pre-registered in Row 1),True,True,Single-pass execution in test_evaluator.py,None (Identical constrained GBDT configuration),STRICTLY COMPLIANT
+M6_Gaussian_Process,Secondary Candidate Model (Pre-registered in Row 1),True,True,Single-pass execution in test_evaluator.py,None (Identical low-dim GPR configuration),STRICTLY COMPLIANT

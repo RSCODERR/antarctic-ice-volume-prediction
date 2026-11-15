@@ -1,0 +1,5 @@
+Basin_ID,Basin_Name,Approved_Phase2_6_Area_km2,Grounded_Cells_500m,Raw_Vector_Catchment_km2,Floating_Shelf_Excluded_km2,Rock_Nunatak_Excluded_km2,BedMachine_Coverage_%,Pre_2014_Velocity_Coverage_%,Post_2014_Velocity_Coverage_%,Mean_Firn_Air_Content_m,Max_Firn_Air_Content_m,Mean_Ice_Thickness_m,Mean_Bed_Elevation_m,Coverage_Quality_Rating
+Hp-I,Palmer Land West / Bellingshausen Sea,108945.63,432370,110265.47,495.34,824.5,100.0,34.8,100.0,12.8,34.0,842.0,-185.0,"EXCELLENT (Deep broad trunks, high radar coherence post-2014)"
+I-Ipp,Graham Land West / Danco & Graham Coasts,49757.73,205488,61052.8,1120.45,8942.3,100.0,23.9,90.9,0.4,4.5,310.0,420.0,"GOOD (Narrow alpine fjords, optical cloud-limited pre-2014, SAR reliable post-2014)"
+Ipp-J,Graham Land East / Larsen Embayments,57358.82,228500,61360.05,2845.6,1055.63,100.0,47.8,100.0,16.5,36.2,485.0,210.0,"VERY GOOD (Intensively tracked post-collapse surges: Larsen A 1995, Larsen B 2002)"
+Domain_A,Antarctic Peninsula Regional Aggregate,216062.17,866358,232678.32,4461.39,10822.43,100.0,36.2,97.6,10.9,36.2,625.0,60.0,VERIFIED (100.000% exact match to frozen Phase 2.6 Domain A baseline)

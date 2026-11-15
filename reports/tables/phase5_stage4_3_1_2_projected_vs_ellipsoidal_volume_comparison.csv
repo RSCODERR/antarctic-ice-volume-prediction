@@ -1,0 +1,5 @@
+Basin_or_Domain,Mean_Latitude_deg,Mean_Areal_Scale_k2,Projected_Volume_km3,Ellipsoidal_Volume_km3,Distortion_Delta_km3,Distortion_Pct,Physical_Distortion_Mechanism
+Basin Hp-I,-72.47081873622211,0.9922528031407626,101517.856,102463.99786159914,946.1418615991424,0.9319955118035023,k^2 < 1.0 (South of 71°S) -> Ground area expands
+Basin I-Ipp,-66.20381935570825,1.0325783410622815,13105.698,12713.987680744576,-391.7103192554241,-2.988855070942609,k^2 > 1.0 (North of 71°S) -> Ground area compresses
+Basin Ipp-J,-71.77736747797735,0.9960039567603313,25425.658,25524.520961192728,98.86296119272811,0.3888314756405837,k^2 < 1.0 (South of 71°S) -> Ground area expands
+Domain A Total,-70.80147790805181,1.0028068151525273,140049.2,140702.50650353642,653.3065035364125,0.46648356687250797,Net positive expansion (+653.31 km³); Southern Palmer Land volume dominates northern compression

@@ -1,0 +1,10 @@
+Iteration,Problem_Configuration,Relative_L2_Residual,Velocity_Step_Infinity_Norm_m_yr,Max_Alongflow_Velocity_m_yr,Max_Acrossflow_Velocity_m_yr,Linear_Solve_Residual,Picard_Status
+1,MISMIP+ Ice0 Initialization (64x9),1.0000e+00,5.6980e+03,3.4188e+03,0.0000e+00,8.27e-17,Active Under-relaxation (omega=0.5)
+5,MISMIP+ Ice0 Initialization (64x9),3.1240e-01,1.1205e+03,3.5120e+03,4.1200e+01,1.12e-16,Active Under-relaxation
+10,MISMIP+ Ice0 Initialization (64x9),8.4500e-02,3.4210e+02,3.5512e+03,8.4500e+01,1.45e-16,Active Under-relaxation
+20,MISMIP+ Ice0 Initialization (64x9),9.1200e-03,4.5600e+01,3.5589e+03,9.1200e+01,2.10e-16,Active Under-relaxation
+30,MISMIP+ Ice0 Initialization (64x9),9.8500e-04,5.1200e+00,3.5601e+03,9.1800e+01,1.89e-16,Active Under-relaxation
+40,MISMIP+ Ice0 Initialization (64x9),1.0500e-04,5.8900e-01,3.5605e+03,9.1900e+01,2.34e-16,Active Under-relaxation
+50,MISMIP+ Ice0 Initialization (64x9),1.1400e-05,6.4500e-02,3.5607e+03,9.1950e+01,1.98e-16,Active Under-relaxation
+53,MISMIP+ Ice0 Initialization (64x9),7.8900e-06,3.8400e-02,3.5607e+03,9.1952e+01,2.05e-16,CONVERGED (Both tolerances met)
+Warm Start,MISMIP+ Transient Step (dt=5yr),6.1200e-06,4.1200e-02,7.5270e+02,1.8400e+01,1.84e-16,CONVERGED in 2-5 Picard steps

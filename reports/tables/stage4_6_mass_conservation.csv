@@ -1,0 +1,5 @@
+Basin_or_Sector,Authoritative_WGS84_Area_km2,Solid_Ice_Volume_km3,Atmospheric_SMB_Input_Gt_yr,Diagnostic_Grounding_Line_Flux_Gt_yr,Net_Diagnostic_Mass_Imbalance_Gt_yr,Imbalance_Fraction_Pct,Equilibrium_Status,Continuity_Verification
+Hp-I,99226.54,102464.0,105.3052,160.44,-55.14,-52.36,DIAGNOSTIC_DEPARTURE (Prior basal friction produces flux imbalance),WGS84 ELLIPSOIDAL METRIC CONSISTENCY PRESERVED
+I-Ipp,55389.23,12713.99,100.3228,469.27,-368.95,-367.76,DIAGNOSTIC_DEPARTURE (Prior basal friction produces flux imbalance),WGS84 ELLIPSOIDAL METRIC CONSISTENCY PRESERVED
+Ipp-J,61446.4,25524.52,23.1052,604.21,-581.1,-2515.03,DIAGNOSTIC_DEPARTURE (Prior basal friction produces flux imbalance),WGS84 ELLIPSOIDAL METRIC CONSISTENCY PRESERVED
+Domain A Unified Total,216062.17,140702.51,228.7332,1233.9,-1005.17,-439.45,DIAGNOSTIC_DEPARTURE (Uninverted prior C_bed departs from steady-state dynamic equilibrium),WGS84 ELLIPSOIDAL METRIC CONSISTENCY PRESERVED

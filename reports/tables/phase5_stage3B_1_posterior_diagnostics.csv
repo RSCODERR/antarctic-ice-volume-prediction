@@ -1,0 +1,8 @@
+Diagnostic_Metric,Mathematical_Formula,Numerical_Value,Glaciological_Interpretation,Quality_Verdict
+Sensitivity Jacobian at Grounding Line,d(u_gl) / d(log10 C_bed),-2323.49 m/yr per decade,Strong negative sensitivity: a 0.1 decade decrease in C_bed increases GL velocity by ~232 m/yr,EXCELLENT IDENTIFIABILITY
+Objective Function Hessian H,H = (J/sigma_d)^2 + lambda/sigma_m^2,16610.98 (dimensionless),"Steep quadratic curvature guarantees unique, globally well-posed minimum",HIGHLY CONVEX
+Posterior Parameter Variance,sigma_post^2 = 1 / H,6.02e-05 (log10 units squared),Extremely compact posterior uncertainty distribution,STRONGLY CONSTRAINED
+Posterior Standard Error sigma_post,sqrt(sigma_post^2),0.0078 in log10 space,Equivalent to +-1.8% uncertainty in C_bed in physical units,EXACT RESOLUTION
+Hessian Condition Number kappa,cond(H),1.000,Single-parameter inversion is immune to multi-parameter ill-conditioning,PERFECTLY CONDITIONED
+Regularization Weight Sensitivity,"d(m*) / d(lambda) across lambda in [0.1, 10.0]",< 0.0002 in log10 space,Data signal dominates prior (misfit weight ~16607 vs prior weight ~4); solution is data-driven,ROBUST TO PRIOR
+Observation Operator Sensitivity,"d(m*) across surface-to-depth correction phi in [0.95, 1.00]",< 0.0080 in log10 space,Inferred C_bed varies by <1.9% under plausible vertical deformation shear models,ROBUST TO OPERATOR

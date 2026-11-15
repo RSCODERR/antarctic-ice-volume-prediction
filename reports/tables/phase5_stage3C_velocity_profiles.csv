@@ -1,0 +1,261 @@
+Glacier_ID,Glacier_Name,Cell_Index,Distance_From_Divide_km,Bed_Elevation_m,Surface_Elevation_m,Ice_Thickness_m,Simulated_Velocity_m_yr,Grounding_Line_Status
+FL_HPI_02,Millett / Dyer Glacier System,0,0.25,-174.63,1370.87,1545.49,0.00,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,1,0.75,-190.35,1345.48,1535.83,281.43,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,2,1.25,-205.85,1321.25,1527.10,388.84,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,3,1.75,-218.87,1300.20,1519.07,414.73,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,4,2.25,-228.01,1283.08,1511.10,419.22,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,5,2.75,-233.53,1269.28,1502.81,419.76,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,6,3.25,-237.41,1257.21,1494.62,419.77,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,7,3.75,-242.68,1245.12,1487.80,419.76,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,8,4.25,-252.13,1231.83,1483.96,418.96,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,9,4.75,-267.22,1217.17,1484.39,413.22,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,10,5.25,-287.51,1202.01,1489.52,393.29,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,11,5.75,-310.98,1187.80,1498.77,350.25,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,12,6.25,-334.82,1175.95,1510.77,286.16,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,13,6.75,-356.42,1167.30,1523.72,216.31,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,14,7.25,-374.06,1161.87,1535.93,158.53,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,15,7.75,-387.10,1159.04,1546.13,121.71,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,16,8.25,-395.84,1157.92,1553.76,103.99,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,17,8.75,-401.07,1157.70,1558.77,98.13,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,18,9.25,-403.67,1157.81,1561.48,97.13,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,19,9.75,-404.19,1157.94,1562.12,97.09,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,20,10.25,-402.73,1157.93,1560.66,97.40,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,21,10.75,-398.91,1157.68,1556.59,100.49,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,22,11.25,-391.96,1157.06,1549.03,111.23,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,23,11.75,-381.18,1155.84,1537.02,135.88,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,24,12.25,-366.33,1153.69,1520.02,180.36,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,25,12.75,-348.09,1150.17,1498.27,247.93,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,26,13.25,-328.18,1144.82,1473.00,336.18,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,27,13.75,-309.06,1137.18,1446.24,434.89,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,28,14.25,-293.26,1126.93,1420.19,527.40,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,29,14.75,-282.70,1113.96,1396.67,596.92,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,30,15.25,-278.29,1098.40,1376.68,635.43,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,31,15.75,-279.87,1080.57,1360.44,648.42,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,32,16.25,-286.57,1061.04,1347.61,649.68,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,33,16.75,-297.16,1040.60,1337.75,649.41,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,34,17.25,-310.32,1020.22,1330.53,644.37,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,35,17.75,-324.84,1000.95,1325.79,620.81,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,36,18.25,-339.71,983.73,1323.44,566.01,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,37,18.75,-354.11,969.19,1323.30,481.11,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,38,19.25,-367.42,957.55,1324.97,381.49,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,39,19.75,-379.23,948.67,1327.90,286.69,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,40,20.25,-389.27,942.20,1331.46,210.86,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,41,20.75,-397.40,937.67,1335.07,159.28,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,42,21.25,-403.64,934.62,1338.26,130.07,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,43,21.75,-408.14,932.66,1340.80,117.26,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,44,22.25,-411.17,931.44,1342.61,113.68,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,45,22.75,-413.05,930.71,1343.75,113.42,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,46,23.25,-414.09,930.24,1344.33,113.49,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,47,23.75,-414.56,929.84,1344.40,115.00,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,48,24.25,-414.58,929.33,1343.91,123.16,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,49,24.75,-414.17,928.45,1342.62,147.36,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,50,25.25,-413.21,926.93,1340.14,199.96,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,51,25.75,-411.56,924.38,1335.94,295.02,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,52,26.25,-409.04,920.41,1329.45,446.54,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,53,26.75,-405.61,914.64,1320.25,666.10,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,54,27.25,-401.35,906.74,1308.09,959.92,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,55,27.75,-396.49,896.46,1292.95,1326.10,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,56,28.25,-391.42,883.61,1275.02,1751.55,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,57,28.75,-386.69,867.92,1254.60,2208.20,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,58,29.25,-383.16,849.00,1232.15,2650.77,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,59,29.75,-382.04,826.40,1208.44,3023.43,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,60,30.25,-384.73,799.91,1184.64,3281.83,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,61,30.75,-392.31,769.90,1162.21,3419.68,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,62,31.25,-404.89,737.72,1142.61,3471.91,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,63,31.75,-421.22,705.48,1126.70,3485.01,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,64,32.25,-438.88,675.55,1114.43,3487.51,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,65,32.75,-455.03,649.60,1104.63,3488.43,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,66,33.25,-467.36,627.96,1095.32,3489.91,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,67,33.75,-474.87,609.37,1084.24,3495.35,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,68,34.25,-478.11,591.40,1069.51,3511.42,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,69,34.75,-479.01,571.32,1050.33,3540.03,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,70,35.25,-480.20,547.08,1027.28,3569.85,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,71,35.75,-484.14,518.11,1002.25,3587.03,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,72,36.25,-492.15,485.58,977.73,3591.42,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,73,36.75,-503.82,451.93,955.76,3591.53,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,74,37.25,-516.99,419.96,936.95,3591.49,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,75,37.75,-528.42,391.69,920.11,3591.42,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,76,38.25,-534.85,367.64,902.50,3591.42,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,77,38.75,-534.01,346.68,880.69,3592.84,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,78,39.25,-525.25,326.46,851.70,3605.70,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,79,39.75,-509.82,304.10,813.92,3646.67,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,80,40.25,-490.61,276.95,767.57,3717.44,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,81,40.75,-471.43,243.18,714.61,3791.90,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,82,41.25,-456.03,202.12,658.16,3839.26,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,83,41.75,-447.09,154.60,601.68,3855.64,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,84,42.25,-445.55,102.87,548.41,3858.76,Grounded
+FL_HPI_02,Millett / Dyer Glacier System,85,42.75,-450.71,50.18,500.89,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,86,43.25,-460.97,-0.13,460.84,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,87,43.75,-474.89,-45.85,429.04,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,88,44.25,-492.13,-86.85,405.28,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,89,44.75,-513.73,-125.17,388.56,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,90,45.25,-541.47,-164.11,377.36,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,91,45.75,-576.71,-206.59,370.12,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,92,46.25,-619.13,-253.55,365.59,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,93,46.75,-666.28,-303.38,362.89,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,94,47.25,-714.05,-352.58,361.47,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,95,47.75,-758.11,-397.31,360.80,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,96,48.25,-795.29,-434.97,360.31,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,97,48.75,-824.33,-464.93,359.40,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,98,49.25,-845.66,-488.08,357.57,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,99,49.75,-860.40,-505.75,354.65,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,100,50.25,-869.45,-518.70,350.76,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,101,50.75,-872.92,-526.65,346.27,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,102,51.25,-870.27,-528.66,341.60,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,103,51.75,-860.87,-523.83,337.05,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,104,52.25,-844.69,-511.98,332.71,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,105,52.75,-822.66,-494.09,328.57,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,106,53.25,-796.79,-472.18,324.61,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,107,53.75,-769.76,-448.87,320.89,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,108,54.25,-744.29,-426.77,317.52,-999.00,Floating / Unconstrained
+FL_HPI_02,Millett / Dyer Glacier System,109,54.75,-722.51,-407.85,314.67,-999.00,Floating / Unconstrained
+FL_IPPJ_03,Flask / Leppard Glacier System,0,0.25,-465.60,798.59,1264.19,-0.00,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,1,0.75,-487.78,794.40,1282.18,6.26,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,2,1.25,-513.38,789.59,1302.97,9.92,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,3,1.75,-540.46,784.55,1325.01,12.13,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,4,2.25,-566.70,779.73,1346.43,13.65,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,5,2.75,-589.96,775.52,1365.49,15.06,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,6,3.25,-608.79,772.15,1380.94,16.91,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,7,3.75,-622.52,769.66,1392.19,20.20,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,8,4.25,-631.20,767.91,1399.11,27.07,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,9,4.75,-635.06,766.60,1401.66,41.90,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,10,5.25,-634.05,765.25,1399.31,72.51,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,11,5.75,-627.56,763.15,1390.70,130.03,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,12,6.25,-614.48,759.24,1373.72,224.31,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,13,6.75,-593.90,752.21,1346.11,352.80,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,14,7.25,-565.96,740.62,1306.58,489.86,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,15,7.75,-532.69,723.40,1256.09,594.70,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,16,8.25,-497.95,700.40,1198.35,643.92,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,17,8.75,-466.60,672.71,1139.31,653.68,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,18,9.25,-442.93,642.58,1085.51,653.83,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,19,9.75,-429.36,612.73,1042.09,646.28,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,20,10.25,-425.88,585.58,1011.46,606.19,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,21,10.75,-430.48,562.58,993.06,521.09,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,22,11.25,-440.19,544.07,984.27,409.74,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,23,11.75,-452.02,529.66,981.68,303.11,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,24,12.25,-463.56,518.58,982.14,221.65,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,25,12.75,-473.23,510.02,983.25,170.17,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,26,13.25,-480.29,503.19,983.48,143.24,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,27,13.75,-484.83,497.20,982.03,131.80,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,28,14.25,-487.78,491.09,978.87,127.79,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,29,14.75,-490.87,483.87,974.75,126.40,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,30,15.25,-496.27,474.84,971.11,125.66,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,31,15.75,-505.89,463.84,969.73,124.80,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,32,16.25,-520.59,451.37,971.97,123.13,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,33,16.75,-539.51,438.52,978.03,119.84,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,34,17.25,-559.93,426.52,986.45,115.06,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,35,17.75,-577.90,416.35,994.25,110.52,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,36,18.25,-589.24,408.36,997.60,108.01,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,37,18.75,-590.48,402.26,992.74,107.40,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,38,19.25,-579.66,397.26,976.92,107.36,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,39,19.75,-556.68,392.34,949.02,107.66,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,40,20.25,-523.32,386.50,909.82,110.10,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,41,20.75,-482.94,378.91,861.85,116.77,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,42,21.25,-439.82,369.08,808.90,128.00,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,43,21.75,-398.20,356.92,755.12,142.21,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,44,22.25,-361.36,342.80,704.17,157.56,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,45,22.75,-331.34,327.29,658.63,173.19,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,46,23.25,-309.24,310.79,620.02,189.02,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,47,23.75,-296.20,293.21,589.41,204.45,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,48,24.25,-294.18,273.91,568.09,217.14,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,49,24.75,-305.69,252.07,557.77,224.15,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,50,25.25,-332.61,227.33,559.94,225.84,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,51,25.75,-374.34,200.29,574.63,225.88,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,52,26.25,-426.79,172.62,599.41,223.82,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,53,26.75,-482.98,146.53,629.51,212.24,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,54,27.25,-535.09,124.00,659.09,187.83,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,55,27.75,-576.86,106.13,682.99,159.01,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,56,28.25,-605.13,92.96,698.08,137.83,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,57,28.75,-619.78,83.67,703.45,128.39,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,58,29.25,-622.68,77.10,699.78,125.76,Grounded
+FL_IPPJ_03,Flask / Leppard Glacier System,59,29.75,-616.38,72.14,688.52,-999.00,Floating / Unconstrained
+FL_IPPJ_03,Flask / Leppard Glacier System,60,30.25,-603.31,67.99,671.29,-999.00,Floating / Unconstrained
+FL_IPPJ_03,Flask / Leppard Glacier System,61,30.75,-585.66,64.11,649.77,-999.00,Floating / Unconstrained
+FL_IPPJ_03,Flask / Leppard Glacier System,62,31.25,-565.46,60.19,625.65,-999.00,Floating / Unconstrained
+FL_IPPJ_03,Flask / Leppard Glacier System,63,31.75,-544.64,55.83,600.47,-999.00,Floating / Unconstrained
+FL_IPPJ_03,Flask / Leppard Glacier System,64,32.25,-524.99,50.47,575.47,-999.00,Floating / Unconstrained
+FL_IPPJ_03,Flask / Leppard Glacier System,65,32.75,-508.02,43.32,551.35,-999.00,Floating / Unconstrained
+FL_IPPJ_03,Flask / Leppard Glacier System,66,33.25,-494.91,33.53,528.44,-999.00,Floating / Unconstrained
+FL_IPPJ_03,Flask / Leppard Glacier System,67,33.75,-486.45,20.52,506.98,-999.00,Floating / Unconstrained
+FL_IPPJ_03,Flask / Leppard Glacier System,68,34.25,-482.99,4.33,487.32,-999.00,Floating / Unconstrained
+FL_IPPJ_03,Flask / Leppard Glacier System,69,34.75,-484.28,-14.26,470.02,-999.00,Floating / Unconstrained
+FL_IPPJ_03,Flask / Leppard Glacier System,70,35.25,-489.39,-33.79,455.60,-999.00,Floating / Unconstrained
+FL_IPPJ_03,Flask / Leppard Glacier System,71,35.75,-496.90,-52.55,444.36,-999.00,Floating / Unconstrained
+FL_IPPJ_03,Flask / Leppard Glacier System,72,36.25,-505.20,-69.01,436.19,-999.00,Floating / Unconstrained
+FL_IPPJ_01,Drygalski Glacier System,0,0.25,281.47,835.09,553.63,-0.01,Grounded
+FL_IPPJ_01,Drygalski Glacier System,1,0.75,246.64,824.80,578.16,13.78,Grounded
+FL_IPPJ_01,Drygalski Glacier System,2,1.25,206.94,813.90,606.96,21.93,Grounded
+FL_IPPJ_01,Drygalski Glacier System,3,1.75,165.72,803.41,637.69,26.87,Grounded
+FL_IPPJ_01,Drygalski Glacier System,4,2.25,126.39,794.03,667.64,30.81,Grounded
+FL_IPPJ_01,Drygalski Glacier System,5,2.75,91.40,785.93,694.53,35.28,Grounded
+FL_IPPJ_01,Drygalski Glacier System,6,3.25,61.59,778.71,717.12,41.75,Grounded
+FL_IPPJ_01,Drygalski Glacier System,7,3.75,36.17,771.60,735.43,51.63,Grounded
+FL_IPPJ_01,Drygalski Glacier System,8,4.25,13.24,763.73,750.49,65.33,Grounded
+FL_IPPJ_01,Drygalski Glacier System,9,4.75,-9.57,754.28,763.85,80.91,Grounded
+FL_IPPJ_01,Drygalski Glacier System,10,5.25,-34.58,742.57,777.15,94.01,Grounded
+FL_IPPJ_01,Drygalski Glacier System,11,5.75,-63.63,728.13,791.76,100.83,Grounded
+FL_IPPJ_01,Drygalski Glacier System,12,6.25,-97.72,710.87,808.58,102.24,Grounded
+FL_IPPJ_01,Drygalski Glacier System,13,6.75,-136.55,691.32,827.86,102.18,Grounded
+FL_IPPJ_01,Drygalski Glacier System,14,7.25,-178.27,670.88,849.15,99.39,Grounded
+FL_IPPJ_01,Drygalski Glacier System,15,7.75,-219.68,651.71,871.39,85.07,Grounded
+FL_IPPJ_01,Drygalski Glacier System,16,8.25,-257.08,636.21,893.29,56.43,Grounded
+FL_IPPJ_01,Drygalski Glacier System,17,8.75,-287.42,626.30,913.72,25.77,Grounded
+FL_IPPJ_01,Drygalski Glacier System,18,9.25,-309.33,622.69,932.02,6.93,Grounded
+FL_IPPJ_01,Drygalski Glacier System,19,9.75,-323.36,624.66,948.03,0.00,Grounded
+FL_IPPJ_01,Drygalski Glacier System,20,10.25,-331.56,630.37,961.93,-1.14,Grounded
+FL_IPPJ_01,Drygalski Glacier System,21,10.75,-336.59,637.51,974.09,-1.19,Grounded
+FL_IPPJ_01,Drygalski Glacier System,22,11.25,-340.92,644.02,984.94,-1.00,Grounded
+FL_IPPJ_01,Drygalski Glacier System,23,11.75,-346.36,648.56,994.93,0.23,Grounded
+FL_IPPJ_01,Drygalski Glacier System,24,12.25,-353.79,650.61,1004.40,3.67,Grounded
+FL_IPPJ_01,Drygalski Glacier System,25,12.75,-363.08,650.31,1013.40,9.96,Grounded
+FL_IPPJ_01,Drygalski Glacier System,26,13.25,-373.25,648.20,1021.45,20.56,Grounded
+FL_IPPJ_01,Drygalski Glacier System,27,13.75,-382.69,644.86,1027.55,37.90,Grounded
+FL_IPPJ_01,Drygalski Glacier System,28,14.25,-389.76,640.65,1030.41,66.14,Grounded
+FL_IPPJ_01,Drygalski Glacier System,29,14.75,-393.55,635.44,1028.99,110.99,Grounded
+FL_IPPJ_01,Drygalski Glacier System,30,15.25,-394.44,628.46,1022.91,176.16,Grounded
+FL_IPPJ_01,Drygalski Glacier System,31,15.75,-394.32,618.47,1012.80,255.35,Grounded
+FL_IPPJ_01,Drygalski Glacier System,32,16.25,-396.05,604.07,1000.12,327.38,Grounded
+FL_IPPJ_01,Drygalski Glacier System,33,16.75,-402.44,584.37,986.81,369.35,Grounded
+FL_IPPJ_01,Drygalski Glacier System,34,17.25,-415.07,559.58,974.65,380.95,Grounded
+FL_IPPJ_01,Drygalski Glacier System,35,17.75,-433.55,531.32,964.87,381.66,Grounded
+FL_IPPJ_01,Drygalski Glacier System,36,18.25,-455.60,502.29,957.89,378.98,Grounded
+FL_IPPJ_01,Drygalski Glacier System,37,18.75,-478.00,475.44,953.44,352.45,Grounded
+FL_IPPJ_01,Drygalski Glacier System,38,19.25,-497.78,453.05,950.83,289.16,Grounded
+FL_IPPJ_01,Drygalski Glacier System,39,19.75,-513.16,436.10,949.26,205.72,Grounded
+FL_IPPJ_01,Drygalski Glacier System,40,20.25,-523.75,424.28,948.03,130.21,Grounded
+FL_IPPJ_01,Drygalski Glacier System,41,20.75,-530.23,416.40,946.63,77.58,Grounded
+FL_IPPJ_01,Drygalski Glacier System,42,21.25,-533.69,411.04,944.73,46.93,Grounded
+FL_IPPJ_01,Drygalski Glacier System,43,21.75,-535.22,406.95,942.17,31.01,Grounded
+FL_IPPJ_01,Drygalski Glacier System,44,22.25,-535.62,403.30,938.92,23.27,Grounded
+FL_IPPJ_01,Drygalski Glacier System,45,22.75,-535.43,399.61,935.04,19.66,Grounded
+FL_IPPJ_01,Drygalski Glacier System,46,23.25,-535.02,395.67,930.69,18.03,Grounded
+FL_IPPJ_01,Drygalski Glacier System,47,23.75,-534.57,391.51,926.08,17.36,Grounded
+FL_IPPJ_01,Drygalski Glacier System,48,24.25,-534.09,387.25,921.34,17.15,Grounded
+FL_IPPJ_01,Drygalski Glacier System,49,24.75,-533.35,383.13,916.48,17.12,Grounded
+FL_IPPJ_01,Drygalski Glacier System,50,25.25,-531.83,379.32,911.15,17.12,Grounded
+FL_IPPJ_01,Drygalski Glacier System,51,25.75,-528.76,375.90,904.66,17.21,Grounded
+FL_IPPJ_01,Drygalski Glacier System,52,26.25,-523.23,372.77,896.00,17.89,Grounded
+FL_IPPJ_01,Drygalski Glacier System,53,26.75,-514.36,369.62,883.98,20.38,Grounded
+FL_IPPJ_01,Drygalski Glacier System,54,27.25,-501.59,366.01,867.60,26.49,Grounded
+FL_IPPJ_01,Drygalski Glacier System,55,27.75,-484.91,361.35,846.26,38.04,Grounded
+FL_IPPJ_01,Drygalski Glacier System,56,28.25,-465.00,354.99,820.00,55.79,Grounded
+FL_IPPJ_01,Drygalski Glacier System,57,28.75,-443.14,346.29,789.43,78.11,Grounded
+FL_IPPJ_01,Drygalski Glacier System,58,29.25,-420.96,334.70,755.67,100.57,Grounded
+FL_IPPJ_01,Drygalski Glacier System,59,29.75,-400.03,320.08,720.11,117.94,Grounded
+FL_IPPJ_01,Drygalski Glacier System,60,30.25,-381.54,302.81,684.35,127.80,Grounded
+FL_IPPJ_01,Drygalski Glacier System,61,30.75,-366.03,283.90,649.93,131.81,Grounded
+FL_IPPJ_01,Drygalski Glacier System,62,31.25,-353.26,264.79,618.05,133.11,Grounded
+FL_IPPJ_01,Drygalski Glacier System,63,31.75,-342.24,246.80,589.04,133.68,Grounded
+FL_IPPJ_01,Drygalski Glacier System,64,32.25,-331.34,230.59,561.93,134.32,Grounded
+FL_IPPJ_01,Drygalski Glacier System,65,32.75,-318.63,215.82,534.46,135.96,Grounded
+FL_IPPJ_01,Drygalski Glacier System,66,33.25,-302.37,201.22,503.59,140.53,Grounded
+FL_IPPJ_01,Drygalski Glacier System,67,33.75,-281.60,184.93,466.54,149.81,Grounded
+FL_IPPJ_01,Drygalski Glacier System,68,34.25,-256.71,165.04,421.75,162.28,Grounded
+FL_IPPJ_01,Drygalski Glacier System,69,34.75,-229.69,139.91,369.60,172.56,Grounded
+FL_IPPJ_01,Drygalski Glacier System,70,35.25,-204.16,108.22,312.38,176.73,Grounded
+FL_IPPJ_01,Drygalski Glacier System,71,35.75,-184.80,68.84,253.64,177.13,Grounded
+FL_IPPJ_01,Drygalski Glacier System,72,36.25,-176.39,20.85,197.24,-999.00,Floating / Unconstrained
+FL_IPPJ_01,Drygalski Glacier System,73,36.75,-182.52,-35.99,146.53,-999.00,Floating / Unconstrained
+FL_IPPJ_01,Drygalski Glacier System,74,37.25,-204.16,-100.45,103.71,-999.00,Floating / Unconstrained
+FL_IPPJ_01,Drygalski Glacier System,75,37.75,-238.96,-169.25,69.72,-999.00,Floating / Unconstrained
+FL_IPPJ_01,Drygalski Glacier System,76,38.25,-281.63,-231.63,50.00,-999.00,Floating / Unconstrained

@@ -1,0 +1,15 @@
+Metric,Value,Context
+Mean Driving Stress [kPa],142.31419680384144,"Full Domain A (866,358 cells)"
+Median Driving Stress [kPa],126.8499490487352,Full Domain A (50th percentile)
+5th Percentile Driving Stress [kPa],20.070854869477586,Slow divide flow / thin ice margins
+25th Percentile Driving Stress [kPa],84.58879068419014,Lower quartile
+75th Percentile Driving Stress [kPa],178.71385859067385,Upper quartile
+95th Percentile Driving Stress [kPa],304.2279039549083,Fast outlet ice streams & steep glaciers
+Maximum Driving Stress [kPa],3586.0008924457065,High relief alpine headwalls
+Cells with tau_d > 50 kPa,765034.0,"191,258.5 km2 (88.3%)"
+Cells with tau_d > 100 kPa,575231.0,"143,807.8 km2 (66.4%)"
+Cells with tau_d > 150 kPa,321878.0,"80,469.5 km2 (37.2%)"
+Cells with tau_d > 200 kPa,161336.0,"40,334.0 km2 (18.6%)"
+Total Steep Slope Cells (|grad s| > 0.05),252071.0,"63,017.8 km2 (29.1%)"
+Steep Cells with tau_d > 150 kPa,131988.0,52.4% of steep region
+Steep Cells with tau_d <= 150 kPa,120083.0,47.6% of steep region (Thin ice along ridges)

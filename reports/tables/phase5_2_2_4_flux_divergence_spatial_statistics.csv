@@ -1,0 +1,16 @@
+Region_or_Partition,Domain_Area_km2,Cell_Count,Mean_Flux_Divergence_m_yr,Std_Flux_Divergence_m_yr,Median_Flux_Divergence_m_yr,IQR_Flux_Divergence_m_yr,P05_P95_Flux_Divergence_m_yr,Mean_RACMO_SMB_m_ice_yr,Median_Dynamic_Ratio_Pct,IQR_Dynamic_Ratio_Pct,Statistical_Classification,Reproducibility_Status
+Hp-I Interior Dyer Plateau Remainder,28374.93,113775,0.114,0.052,0.102,[0.068 0.145],[0.035 0.210],0.942,11.1,[7.2 16.5],Area-Weighted Spatial Distribution,Fully Reproducible Spatial Distribution
+Hp-I Representative Scalar Estimate,28374.93,N/A,0.108,N/A,0.108,N/A,N/A,0.950,11.4,N/A,Representative Value Arithmetic,Heuristic Benchmark (Non-Universal)
+Hp-I Ryder/Bertram Dynamic Trunk,42150.20,167440,0.985,0.412,0.950,[0.680 1.250],[0.420 1.780],0.980,96.9,[72.5 128.4],Area-Weighted Spatial Distribution,Fully Reproducible Spatial Distribution
+Hp-I Millett/Dyer Dynamic Trunk,38420.50,151155,0.825,0.365,0.802,[0.540 1.080],[0.310 1.510],0.890,90.1,[65.4 121.2],Area-Weighted Spatial Distribution,Fully Reproducible Spatial Distribution
+I-Ipp Graham Land West Remainder,7351.53,30352,0.768,0.312,0.735,[0.510 0.980],[0.320 1.340],0.815,89.6,[62.2 121.0],Area-Weighted Spatial Distribution,Fully Reproducible Spatial Distribution
+I-Ipp Representative Scalar Estimate,7351.53,N/A,0.750,N/A,0.750,N/A,N/A,0.820,91.5,N/A,Representative Value Arithmetic,Heuristic Benchmark (Non-Universal)
+I-Ipp Flanders Bay Fjord Network,14210.40,58670,1.685,0.745,1.627,[1.120 2.150],[0.710 3.120],1.150,141.5,[98.5 186.4],Area-Weighted Spatial Distribution,Fully Reproducible Spatial Distribution
+I-Ipp Beascochea/Barilari Fjord Network,16845.20,69550,1.542,0.680,1.516,[1.040 1.980],[0.640 2.850],1.080,140.4,[96.2 182.1],Area-Weighted Spatial Distribution,Fully Reproducible Spatial Distribution
+I-Ipp Bigo Bay Fjord Network,11350.60,46916,1.320,0.590,1.295,[0.880 1.710],[0.520 2.440],0.980,132.1,[89.5 174.5],Area-Weighted Spatial Distribution,Fully Reproducible Spatial Distribution
+Ipp-J Graham Land East Remainder,6907.62,27515,0.612,0.265,0.595,[0.410 0.790],[0.250 1.120],0.720,82.6,[56.8 109.5],Area-Weighted Spatial Distribution,Fully Reproducible Spatial Distribution
+Ipp-J Drygalski Glacier (Larsen A),15120.30,60205,2.145,0.920,2.074,[1.450 2.760],[0.880 3.850],0.680,305.0,[212.0 405.0],Area-Weighted Spatial Distribution,Fully Reproducible Spatial Distribution
+Ipp-J Crane Glacier (Larsen B),18450.40,73460,2.620,1.150,2.551,[1.780 3.380],[1.050 4.750],0.650,392.5,[274.0 520.0],Area-Weighted Spatial Distribution,Fully Reproducible Spatial Distribution
+Ipp-J Flask/Leppard (Larsen C),16880.50,67320,0.895,0.380,0.879,[0.610 1.150],[0.380 1.620],0.620,141.8,[98.4 185.2],Area-Weighted Spatial Distribution,Fully Reproducible Spatial Distribution
+Domain A Total Grounded Footprint,216062.17,866358,0.942,0.685,0.812,[0.420 1.350],[0.085 2.450],0.885,91.8,[48.5 152.0],Area-Weighted Spatial Distribution,Fully Reconciled to Phase 2.6 Domain
+

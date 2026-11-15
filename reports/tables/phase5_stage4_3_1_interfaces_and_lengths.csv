@@ -1,0 +1,5 @@
+Interface_Type,Adjacency_Rule,Band_Cells,Band_Area_km2,Interface_Faces,Length_km
+Grounding Line (GL),4-connected (Orthogonal 500m Band),10236,2559.0,13786,6893.0
+Grounding Line (GL),8-connected (Moore 500m Band),14892,3723.0,13786,6893.0
+Rock Nunatak Margin,4-connected (Orthogonal 500m Band),41657,10414.25,51845,25922.5
+Rock Nunatak Margin,8-connected (Moore 500m Band),66660,16665.0,51845,25922.5

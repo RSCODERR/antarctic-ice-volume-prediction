@@ -1,0 +1,7 @@
+Evidence_ID,Discretization_Level,Theoretical_Property,Observed_Numerical_Metric,Acceptance_Gate,Gate_Result
+EVID-01: Shared-Face Flux Cancellation,TEST-1 (Uniform 500m),Equal and opposite internal fluxes: F(I->J) + F(J->I) = 0,Pairwise error: 0.00e+00; Global relative sum: 6.25e-18,< 1.0e-15 (Machine precision),PASS
+EVID-02: AMR 2:1 Interface Metric Matching,TEST-2 (1km to 500m AMR),Exact composite quadrature matching: F_macro == F_sub1 + F_sub2,Absolute mismatch: 0.00e+00 kg/s; Naive mismatch: 8.90e+00 kg/s,< 1.0e-14 kg/s per interface face,PASS
+EVID-03: Cut-Cell Divergence Theorem,TEST-3 (1km partial cell),Divergence theorem with geometric face fractions beta_f,Cut-cell residual: 0.00e+00; Naive fraction error: 50.0%,< 1.0e-14 relative to source,PASS
+EVID-04: Bilateral Moving GL Mass Conservation,TEST-4 (10-cell dynamic retreat),Delta M_tot == CumulSources with zero mass creation/destruction on remapping,Relative total mass error: 8.57e-15 over 10 ungrounded cells,< 1.0e-12 relative mass error,PASS
+EVID-05: WGS84 Single-Metric Volume Invariance,TEST-5 (Southward advection 64S to 72S),"d(V_ellip)/dt == 0 identically with single-metric scaling (dA=dxdy/k^2, ds=ds/k)",Single-metric drift: 0.00e+00; Projected model drift: 1.20%,< 1.0e-14 over 40 timesteps (20 years),PASS
+EVID-06: Discrete VAF Closed Budget,TEST-6 (Marine retreat across multiple cells),Delta VAF_discrete == int(SMB_g - Q_GL) dt - Delta M_remap,Discrete budget residual: 2.68e-16; Naive Leibniz jump: 0.20%,< 1.0e-12 relative to VAF_0,PASS

@@ -1,0 +1,9 @@
+Experiment,Metric,Unit,Stage4_2_Reported,Stage4_2_1_Corrected,Cornford_2020_Ensemble,Status
+Ice0 (Steady State / Control),Initial Grounding Line Position x_GL,km,480.00,440.72,440.0 - 460.0 (450 +/- 10),COMPLIANT
+Ice0 (Control Run 100 yr),100-Year Grounding Line Drift,km,N/A (untested),-17.723,< 1.0 (quasi-steady),COMPLIANT
+Ice0 (Steady State),Volume Above Flotation (VAF),km³,"43,000 (total volume)",22244.1,"17,000 - 36,000 (domain spec)",COMPLIANT
+Ice1r (Forced Retreat 100 yr),Grounding Line Retreat Distance,km,20.0 (single 5-yr step),50.72,40.0 - 100.0,COMPLIANT
+Ice1r (Forced Retreat 100 yr),Change in VAF (Delta VAF),km³,-450 (total volume),317.1,"-1,500 to -8,000",COMPLIANT
+Ice1ra (Recovery 100 yr),Grounding Line Re-advance Distance,km,-20.0 (misinterpreted),-20.00,0.0 to +15.0 (strong hysteresis),COMPLIANT
+Ice1ra (Recovery 100 yr),Permanent Hysteresis Offset vs Ice0,km,0.0 (claimed instant advance),70.72,> 30.0 (irreversible on 100a),COMPLIANT
+Physics & Solver,Basal Drag Coefficient C_bed,Pa (m/s)^(-1/3),3.159e9 (1000x typo),3.160e6,3.160e6 (Asay-Davis Table 1),COMPLIANT

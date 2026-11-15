@@ -1,0 +1,11 @@
+Project_Basin,Project_Basin_Area_km2,ISMIP6_Sector_or_Region,ISMIP6_Sector_Area_km2,Intersection_Area_km2,Pct_Project_Basin_Covered,Pct_Sector_Covered_by_Basin,Unassigned_Sector_Area_km2,Spatial_Relationship_Status,Proxy_Classification
+Hp-I,110265.47,Sector_Hp_I (claimed Sector 16),171731.32,110265.47,100.0,64.21,61465.85,Strict Subset (Basin is 64.2% of Sector; Sector has 61465.9 km2 peripheral islands),ISMIP6 Regional Sector Proxy (NOT Exact Basin)
+Hp-I,110265.47,Sector_I_Ipp (claimed Sector 17),79783.14,0.0,0.0,0.0,0.0,Zero Spatial Overlap (Disjoint),ISMIP6 Regional Sector Proxy (NOT Exact Basin)
+Hp-I,110265.47,Sector_Ipp_J (claimed Sector 18),63397.38,0.0,0.0,0.0,0.0,Zero Spatial Overlap (Disjoint),ISMIP6 Regional Sector Proxy (NOT Exact Basin)
+I-Ipp,61052.8,Sector_Hp_I (claimed Sector 16),171731.32,0.0,0.0,0.0,0.0,Zero Spatial Overlap (Disjoint),ISMIP6 Regional Sector Proxy (NOT Exact Basin)
+I-Ipp,61052.8,Sector_I_Ipp (claimed Sector 17),79783.14,61052.8,100.0,76.52,18730.35,Strict Subset (Basin is 76.5% of Sector; Sector has 18730.3 km2 peripheral islands),ISMIP6 Regional Sector Proxy (NOT Exact Basin)
+I-Ipp,61052.8,Sector_Ipp_J (claimed Sector 18),63397.38,0.0,0.0,0.0,0.0,Zero Spatial Overlap (Disjoint),ISMIP6 Regional Sector Proxy (NOT Exact Basin)
+Ipp-J,61360.05,Sector_Hp_I (claimed Sector 16),171731.32,0.0,0.0,0.0,0.0,Zero Spatial Overlap (Disjoint),ISMIP6 Regional Sector Proxy (NOT Exact Basin)
+Ipp-J,61360.05,Sector_I_Ipp (claimed Sector 17),79783.14,0.0,0.0,0.0,0.0,Zero Spatial Overlap (Disjoint),ISMIP6 Regional Sector Proxy (NOT Exact Basin)
+Ipp-J,61360.05,Sector_Ipp_J (claimed Sector 18),63397.38,61360.05,100.0,96.79,2037.33,Strict Subset (Basin is 96.8% of Sector; Sector has 2037.3 km2 peripheral islands),ISMIP6 Regional Sector Proxy (NOT Exact Basin)
+Domain_A,232678.32,Region_3 (claimed Domain A),314911.85,232678.32,100.0,73.89,82233.52,Strict Subset (Basin is 73.9% of Sector; Sector has 82233.5 km2 peripheral islands),ISMIP6 Regional Sector Proxy (NOT Exact Basin)

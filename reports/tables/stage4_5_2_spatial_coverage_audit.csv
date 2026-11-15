@@ -1,0 +1,8 @@
+Layer_Name,Source_Product,Native_Resolution,Projected_Area_km2,Ellipsoidal_Area_km2,Total_Cells_500m,Macro_Cells_1km,Coverage_Fraction_Pct,Spatial_Role
+Domain A Grounded Ice Sheet,BedMachine Antarctica v4.1 / IMBIE,500 m,216589.5,216062.17101553743,866358,228312,100.0,Authoritative Physical Simulation Domain
+Domain A Floating Ice Shelves,BedMachine Antarctica v4.1 (mask == 3),500 m,133717.0,132918.5103076125,534868,139938,100.0,Extended Buttressing & Ocean Boundary Domain
+Combined Computational Domain (Grounded + Floating),"BedMachine v4.1 (mask in [2, 3])",500 m,350306.5,348980.68132314994,1401226,365534,100.0,Full 2D SSA Continuous Ice Domain
+RACMO2.3p2 Surface Mass Balance,RACMO2.3p2 XPEN055 (5.5 km),5.5 km,216589.5,216062.17101553743,866358,228312,100.0,Upper Surface Kinematic Mass Forcing
+MEaSUREs Annual Velocity (2014-2015),NSIDC-0720 (1 km),1 km,194571.0,184136.62506411315,778284,194571,85.22153894670451,Annual Flux Budgeting & Post-Collapse Acceleration
+MEaSUREs Reference Velocity (2014-2017),NSIDC-0761 (450 m),450 m,228312.0,216062.17101553743,913248,228312,100.0,Basal Friction Inversion (C_bed) Optimization
+MEaSUREs DInSAR Grounding Lines,NSIDC-0498 v2.1,Vector Polylines,0.0,0.0,0,189,100.0,Dynamic Grounding Line Migration Validation

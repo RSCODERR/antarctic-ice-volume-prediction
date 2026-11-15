@@ -1,0 +1,9 @@
+Mesh_Domain,Resolution,Active_Cells,Velocity_DOFs,Nonzero_Matrix_Entries_Est,Memory_RAM_Est_GB,Solver_Benchmark_Status,Feasibility_Verdict
+Domain A (Grounded Only),500 m Uniform,866358,1732716,15594444,8.5,Theoretical SuperLU Direct Solve (Intractable: est. 35-60 min/iter),REJECTED for serial SciPy; requires PETSc MPI or local coarsening
+Floating Shelves Only,500 m Uniform,534868,1069736,9627624,5.2,Theoretical SuperLU Direct Solve (est. 15-25 min/iter),FEASIBLE for diagnostic SSA shelf buttressing solves
+Combined Grounded + Shelf,500 m Uniform,1401226,2802452,25222068,14.2,"Theoretical SuperLU Direct Solve (Intractable: est. >2 hr/iter, High OOM Risk)",BLOCKED in serial SciPy; strictly gates PETSc parallel deployment
+Domain A (Grounded Only),1.0 km Uniform (Majority Pool),222324,444648,4001832,1.4,Theoretical SuperLU Direct Solve (est. 1-2 min/iter),FEASIBLE for regional grounded diagnostic testing
+Floating Shelves Only,1.0 km Uniform (Majority Pool),135850,271700,2445300,0.8,Theoretical SuperLU Direct Solve (est. 30-60 s/iter),FEASIBLE for diagnostic buttressing solves
+Combined Grounded + Shelf,"1.0 km Uniform (Reported in Stage 4.3 as 350,306)",357299,714598,6431382,2.3,Theoretical SuperLU Direct Solve (est. 2-4 min/iter),FEASIBLE for coupled regional testing; substantial memory overhead
+Adaptive Multi-Resolution Mesh,1 km Margins / 2-5 km Interior,85000,170000,1530000,0.8,Theoretical SuperLU Direct Solve (est. 15-30 s/iter),RECOMMENDED LEVEL B TARGET: Resolves 100% of shear margins within SciPy memory limits
+MISMIP+ Synthetic Benchmark (Stage 4.2.3),"2.5 km Uniform (Nx=256, Ny=33)",8448,16896,152064,0.05,ACTUALLY BENCHMARKED (Stage 4.2.3): 7.58 s for 30 iters (0.25 s/iter),VERIFIED & EXECUTED ON DISK

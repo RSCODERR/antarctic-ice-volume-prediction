@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-11-15T19:55:00",
+  "pipeline": "Stage 6.1 Supervised ML Benchmarking",
+  "target": "Target_Annual_Mass_Balance_Gt_yr",
+  "derived_target": "Target_Annual_Volume_Change_km3_yr",
+  "density_conversion": "Delta V = Delta M / 0.917",
+  "feature_list": [
+    "Target_Volume_Change_Lag1_km3_yr",
+    "Target_Volume_Change_Lag2_km3_yr",
+    "Net_MB_Lag1_Gt_yr",
+    "SMB_Lag1_Gt_yr",
+    "Discharge_Lag1_Gt_yr",
+    "SMB_Rolling3yr_Gt_yr",
+    "SMB_Anomaly_Lag1_Gt_yr",
+    "Grounded_Area_km2",
+    "Mean_Baseline_Ice_Thickness_m",
+    "Bed_Elevation_at_Gates_m",
+    "Driving_Stress_Index_kPa",
+    "is_Hp_I",
+    "is_I_Ipp",
+    "is_Ipp_J"
+  ],
+  "splits": {
+    "train": "1979-2005 (81 rows)",
+    "embargo_1": "2006-2007 (6 rows)",
+    "val": "2008-2014 (21 rows)",
+    "embargo_2": "2015 (3 rows)",
+    "test": "2016-2024 (27 rows)"
+  },
+  "selected_primary_model": "ElasticNet (alpha=0.1, l1_ratio=0.9, weighted=True)",
+  "random_seeds": {
+    "ElasticNet": 42,
+    "RandomForest": 42,
+    "GradientBoosting": 42
+  }
+}

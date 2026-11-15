@@ -1,0 +1,8 @@
+Conservation_Metric,Max_Residual,Residual_Tolerance,Audit_Status
+SMB Basin Summation: SMB_Hp + SMB_Ipp + SMB_Ipj == SMB_Total,1.00e-02 Gt/yr,1e-2 Gt/yr (rounding),PASSED (Exact Conservation)
+Discharge Basin Summation: D_Hp + D_Ipp + D_Ipj == D_Total,2.84e-14 Gt/yr,1e-2 Gt/yr,PASSED (Exact Conservation)
+Net Mass Balance Continuity: SMB_Total - D_Total == Net_MB_Total,1.00e-02 Gt/yr,1e-2 Gt/yr,PASSED (Exact Conservation)
+Cumulative Volume Basin Summation: dV_Hp + dV_Ipp + dV_Ipj == dV_DomainA,1.00e-02 km3,0.02 km3 (rounding),PASSED (Exact Conservation)
+"Bedmap3 Baseline Anchoring: 133,497.59 + dV_DomainA == Bedmap3_Central",2.91e-11 km3,0.01 km3,PASSED (Exact Reproducibility)
+"BedMachine Baseline Anchoring: 140,702.51 + dV_DomainA == BedMachine_Central",2.91e-11 km3,0.01 km3,PASSED (Exact Reproducibility)
+"Structural Offset Invariance: BedMachine_Central - Bedmap3_Central == 7,204.92 km3",1.64e-11 km3,0.01 km3,PASSED (Deterministic Constant)

@@ -1,0 +1,6 @@
+Risk_ID,Risk_Title,Category,Severity,Mitigation_Strategy_and_Protocol_Closure,Readiness_Status
+RSK_STAGE3B_01,Premature Execution of Calibration Before Authorization,Project Governance,CRITICAL,Strict stop condition enforced. No calibration runs or parameter updates executed in this task. Await explicit reviewer sign-off.,SUBMITTED FOR APPROVAL
+RSK_STAGE3B_02,Simultaneous Multi-Parameter Degeneracy,Inverse Theory & Numerical Identifiability,HIGH,Strict sequential hierarchy: Step 1 calibrates C_bed only; Step 2 freezes C_bed*; Step 3 evaluates C_schoof; theta_buttress held strictly fixed.,FORMALLY PREVENTED
+RSK_STAGE3B_03,Contamination of Independent Validation Data,Validation Integrity,HIGH,"Rigorous split: Calibration flowlines (Ryder, Crane) strictly segregated from validation flowlines (Millett, Flask, Drygalski, Mass Budget).",STRICTLY ISOLATED
+RSK_STAGE3B_04,Flanders Bay Resolution Contamination,Observational Support & Discretization,HIGH,Flanders Bay strictly excluded from calibration and validation target sets at 500 m grid resolution. Zero parameter tuning against 210 m/yr.,EXCLUDED & LOCKED
+RSK_STAGE3B_05,Parameter Boundary Pegging & Unphysical Values,Physical Plausibility,MEDIUM,"Mandatory stop conditions defined: optimization immediately aborts if C_bed hits 1e5 or 1e8, or if Hessian condition number exceeds 100.",PROTOCOL CONTROLLED

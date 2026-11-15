@@ -1,0 +1,12 @@
+Audit_Parameter,Specification_Standard,Implementation_Detail,Missing_Data_or_Difference,Reproducibility_Status,Governance_Classification
+Dataset Source and Version,Mouginot et al. (2017) NSIDC-0709,MEaSUREs Antarctic Boundaries for IPY 2007-2009 from Satellite Radar Version 2,Vector shapefile + 450m InSAR raster,Unverified in Sandbox (External product),Provisional Reference Dataset
+Coordinate Reference System,EPSG:3031,Antarctic Polar Stereographic standard parallel -71S central meridian 0,Identical projection across all datasets,Fully Verified,Authoritative Project Standard
+Raster Resolution,500 m project grid,Resampled from 450 m InSAR raster via bilinear interpolation,50 m grid spacing adjustment,Fully Documented,Standardized Analysis Grid
+Common Comparison Footprint,BedMachine Antarctica V4.1 mask==2,Intersection of IMBIE basin outline with BedMachine grounded mask (866358 cells),Excludes 16616 km2 rock nunataks and ocean fringe,Fully Reconciled to Phase 2.6,Authoritative Grounded Domain
+Palmer Land Missing Velocity Data,ITS_LIVE / MEaSUREs 1996-2018 mosaic,1.8% missing data in high shear margins and coastal rifts,Reconstructed via anisotropic Kriging along flowlines,Uncertainty +/- 5.0%,Provisional Spatial Metric
+Graham Land West Missing Velocity Data,ITS_LIVE / MEaSUREs 1996-2018 mosaic,17.6% missing data due to 35-50 degree fjord walls layover and shadow,Along-fjord centerline spline interpolation constrained by rock walls,Uncertainty +/- 12.0% to 15.0%,Provisional Spatial Metric
+Graham Land East Missing Velocity Data,ITS_LIVE / MEaSUREs 1996-2018 mosaic,11.4% missing data in steep headwalls and tidal rifts,Bi-cubic spline interpolation along InSAR flow vectors,Uncertainty +/- 8.5% to 9.5%,Provisional Spatial Metric
+Velocity Imputation Validation,10-Fold Withheld Observation Cross-Validation,Randomly withhold 10% of observed fjord cells and predict from interpolation,RMSE = +/- 22.4 m/yr (12.8% relative error),Imputed data is NOT independent evidence,Mandatory Numerical Caveat
+Catchment Agreement Metrics,Jaccard IoU and Hausdorff Distance,Hp-I: IoU=96.4% d_H=2.8km; I-Ipp: IoU=88.5% d_H=5.8km; Ipp-J: IoU=92.8% d_H=4.1km,Metrics reflect preliminary raster overlap in GIS environment,Unverified in Current Sandbox,Provisional Engineering Estimate
+Catchment Width Uncertainty Band,Ensemble Width Perturbation W(x) +/- delta W(x),Palmer Land: +/- 5%; Graham Land fjords: +/- 10-15%,Accounts for shear margin decorrelation without false certainty,Fully Specified for Forward Runs,Ensemble Parameter Band
+

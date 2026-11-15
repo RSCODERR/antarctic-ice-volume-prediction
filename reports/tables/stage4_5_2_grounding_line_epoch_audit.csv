@@ -1,0 +1,5 @@
+Epoch_Category,Feature_Count,Total_Polyline_Length_km,Observation_Years,Sensors_Utilized,Primary_Satellite_Missions,Migration_Tracking_Role,Epoch_Compatibility_Note
+1994-1996 (Historical Baseline / ERS),47,20043.5177284794,"[1994, 1995, 1996]",ERS,ERS-1/2,Baseline InSAR Tidal Hinge,Compatible only with identical sensor geometry / track matching; Do not subtract masks
+2000-2009 (IPY Era / RADARSAT-1 & PALSAR),2,375.86660973547436,"[2000, 2007]","PALSAR, RSAT",RADARSAT-1 / PALSAR,IPY Decadal Benchmark,Compatible only with identical sensor geometry / track matching; Do not subtract masks
+2011-2015 (Pre-Breakup Reference / ERS & S-1A),10,5071.811188593437,"[2011, 2015]","ERS, Sentinel-1",ERS-1/2,Modern Dynamic Retreat Verification,Compatible only with identical sensor geometry / track matching; Do not subtract masks
+"2016-2025 (Modern Monitoring / S-1, CSK, ICEYE, PAZ)",130,19994.366347656807,"[2016, 2017, 2018, 2020, 2021, 2023, 2024, 2025]","CSK, ICEYE, RCM, Sentinel-1",Sentinel-1 / Commercial SAR,Modern Dynamic Retreat Verification,Compatible only with identical sensor geometry / track matching; Do not subtract masks

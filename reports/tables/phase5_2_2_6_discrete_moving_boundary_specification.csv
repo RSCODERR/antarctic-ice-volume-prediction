@@ -1,0 +1,15 @@
+Step_or_Component,Mathematical_Symbol,Definition_and_Discretization,Physical_Units,State_Classification,Anti_Double_Counting_Mechanism
+1. Initial Grounding Line Position,x_GL^n,Subgrid grounding line location at time t_n,m,Prognostic Coordinate,Bound to cell g(n) where x_{g-1/2} <= x_GL^n <= x_{g+1/2}
+2. Subgrid Grounded Fraction,lambda_g^n,lambda_g^n = (x_GL^n - x_{g-1/2}) / Delta x,Dimensionless [0 1],Prognostic Geometric Fraction,Restricts cell g volume integration strictly to grounded domain [0 lambda_g^n Delta x]
+3. Interior Fully Grounded Cells,i in {1..g(n)-1},Cells fully grounded across entire length Delta x; lambda_i = 1.0,Dimensionless,Prognostic Domain,Standard Eulerian finite-volume update on fixed grid: V_i^{n+1} = V_i^n + dt (Q_{i-1/2} - Q_{i+1/2} + S_i)
+4. Terminal Partially Grounded Cell,i = g(n),Cell containing grounding line x_GL^n; subgrid length lambda_g^n Delta x,Dimensionless,Prognostic Domain,Grounded volume defined as V_g^{gr,n} = W_g H_g^n lambda_g^n Delta x; updated via product rule
+5. Floating / Ocean Cells,i > g(n),Cells downstream of grounding line; lambda_i = 0.0,Dimensionless,External Domain,Excluded from grounded mass summation; receives ungrounded ice transfer diagnostically
+6. Advective Grounding-Line Discharge,Q_GL^n,Volumetric discharge into shelf: Q_GL^n = W(x_GL^n) * q_GL^n,m^3 yr^-1,Physical Boundary Flux,Counted strictly once at boundary x_GL; converted to mass discharge via rho_i * Q_GL
+7. Domain Boundary Migration Speed,v_GL^n,Migration speed: v_GL^n = (x_GL^{n+1} - x_GL^n) / Delta t,m yr^-1,Geometric Mesh Velocity,Represents motion of spatial boundary; v_GL < 0 for retreat; v_GL > 0 for advance
+8. Relative Volumetric Boundary Flux,Q_relative^n,Q_relative = W_GL * H_GL * (u_GL - v_GL) = Q_GL - Q_boundary,m^3 yr^-1,Relative Transport Flux,Proves Reynolds transport decomposition: net mass leaving grounded sheet is relative flux
+9. Boundary Migration Mass Transfer,Delta M_boundary^n,rho_i * W_GL * H_GL * v_GL^n * Delta t,kg or Gt,Diagnostic Audit Transfer,Captures domain geometry change; NEVER subtracted from prognostic cell volumes
+10. Retreat Cell Transition (g -> g-1),M_unground^n,Residual ice in cell g ungrounds: rho_i * W_g * H_g * lambda_g * Delta x,kg or Gt,Diagnostic Ledger Only,Logged in floating shelf ledger; terminal cell index shifts g <- g-1 without double counting
+11. Advance Cell Transition (g -> g+1),M_ground^n,Newly grounded ice acquired: rho_i * W_{g+1} * H_{g+1} * lambda_{g+1} * Delta x,kg or Gt,Diagnostic Ledger Only,Flotation check verifies grounded status; terminal index shifts g <- g+1
+12. Prognostic Grounded Mass Sum,M_gr(t_n),rho_i * [ sum_{i=1}^{g-1} V_i^n + V_g^{gr,n} ],kg or Gt,PROGNOSTIC STATE,Evaluated strictly by summing grounded cell volumes; zero secondary subtraction
+13. Discrete Conservation Residual,Delta M_cons(t_n),M_gr(t_n) - M_gr(0) - sum S_mass dt + sum rho_i Q_GL dt - M_boundary(t_n),kg or Gt,Diagnostic Verification,Evaluates discrete Reynolds conservation; identically zero in exact arithmetic
+

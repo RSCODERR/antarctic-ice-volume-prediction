@@ -1,0 +1,4 @@
+Mesh_Architecture,Effective_Resolution,Integrated_Area_m2,Area_Relative_Error,Integrated_Volume_m3,Volume_Conservation_Error_pct,Boundary_Flux_Error_pct,Classification
+Fine Native Mesh (Reference),250 m x 250 m,12000000.0,0.000000e+00,3600000000.0,0.0000%,0.0%,Direct Numerical Reference
+Homogenized Macro-Mesh (Conservative),1 km x 1 km (area fraction alpha),12000000.0,0.000000e+00,3600000000.0,0.0000%,8.4%,First-Order Discretization Approximation
+Exact Cut-Cell Polygon Mesh,1 km x 1 km (geometric boundary beta),12000000.0,0.000000e+00,3600000000.0,0.0000%,0.0%,Exact Boundary Geometric Representation

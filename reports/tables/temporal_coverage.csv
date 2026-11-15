@@ -1,0 +1,14 @@
+Mission_Dataset,Start_Year,End_Year,Type,Primary_Variable,Frequency,Peninsula_Utility
+RACMO2.3p2 / 2.4p1 SMB,1979,2024,Climate / Atmospheric Model,SMB (mm w.e./yr),Monthly / Annual,Primary forcing for Input-Output Method
+IMAU-FDM Firn Evolution,1979,2021,Firn Densification Model,FAC (m) & dz_firn (m/yr),Monthly / Annual,Firn air correction for altimetry and mass
+ITS_LIVE Optical/Radar Velocity,1985,2024,Satellite Feature Tracking,Ice Velocity (m/yr),Annual / Multi-month,Flux gate discharge calculation
+ERS-1 / ERS-2 Altimetry,1992,2003,Pulse-limited Radar Altimeter,dh/dt (m/yr),35-day repeat / Multi-year,Early satellite altimetry baseline (IMBIE)
+IMBIE Multi-Sensor Consensus,1992,2020,Reconciled Mass Balance,Mass Loss Rate (Gt/yr),Monthly / Annual,Top-down regional mass validation
+MEaSUREs InSAR Grounding Lines,1992,2016,Differential InSAR,Grounding Zone Position,Intermittent Epochs,Grounded domain boundary verification
+Envisat RA-2 Altimetry,2002,2012,Radar Altimeter,dh/dt (m/yr),35-day repeat,Altimetry continuity (IMBIE input)
+GRACE Satellite Gravimetry,2002,2017,Satellite K-band Ranging Gravimetry,Gravity / Mass Change (Gt),Monthly mascons,Regional mass constraint (coarse resolution)
+NASA ICESat GLAS Altimetry,2003,2009,Satellite Laser Altimeter,dh/dt (m/yr),2–3 campaigns/yr,High-precision plateau elevation trends
+MEaSUREs Annual Velocity Mosaics,2005,2021,InSAR / Optical Ice Velocity,Velocity (m/yr),Annual,Standard input to Input-Output Method
+ESA CryoSat-2 SARIn Altimetry,2010,2024,Interferometric Radar Altimeter,Elevation & dh/dt (m/yr),Sub-monthly / Annual,Continuous marginal ice sheet elevation trends
+GRACE Follow-On (GRACE-FO),2018,2024,Laser Ranging Gravimetry,Gravity / Mass Change (Gt),Monthly mascons,Modern regional mass anomaly validation
+NASA ICESat-2 (ATL06/ATL15),2018,2024,Multi-beam Photon-Counting Lidar,Elevation & Gridded dh/dt,91-day repeat / Quarterly,Definitive contemporary benchmark (high-precision)

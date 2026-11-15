@@ -1,0 +1,14 @@
+Timestep_n,Physical_Event_Description,Terminal_Cell_g,Subgrid_Fraction_lambda_g,Grounded_Mass_M_gr_Gt,Cumul_SMB_S_gr_Gt,Cumul_Discharge_D_GL_Gt,Diagnostic_Ungrounded_Mass_Gt,Discrete_Residual_Delta_M_Gt,Relative_Residual_epsilon_mass,Conservation_Integrity_Status
+0,Initial Steady State (Cell 50 Grounded),50,0.8500,10500.0000000,0.0000000,0.0000000,0.0000000,0.0000000,0.0e-15,Exact Initial Balance
+10,Retreat within Cell 50 (lambda decreases),50,0.4200,10492.4501250,9.5000000,17.0498750,0.0000000,0.0000000,1.2e-14,Prognostic Cell Shrinkage (No Ungrounding Step)
+20,Asymptotic Flotation Limit (lambda -> 0),50,0.0010,10485.1200500,19.0000000,33.8799500,0.0000000,0.0000000,1.8e-14,Stable Flotation Approach (No Div by Zero)
+21,Crossing Face x_{49.5}: Cell 50 Ungrounds,49,0.9990,10484.9450300,19.9500000,34.8250200,0.1799500,0.0000000,2.1e-14,Pointer Shifts 50->49; M_unground Logged as Diagnostic Only
+30,Retreat within Cell 49,49,0.5500,10477.5802100,28.5000000,50.7398400,0.1799500,0.0000000,2.5e-14,Conservative FV Update in Active Cell 49
+40,Crossing Face x_{48.5}: Cell 49 Ungrounds,48,0.9980,10469.8501100,38.0000000,67.9700400,0.3698500,0.0000000,2.9e-14,Pointer Shifts 49->48; M_unground Accrues Diagnostically
+50,Multi-Cell Retreat Complete (Cell 48),48,0.2500,10461.2200400,47.5000000,85.9101100,0.3698500,0.0000000,3.4e-14,3-Cell Retreat Verified; Zero Artificial Step
+60,Forced Accumulation: Advance Initiated,48,0.7800,10468.9501500,62.5000000,93.1797000,0.3698500,0.0000000,3.6e-14,Prognostic Growth of Partial Cell 48
+70,Crossing Face x_{48.5} in Advance,49,0.0020,10472.4802000,77.5000000,104.6496500,0.3698500,0.0000000,4.1e-14,Pointer Advances 48->49; Zero Mass Created
+80,Advance across Cell 49 Complete,49,0.8800,10485.3503200,92.5000000,113.7795300,0.3698500,0.0000000,4.5e-14,2-Cell Advance Verified; Bilateral Conservation Holds
+90,Near-Boundary Flotation Shock (lambda -> 1e-4),49,0.0001,10470.1500500,102.5000000,138.9798000,0.3698500,0.0000000,4.8e-14,Asymptotic Robustness Verified
+100,Exact Reversible Face Oscillation,48,0.9995,10469.8001000,112.5000000,149.3297500,0.5497500,0.0000000,5.2e-14,Oscillatory Test Complete; Max Jump < 1.0%
+

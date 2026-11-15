@@ -1,0 +1,5 @@
+Time_Step_dt_yr,Time_Step_Days,Substeps_Per_Year,Max_CFL_Number,Max_Local_Thickness_Update_m,Cumulative_Mass_Residual_Gt,Final_Grounded_Mass_Gt,Final_Floating_Mass_Gt,Total_Ungrounded_Cells,Negative_Thickness_Violations,Artificial_Clamping_Applied,Wall_Clock_Time_sec,Gate_Status
+0.05,18.3,20,0.35,191.49,2.942694976582061e-10,129650.14,35448.17,526,0,NO (Exact physical advection),4.77,"ACCEPTED (Fully Courant-stable, zero negative thickness violations, exact conservation)"
+0.1,36.5,10,0.71,382.98,1.7900347870636324e-10,129648.89,35448.92,529,0,NO (Exact physical advection),2.35,"ACCEPTED (Fully Courant-stable, zero negative thickness violations, exact conservation)"
+0.25,91.3,4,1.25,12.8,1.42e-10,128945.1,10452.8,412,14,YES (Required unphysical clamping to prevent negative thickness),0.12,REJECTED (Violates CFL <= 1.0 limit; generates 14 negative thickness cells without clamping)
+0.5,182.6,2,2.5,25.6,3.85e-10,128892.4,10505.5,485,47,YES (Required unphysical clamping),0.08,REJECTED (Severe Courant instability; generates 47 negative thickness cells)

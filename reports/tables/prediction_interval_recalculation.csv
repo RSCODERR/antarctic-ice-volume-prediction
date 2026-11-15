@@ -1,0 +1,13 @@
+Model_Name,Basin_ID,Test_N,Covered_Points,Uncovered_Points,Empirical_Coverage_Pct,Nominal_Coverage_Pct,Mean_Predictive_Std_km3_yr,Mean_Interval_Width_km3_yr,Physical_Observation_Uncertainty_km3_yr,Variance_Formulation,Calibration_Diagnosis
+M2_Bayesian_Ridge_Weighted,Hp-I,9,7,2,77.77777777777779,95.0,12.313760078476696,48.26895440682237,17.52,Homoscedastic global noise (scalar lambda^-1),Under-covered
+M2_Bayesian_Ridge_Weighted,I-Ipp,9,9,0,100.0,95.0,12.309707990729049,48.25307054701861,7.300000000000001,Homoscedastic global noise (scalar lambda^-1),Over-covered
+M2_Bayesian_Ridge_Weighted,Ipp-J,9,9,0,100.0,95.0,12.309392668842683,48.25183451044981,7.699999999999999,Homoscedastic global noise (scalar lambda^-1),Over-covered
+M2_Bayesian_Ridge_Weighted,Domain_A,9,5,4,55.55555555555556,95.0,21.323197396035724,83.58522793666833,20.482441260748192,Homoscedastic global noise (scalar lambda^-1),Under-covered
+M2_Bayesian_Ridge,Hp-I,9,7,2,77.77777777777779,95.0,14.309961506985132,56.09390431046116,17.52,Homoscedastic global noise (scalar lambda^-1),Under-covered
+M2_Bayesian_Ridge,I-Ipp,9,9,0,100.0,95.0,14.309325680629327,56.091411922012504,7.300000000000001,Homoscedastic global noise (scalar lambda^-1),Over-covered
+M2_Bayesian_Ridge,Ipp-J,9,9,0,100.0,95.0,14.309083197960916,56.09046140935095,7.699999999999999,Homoscedastic global noise (scalar lambda^-1),Over-covered
+M2_Bayesian_Ridge,Domain_A,9,7,2,77.77777777777779,95.0,24.784706208960703,97.15406556262923,20.482441260748192,Homoscedastic global noise (scalar lambda^-1),Under-covered
+M6_Gaussian_Process,Hp-I,9,2,7,22.22222222222222,95.0,1.4303389269815536,5.606814166653532,17.52,RBF lengthscale + white noise,Under-covered
+M6_Gaussian_Process,I-Ipp,9,3,6,33.33333333333333,95.0,1.429568259697245,5.603793212552426,7.300000000000001,RBF lengthscale + white noise,Under-covered
+M6_Gaussian_Process,Ipp-J,9,0,9,0.0,95.0,1.4291884630235208,5.6023044399751605,7.699999999999999,RBF lengthscale + white noise,Under-covered
+M6_Gaussian_Process,Domain_A,9,2,7,22.22222222222222,95.0,2.4763107198615484,9.706939916999678,20.482441260748192,RBF lengthscale + white noise,Under-covered

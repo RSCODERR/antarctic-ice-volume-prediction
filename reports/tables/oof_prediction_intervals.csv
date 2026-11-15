@@ -1,0 +1,13 @@
+Model_Name,Basin_Scope,Validation_Samples_N,Empirical_Coverage_95pct,Mean_Interval_Width_km3_yr,CRPS_km3_yr,Calibration_Assessment
+M2_Bayesian_Ridge,Hp-I,20,90.0,53.08,10.886,Calibrated
+M2_Bayesian_Ridge,I-Ipp,20,100.0,53.08,6.216,Calibrated
+M2_Bayesian_Ridge,Ipp-J,20,95.0,53.08,8.469,Calibrated
+M2_Bayesian_Ridge,POOLED_ALL_BASINS,60,95.0,53.08,8.524,Calibrated
+M2_Bayesian_Ridge_Weighted,Hp-I,20,75.0,43.11,11.184,Miscalibrated
+M2_Bayesian_Ridge_Weighted,I-Ipp,20,100.0,43.08,6.042,Calibrated
+M2_Bayesian_Ridge_Weighted,Ipp-J,20,85.0,43.08,8.311,Calibrated
+M2_Bayesian_Ridge_Weighted,POOLED_ALL_BASINS,60,86.7,43.09,8.512,Calibrated
+M6_Gaussian_Process,Hp-I,20,10.0,5.31,14.812,Miscalibrated
+M6_Gaussian_Process,I-Ipp,20,10.0,5.31,8.661,Miscalibrated
+M6_Gaussian_Process,Ipp-J,20,10.0,5.31,11.5,Miscalibrated
+M6_Gaussian_Process,POOLED_ALL_BASINS,60,10.0,5.31,11.658,Miscalibrated

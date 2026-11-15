@@ -1,0 +1,21 @@
+Validation_Year,Regime_Era,Observed_Target_y_true_km3_yr,Residual_Persistence_km3_yr,Residual_Historical_Mean_km3_yr,Residual_Bayesian_Ridge_Weighted_km3_yr,Residual_Random_Forest_km3_yr,Residual_Sign_BRW,Dynamic_Mechanism_Assessment
+1995,Pre-Collapse (Buttressed Shelf Baseline),-6.26,0.87,3.939,2.446,2.997,POSITIVE (Under-predicted loss),Near-balance pre-collapse baseline
+1996,Pre-Collapse (Buttressed Shelf Baseline),-2.08,-4.18,-0.472,-1.8,-2.914,NEGATIVE (Over-predicted loss),Near-balance pre-collapse baseline
+1997,Pre-Collapse (Buttressed Shelf Baseline),-12.97,10.89,10.444,9.34,11.793,POSITIVE (Under-predicted loss),Near-balance pre-collapse baseline
+1998,Pre-Collapse (Buttressed Shelf Baseline),1.26,-14.23,-4.336,-5.486,-5.469,NEGATIVE (Over-predicted loss),Near-balance pre-collapse baseline
+1999,Pre-Collapse (Buttressed Shelf Baseline),2.86,-1.6,-5.719,-6.638,-2.657,NEGATIVE (Over-predicted loss),Near-balance pre-collapse baseline
+2000,Pre-Collapse (Buttressed Shelf Baseline),-7.08,9.94,4.493,3.801,7.185,POSITIVE (Under-predicted loss),Near-balance pre-collapse baseline
+2001,Pre-Collapse (Buttressed Shelf Baseline),0.78,-7.86,-3.571,-4.317,-2.654,NEGATIVE (Over-predicted loss),Near-balance pre-collapse baseline
+2002,Collapse Transition Year (March 2002 Event),-15.5,16.28,12.864,12.372,14.295,POSITIVE (Under-predicted loss),Catastrophic ice shelf disintegration; sudden loss of buttressing
+2003,Post-Collapse Dynamic Drawdown Era,-14.74,-0.76,11.568,10.956,12.204,POSITIVE (Under-predicted loss),Persistent tributary glacier acceleration; stationary models lack dynamic ice shelf geometry feature
+2004,Post-Collapse Dynamic Drawdown Era,-12.92,-1.82,9.286,8.823,13.375,POSITIVE (Under-predicted loss),Persistent tributary glacier acceleration; stationary models lack dynamic ice shelf geometry feature
+2005,Post-Collapse Dynamic Drawdown Era,-25.12,12.2,21.128,21.073,22.596,POSITIVE (Under-predicted loss),Persistent tributary glacier acceleration; stationary models lack dynamic ice shelf geometry feature
+2006,Post-Collapse Dynamic Drawdown Era,-21.63,-3.49,16.856,17.023,14.11,POSITIVE (Under-predicted loss),Persistent tributary glacier acceleration; stationary models lack dynamic ice shelf geometry feature
+2007,Post-Collapse Dynamic Drawdown Era,-37.01,15.38,31.634,32.301,29.376,POSITIVE (Under-predicted loss),Persistent tributary glacier acceleration; stationary models lack dynamic ice shelf geometry feature
+2008,Post-Collapse Dynamic Drawdown Era,-15.11,-21.9,8.643,9.269,5.321,POSITIVE (Under-predicted loss),Persistent tributary glacier acceleration; stationary models lack dynamic ice shelf geometry feature
+2009,Post-Collapse Dynamic Drawdown Era,-30.27,15.16,23.515,24.593,22.225,POSITIVE (Under-predicted loss),Persistent tributary glacier acceleration; stationary models lack dynamic ice shelf geometry feature
+2010,Post-Collapse Dynamic Drawdown Era,-10.0,-20.27,2.486,3.569,-2.999,POSITIVE (Under-predicted loss),Persistent tributary glacier acceleration; stationary models lack dynamic ice shelf geometry feature
+2011,Post-Collapse Dynamic Drawdown Era,-28.67,18.67,21.079,22.57,23.9,POSITIVE (Under-predicted loss),Persistent tributary glacier acceleration; stationary models lack dynamic ice shelf geometry feature
+2012,Post-Collapse Dynamic Drawdown Era,-24.41,-4.26,16.18,17.6,13.129,POSITIVE (Under-predicted loss),Persistent tributary glacier acceleration; stationary models lack dynamic ice shelf geometry feature
+2013,Post-Collapse Dynamic Drawdown Era,-18.68,-5.73,9.974,11.371,4.867,POSITIVE (Under-predicted loss),Persistent tributary glacier acceleration; stationary models lack dynamic ice shelf geometry feature
+2014,Post-Collapse Dynamic Drawdown Era,-19.32,0.64,10.329,11.772,7.563,POSITIVE (Under-predicted loss),Persistent tributary glacier acceleration; stationary models lack dynamic ice shelf geometry feature

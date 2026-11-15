@@ -1,0 +1,18 @@
+Metric_or_Parameter,Mathematical_Symbol,Numerical_Value,Units,Derivation_or_Source
+Observational Gate Coordinate,"(x_obs, y_obs)","(-2466040.2 m, +1305701.1 m)",m (EPSG:3031),"MEaSUREs InSAR Flux Gate GATE_IPP_01 center point (-62.10 E, -64.72 S)"
+Model Gate Cell Center Coordinate,"(x_cell28, y_cell28)","(-2466200.0 m, +1305800.0 m)",m (EPSG:3031),Discrete 1D SSA grid cell 28 center along extracted thalweg (x = 14.25 km)
+Displacement Vector,"Delta r = (Delta x, Delta y)","(-159.8 m, +98.9 m)",m,"Vector difference: (x_cell28 - x_obs, y_cell28 - y_obs)"
+Displacement Vector Magnitude,||Delta r||,186.86,m,Euclidean norm: sqrt((-159.8)^2 + 98.9^2) = 186.86 m
+Local Flow Direction Unit Vector,s_hat,"(-0.9970, +0.0773)",dimensionless,Along-channel thalweg orientation from fjord constriction into bay
+Displacement Component Along Flow,Delta r_parallel = Delta r . s_hat,+166.96,m,Projection of displacement vector along downstream thalweg trajectory
+Displacement Component Transverse to Flow,Delta r_perp,83.91,m,"Orthogonal cross-channel displacement across 3,800 m fjord width"
+Observation Spatial Representativeness,Footprint_obs,Cross-sectional flux gate profile,line integral across 3.8 km fjord,InSAR pixel multi-look average (450 m raster) integrated across gate width
+Model Spatial Representativeness,Footprint_model,Finite-volume cell average (500 m x 3800 m),m^2 (area = 1.90 km^2),Discrete 1D SSA depth-integrated and width-averaged slab
+Upstream Velocity Gradient,g_up = (u_28 - u_27) / Delta x,-0.5615,yr^-1 (m yr^-1 per m),(175.85 - 456.58) m/yr / 500 m (ice-fall transition into fjord)
+Downstream Velocity Gradient,g_down = (u_29 - u_28) / Delta x,-0.2231,yr^-1 (m yr^-1 per m),(64.30 - 175.85) m/yr / 500 m (fjord floor deceleration)
+Proposed Sampling Displacement Bound,sigma_x,+-50.0,m,Justification: SAR geocoding parallax in steep coastal topography (+-30 to 50 m) plus thalweg digitizing precision
+Instrumental Uncertainty,sigma_inst,12.0,m yr^-1,MEaSUREs InSAR phase unwrapping and speckle tracking noise on rock tie-points
+Spatial Representativeness Uncertainty,sigma_spatial = |g_up| * sigma_x,28.07,m yr^-1,0.5615 yr^-1 * 50.0 m (gradient-induced representation uncertainty)
+Total Combined Uncertainty,sigma_total = sqrt(sigma_inst^2 + sigma_spatial^2),30.53,m yr^-1,Quadrature sum of independent radar phase noise and spatial representation error
+Instrumental Z-Score (Cell 28 vs Obs),Z_inst = (175.85 - 210.0) / sigma_inst,-2.846,standard deviations,p = 0.0044 (STATISTICALLY REJECTED against instrumental noise alone)
+Total Combined Z-Score (Cell 28 vs Obs),Z_total = (175.85 - 210.0) / sigma_total,-1.119,standard deviations,"p = 0.2632 (Consistent within expanded representativeness uncertainty, but NOT proof of parameter agreement)"

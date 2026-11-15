@@ -1,0 +1,3 @@
+Parameter_Name,Physical_Units,Lower_Bound,Prior_Mode,Upper_Bound,Post_Optimal_log10,Posterior_Sigma_log10,Margin_of_Error_95_CI,Confidence_Interval_95_log10,Post_Optimal_Pa_units,Confidence_Interval_95_Pa_units,Prior_Displacement,Evaluation_Verdict
+"C_bed,HpI (Ryder Glacier)",log10(Pa (m/s)^-1/3),5.00,7.0000,8.00,6.9121,0.0078,0.0152,"[6.8969, 6.9273]",8.168e+06,"[7.887e+06, 8.459e+06]",-0.0879 (-18.3% linear shift from prior),"PASS: Well-conditioned, interior to bounds, reproduces GL velocity with -0.05 m/yr residual"
+"C_bed,IppJ (Crane Glacier)",log10(Pa (m/s)^-1/3),5.00,7.0000,8.00,UNCALIBRATED,N/A,N/A,N/A,1.000e+07 (Baseline frozen),N/A,0.0000 (No adjustment),DEFERRED: Failed Preflight Synchronization Requirement 1; excluded from pilot calibration

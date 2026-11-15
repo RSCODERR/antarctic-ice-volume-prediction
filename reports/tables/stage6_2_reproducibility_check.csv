@@ -1,0 +1,28 @@
+Check_ID,Verification_Item,Evaluation_Scope,Basin_ID,Metric_Name,Reported_Value,Reproduced_Value,Absolute_Difference,Tolerance,Discrepancy_Status,Verification_Notes
+CHK-01,ElasticNet Model Loading,MODEL_ARTIFACTS,ALL,Loadability,1.0,1.0,0.0,0.0,PASS,elastic_net_train.joblib loaded successfully
+CHK-02,Scaler Pipeline Loading,MODEL_ARTIFACTS,ALL,Loadability,1.0,1.0,0.0,0.0,PASS,scaler_train.joblib loaded successfully
+CHK-03,Pooled Test RMSE (Train-only),TEST (2016-2024),POOLED,RMSE_Gt_yr,13.56,13.56,0.0,0.01,PASS,Exact reproduction of reported 13.56 Gt/yr
+CHK-04,Pooled Test MAE (Train-only),TEST (2016-2024),POOLED,MAE_Gt_yr,9.61,9.61,0.0,0.01,PASS,Exact reproduction of reported 9.61 Gt/yr
+CHK-05,Pooled Test R2 (Train-only),TEST (2016-2024),POOLED,R2,0.069,0.069,0.0,0.001,PASS,Exact reproduction of positive R2 (+0.069)
+CHK-06,Pooled Test Bias (Train-only),TEST (2016-2024),POOLED,Bias_Gt_yr,-3.38,-3.38,0.0,0.01,PASS,Exact reproduction of reported -3.38 Gt/yr
+CHK-07,Basin Hp-I Test RMSE,TEST (2016-2024),Hp-I,RMSE_Gt_yr,19.64,19.64,0.0,0.01,PASS,Exact reproduction of reported 19.64 Gt/yr
+CHK-08,Basin Hp-I Test MAE,TEST (2016-2024),Hp-I,MAE_Gt_yr,15.05,15.05,0.0,0.01,PASS,Exact reproduction of reported 15.05 Gt/yr
+CHK-09,Basin Hp-I Test R2,TEST (2016-2024),Hp-I,R2,-0.145,-0.145,0.0,0.001,PASS,Exact reproduction of reported -0.145
+CHK-10,Basin I-Ipp Test RMSE,TEST (2016-2024),I-Ipp,RMSE_Gt_yr,10.96,10.96,0.0,0.01,PASS,Exact reproduction of reported 10.96 Gt/yr
+CHK-11,Basin I-Ipp Test MAE,TEST (2016-2024),I-Ipp,MAE_Gt_yr,8.33,8.33,0.0,0.01,PASS,Exact reproduction of reported 8.33 Gt/yr
+CHK-12,Basin I-Ipp Test R2,TEST (2016-2024),I-Ipp,R2,-0.081,-0.081,0.0,0.001,PASS,Exact reproduction of reported -0.081
+CHK-13,Basin Ipp-J Test RMSE,TEST (2016-2024),Ipp-J,RMSE_Gt_yr,6.76,6.76,0.0,0.01,PASS,Exact reproduction of reported 6.76 Gt/yr (42.4% reduction vs baseline)
+CHK-14,Basin Ipp-J Test MAE,TEST (2016-2024),Ipp-J,MAE_Gt_yr,5.46,5.46,0.0,0.01,PASS,Exact reproduction of reported 5.46 Gt/yr (47.7% reduction vs baseline)
+CHK-15,Basin Ipp-J Test R2,TEST (2016-2024),Ipp-J,R2,0.017,0.017,0.0,0.001,PASS,Exact reproduction of positive R2 (+0.017)
+CHK-16,Hist Mean Baseline Test RMSE,TEST (2016-2024),POOLED,RMSE_Gt_yr,14.11,14.11,0.0,0.01,PASS,Exact reproduction of baseline RMSE
+CHK-17,Hist Mean Baseline Test MAE,TEST (2016-2024),POOLED,MAE_Gt_yr,10.9,10.9,0.0,0.01,PASS,Exact reproduction of baseline MAE
+CHK-18,Persistence Baseline Test RMSE,TEST (2016-2024),POOLED,RMSE_Gt_yr,19.67,19.67,0.0,0.01,PASS,Exact reproduction of persistence RMSE
+CHK-19,Persistence Baseline Test MAE,TEST (2016-2024),POOLED,MAE_Gt_yr,16.85,16.85,0.0,0.01,PASS,Exact reproduction of persistence MAE
+CHK-20,Refit Model Test MAE,TEST (2016-2024),POOLED,MAE_Gt_yr,9.52,9.52,0.0,0.01,PASS,Exact reproduction of refitted Test MAE (9.52 Gt/yr)
+CHK-21,Refit Model Test RMSE,TEST (2016-2024),POOLED,RMSE_Gt_yr,14.65,14.65,0.0,0.01,PASS,Exact reproduction of refitted Test RMSE (14.65 Gt/yr)
+CHK-22,Test Set Isolation Verification,TRAINING_PROTOCOL,ALL,Contamination_Flag,0.0,0.0,0.0,0.0,PASS,Test fold (2016-2024) untouched during hyperparameter grid search
+CHK-23,Feature Schema Compliance,FEATURE_ENGINEERING,ALL,Schema_Match,14.0,14.0,0.0,0.0,PASS,"All 14 features match FEAT-01 to FEAT-14 in name, order, and definition"
+CHK-24,Prediction CSV Integrity,PREDICTIONS,ALL,Max_Discrepancy,0.0,0.0,0.0,0.001,PASS,Zero discrepancy between joblib model and stage6_1_predictions.csv across 138 rows
+CHK-25,Prohibition Compliance (Residual),GOVERNANCE,ALL,Residual_Model_Count,0.0,0.0,0.0,0.0,PASS,Zero physics-guided residual ML models saved or deployed
+CHK-26,Prohibition Compliance (2100),GOVERNANCE,ALL,Projection_2100_Count,0.0,0.0,0.0,0.0,PASS,Zero 2100 forward projections executed or produced
+CHK-27,Physical Constants Frozen,PHYSICS_GOVERNANCE,ALL,Parameter_Drift,0.0,0.0,0.0,0.0,PASS,"Frozen parameters preserved: C_bed, Glen n=3, A=3.5e-25, rho_i=917, rho_w=1028"

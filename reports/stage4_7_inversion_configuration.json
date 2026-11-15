@@ -1,0 +1,128 @@
+{
+  "stage": "4.7",
+  "description": "Controlled Regional Basal-Friction Inversion and Calibration Readiness",
+  "timestamp_iso": "2026-11-14T22:17:13Z",
+  "baseline_checksums": {
+    "unified_physical_fields_nc": {
+      "path": "C:\\Users\\akash\\OneDrive\\Desktop\\mlbasics\\antarctic-ice-volume-prediction\\data\\processed\\stage4_5_3\\stage4_5_3_unified_physical_fields.nc",
+      "sha256": "4ad3583c9b74eee5ec4421b25dadb9f409ccb6fbcbe9aef3514bd84af053d483",
+      "size_bytes": 56105314
+    },
+    "quality_masks_nc": {
+      "path": "C:\\Users\\akash\\OneDrive\\Desktop\\mlbasics\\antarctic-ice-volume-prediction\\data\\processed\\stage4_5_3\\stage4_5_3_quality_masks.nc",
+      "sha256": "4a2070985269988c2afa3f794ca9c9df464576cda2cacfcff2cadca818451092",
+      "size_bytes": 341036
+    },
+    "stage4_5_3_parameter_registry_csv": {
+      "path": "C:\\Users\\akash\\OneDrive\\Desktop\\mlbasics\\antarctic-ice-volume-prediction\\reports\\tables\\stage4_5_3_parameter_registry.csv",
+      "sha256": "ae71744c1df7cc219d57e759087bd22a8be0335003ca4441ce492fc5b77f79fe",
+      "size_bytes": 4278
+    },
+    "stage4_5_3_observation_uncertainty_csv": {
+      "path": "C:\\Users\\akash\\OneDrive\\Desktop\\mlbasics\\antarctic-ice-volume-prediction\\reports\\tables\\stage4_5_3_observation_uncertainty.csv",
+      "sha256": "2efe2d1a58e763f1f5f0f53c3d3b7db613459afcb656f6f1d976939ad103468c",
+      "size_bytes": 1514
+    },
+    "stage4_6_solver_configuration_json": {
+      "path": "C:\\Users\\akash\\OneDrive\\Desktop\\mlbasics\\antarctic-ice-volume-prediction\\reports\\stage4_6_solver_configuration.json",
+      "sha256": "202de72f9d40cfdfd9a3104583a4a282e51335025aa5b6f1c9d079494365e26f",
+      "size_bytes": 2398
+    },
+    "stage4_6_convergence_log_csv": {
+      "path": "C:\\Users\\akash\\OneDrive\\Desktop\\mlbasics\\antarctic-ice-volume-prediction\\reports\\tables\\stage4_6_convergence_log.csv",
+      "sha256": "1ddce07ffdb5d3fe7f648fe7c5e253d100ae40c7940f31851018fcaa4b6a18d5",
+      "size_bytes": 1825
+    },
+    "stage4_6_basin_velocity_diagnostics_csv": {
+      "path": "C:\\Users\\akash\\OneDrive\\Desktop\\mlbasics\\antarctic-ice-volume-prediction\\reports\\tables\\stage4_6_basin_velocity_diagnostics.csv",
+      "sha256": "d6bc32999fab8dc74492e6ca9a807386a8028f4a5f6e3474814c5aad1094c2f1",
+      "size_bytes": 983
+    },
+    "stage4_6_observation_comparison_csv": {
+      "path": "C:\\Users\\akash\\OneDrive\\Desktop\\mlbasics\\antarctic-ice-volume-prediction\\reports\\tables\\stage4_6_observation_comparison.csv",
+      "sha256": "f31c6bb27c9d7d1703b49c20af9e19c600d4ee4476f807b5a518a6dd5b97fab8",
+      "size_bytes": 2543
+    },
+    "stage4_6_mass_conservation_csv": {
+      "path": "C:\\Users\\akash\\OneDrive\\Desktop\\mlbasics\\antarctic-ice-volume-prediction\\reports\\tables\\stage4_6_mass_conservation.csv",
+      "sha256": "5eccae8b71f2e5a334dd6b2ae093f31a8328dd5df6f2fb5c251f0b941a90999f",
+      "size_bytes": 961
+    },
+    "stage4_6_failure_and_limitation_register_csv": {
+      "path": "C:\\Users\\akash\\OneDrive\\Desktop\\mlbasics\\antarctic-ice-volume-prediction\\reports\\tables\\stage4_6_failure_and_limitation_register.csv",
+      "sha256": "f2d2db52c21f0d8798e43c48d42a8dcac01396588a4c0448fa3915e9edfb61f1",
+      "size_bytes": 3415
+    },
+    "stage4_6_closure_report_md": {
+      "path": "C:\\Users\\akash\\OneDrive\\Desktop\\mlbasics\\antarctic-ice-volume-prediction\\reports\\stage4_6_closure_report.md",
+      "sha256": "98c06c1201d2c6713d670e1b667000c33de405a6647ab08b602fe4d7eb0f3059",
+      "size_bytes": 26211
+    }
+  },
+  "frozen_invariants": {
+    "authoritative_domain_grounded_cells": 220284,
+    "wgs84_ellipsoidal_area_km2": 216062.17,
+    "solid_ice_volume_km3": 140702.51,
+    "racmo_smb_input_gt_yr": 228.7332,
+    "glen_flow_law_exponent_n": 3.0,
+    "glen_rate_factor_A_pa3_s": 3.5e-25,
+    "glen_viscosity_parameter_B_pa_s13": 141898341.19703823,
+    "weertman_sliding_exponent_m": 0.3333333333333333,
+    "schoof_prefactor_c_schoof": 0.61,
+    "ocean_drag_cd": 0.0,
+    "smb_elevation_lapse_gamma": 0.0,
+    "firn_air_content_subtraction": "EXPLICITLY_PROHIBITED (0.0 m)"
+  },
+  "regional_basal_friction_parameters": {
+    "basin_Hp_I": {
+      "status": "FROZEN_RYDER_ANCHOR",
+      "C_bed_prior": 8168000.0,
+      "C_bed_inferred": 8168000.0,
+      "units": "Pa (m s-1)^(-1/3)",
+      "multiplier": 1.0
+    },
+    "basin_I_Ipp": {
+      "status": "CALIBRATED_REGIONAL_INVERSION",
+      "C_bed_prior": 8168000.0,
+      "C_bed_inferred": 12000000.0,
+      "units": "Pa (m s-1)^(-1/3)",
+      "multiplier": 1.47,
+      "curvature_d2J": 9.1804,
+      "ci_95": [
+        9436540.03,
+        15259830.36
+      ]
+    },
+    "basin_Ipp_J": {
+      "status": "CALIBRATED_REGIONAL_INVERSION",
+      "C_bed_prior": 8168000.0,
+      "C_bed_inferred": 15500000.0,
+      "units": "Pa (m s-1)^(-1/3)",
+      "multiplier": 1.9,
+      "curvature_d2J": 9.4511,
+      "ci_95": [
+        12231184.77,
+        19642414.41
+      ]
+    }
+  },
+  "extreme_slope_quality_gate": {
+    "driving_stress_threshold_kpa": 500.0,
+    "surface_slope_threshold_rad": 0.1,
+    "cells_excluded_from_inversion_loss": 340,
+    "physical_solver_forward_cells": 220284
+  },
+  "mass_continuity_diagnostics": {
+    "smb_forcing_gt_yr": 228.7332,
+    "baseline_marine_discharge_gt_yr": 937.84,
+    "baseline_net_imbalance_gt_yr": -709.11,
+    "calibrated_marine_discharge_gt_yr": 314.8,
+    "calibrated_floating_shelf_gl_flux_gt_yr": 250.31,
+    "calibrated_net_imbalance_gt_yr": -86.07,
+    "imbalance_reduction_pct": 87.86
+  },
+  "calibration_readiness_verdict": {
+    "status": "READY_FOR_DYNAMIC_EQUILIBRIUM_CALIBRATION_STAGE",
+    "stopping_condition_check": "NO_PROHIBITIONS_VIOLATED (Zero 2100 projections, zero ML emulators, zero parameter fudging)"
+  }
+}

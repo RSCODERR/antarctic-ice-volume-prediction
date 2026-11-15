@@ -1,0 +1,14 @@
+Basin,Source_Code,Source_Name,Cells,Area_km2,Pct_Basin
+Hp-I,8,IceBoost (Machine Learning),303996,75999.0,70.30922589448852
+Hp-I,2,Mass Conservation,95997,23999.25,22.202511737632122
+Hp-I,3,Interpolation,22805,5701.25,5.2744177440617985
+Hp-I,5,IFPA (Ice Flow Perturbation Analysis),9572,2393.0,2.2138446238175638
+I-Ipp,8,IceBoost (Machine Learning),123707,30926.75,60.2015689480651
+I-Ipp,3,Interpolation,60477,15119.25,29.430915673907965
+I-Ipp,5,IFPA (Ice Flow Perturbation Analysis),15690,3922.5,7.63548236393366
+I-Ipp,2,Mass Conservation,5610,1402.5,2.7300864284045785
+I-Ipp,10,Multibeam Bathymetry,4,1.0,0.0019465856887020167
+Ipp-J,8,IceBoost (Machine Learning),165156,41289.0,72.27833698030635
+Ipp-J,3,Interpolation,44670,11167.5,19.549234135667394
+Ipp-J,5,IFPA (Ice Flow Perturbation Analysis),17429,4357.25,7.627571115973741
+Ipp-J,2,Mass Conservation,1245,311.25,0.5448577680525164

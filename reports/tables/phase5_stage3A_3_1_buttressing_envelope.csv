@@ -1,0 +1,11 @@
+omega_b_Backstress_Fraction,Intact_Flux_Fraction_mu_1_583,Surge_Ratio_R_mu_1_583,Intact_Flux_Fraction_mu_2_000,Surge_Ratio_R_mu_2_000,Intact_Flux_Fraction_mu_2_250,Surge_Ratio_R_mu_2_250,Regime_Classification_and_Context
+0.40,0.4455,2.245x,0.3600,2.778x,0.3168,3.156x,Lower parameter envelope boundary (minimal back-stress reduction)
+0.50,0.3338,2.996x,0.2500,4.000x,0.2102,4.757x,Intermediate theoretical parameter point
+0.60,0.2345,4.265x,0.1600,6.250x,0.1272,7.859x,Intermediate theoretical parameter point
+0.70,0.1487,6.725x,0.0900,11.111x,0.0666,15.013x,Intermediate theoretical parameter point
+0.75,0.1114,8.976x,0.0625,16.000x,0.0442,22.627x,NOMINAL BASELINE EXAMPLE (typical natural embayment geometry)
+0.80,0.0783,12.778x,0.0400,25.000x,0.0267,37.384x,Intermediate theoretical parameter point
+0.85,0.0496,20.149x,0.0225,44.444x,0.0140,71.416x,Upper parameter envelope boundary (maximum back-stress reduction)
+ENVELOPE_SUMMARY,"mu=1.583: [0.0496, 0.4455]","[2.245x, 20.149x]","mu=2.000: [0.0225, 0.3600]","[2.778x, 44.444x]","mu=2.250: [0.0140, 0.3168]","[3.156x, 71.416x]","MATHEMATICAL PARAMETER ENVELOPE: Rigorous range across omega_b in [0.40, 0.85]"
+BASELINE_EXAMPLE,omega_b=0.75: 0.1114,8.976x (~9.0x),omega_b=0.75: 0.0625,16.000x,omega_b=0.75: 0.0442,22.627x,"SELECTED BASELINE CONFIGURATION: omega_b=0.75, mu=1.583 yields 8.98x collapse surge"
+LARSEN_B_OBSERVED,N/A (Empirical),3.0x to 8.0x (sustained),N/A (Empirical),up to 8.0x - 10.0x (peak),N/A (Empirical),Sustained: 3.0x - 8.0x,"OBSERVED EVIDENCE (Rignot 2004, Scambos 2004, Rott 2011): Not used to constrain prior bounds"

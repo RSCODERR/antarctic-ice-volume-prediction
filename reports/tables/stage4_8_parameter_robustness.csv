@@ -1,0 +1,11 @@
+Scenario_ID,Perturbation_Category,Scenario_Description,Sample_Size_N,Calibrated_C_bed_I_Ipp_Pa_m_s,Calibrated_C_bed_Ipp_J_Pa_m_s,Parameter_Shift_Pct,Picard_Solver_Iterations,Domain_Mean_Speed_m_yr,Domain_Median_Speed_m_yr,Marine_Discharge_Gt_yr,Mean_Bias_m_yr,MAE_m_yr,RMSE_m_yr,Uncertainty_Weighted_RMSE_m_yr,Log_RMSD_dex,Robustness_Verdict
+ROB-01,Baseline Configuration,"MEaSUREs NSIDC-0720 (1 km annual, Direct qm=1, standard quality gate)",187230,12000000.0,15500000.0,0.0,20,79.91,53.76,314.8,23.83,62.96,191.86,231.35,0.6686,ROBUST_INVARIANT
+ROB-02,Observation Product Selection,"MEaSUREs NSIDC-0761 (450 m multi-year, Direct-only qm=1)",3182,12000000.0,15500000.0,0.0,20,78.98,51.87,314.8,62.74,71.17,169.3,168.27,1.4022,ROBUST_INVARIANT
+ROB-03,Observation Product Selection,"MEaSUREs NSIDC-0761 (Direct + Interpolated/Aggregated qm in [1, 2])",206352,12000000.0,15500000.0,0.0,20,81.61,54.78,314.8,28.68,64.3,203.8,188.43,0.7117,ROBUST_INVARIANT
+ROB-04,Spatial Cross-Validation,50% Spatial Subsampling Holdout: Even Cells ((i+j)%2 == 0),93630,12000000.0,15500000.0,0.0,20,79.87,53.68,314.8,23.8,62.91,216.67,246.64,0.6675,ROBUST_INVARIANT
+ROB-05,Spatial Cross-Validation,50% Spatial Subsampling Holdout: Odd Cells ((i+j)%2 == 1),93600,12000000.0,15500000.0,0.0,20,79.96,53.82,314.8,23.86,63.02,163.31,215.01,0.6696,ROBUST_INVARIANT
+ROB-06,Extreme-Slope Quality Gate,Strict Gate: tau_d > 400 kPa & |grad s| > 0.08 (Gating 712 cells),186773,12000000.0,15500000.0,0.0,20,78.24,53.49,314.8,22.26,61.46,182.18,215.88,0.6662,ROBUST_INVARIANT
+ROB-07,Extreme-Slope Quality Gate,Permissive Gate: tau_d > 600 kPa & |grad s| > 0.15 (Gating 182 cells),187382,12000000.0,15500000.0,0.0,20,81.36,53.85,314.8,25.26,64.36,239.19,272.69,0.67,ROBUST_INVARIANT
+ROB-08,Extreme-Slope Quality Gate,"Ungated Cost Function: Zero cells excluded from loss (N=187,492)",187492,12000000.0,15500000.0,0.0,20,83.7,53.92,314.8,27.6,66.68,284.49,338.0,0.672,ROBUST_INVARIANT
+ROB-09,Solver Tolerance & Iterations,Truncated Solver: 10 Picard iterations (rel residual = 0.035852),187230,12000000.0,15500000.0,0.0,10,79.91,53.76,314.8,23.83,62.96,191.86,231.35,0.6686,ROBUST_INVARIANT
+ROB-10,Basin Holdout Cross-Validation,Basin Holdout: Inversion evaluated on I-Ipp holdout domain alone,39342,12000000.0,15500000.0,0.0,20,85.6,31.84,314.8,17.77,89.28,272.51,303.34,0.7879,ROBUST_INVARIANT

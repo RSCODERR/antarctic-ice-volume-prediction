@@ -1,0 +1,11 @@
+Registry_Field,Specification
+Parameter Key,C_schoof
+Formal Scientific Definition,Reduced-complexity empirical grounding-line flux correction factor scaling continuous 1D boundary-layer discharge to 2D/3D Full-Stokes transition dynamics.
+Governing Mathematical Placement,Q_GL = C_schoof * W_GL * (1 - theta_buttress)^gamma * [ A (rho_i g)^(n+1) (1 - rho_i/rho_w)^n / (4^n C_bed) ]^(1/(m+1)) * H_GL^((m+n+3)/(m+1))
+Dimensionality,Strictly dimensionless [-]. All physical units are balanced by analytical prefactor [m^2 s^-1] * width [m] = [m^3 s^-1].
+Reference Value,0.61 (Source: Schoof 2007; Pattyn et al. 2012 MISMIP intercomparison benchmarks for unbuttressed flowline boundary-layer transitions).
+Admissible Calibration Bounds,"[0.30, 1.50] (Analyst-choice bounded prior envelope based on Full-Stokes to 1D asymptotic discrepancies across varying channel aspect ratios W/H)."
+Approximated Unresolved Physical Processes,1) 2D/3D transverse stress bridging across rock sidewalls; 2) Finite viscoelastic bending zone flexure (1-3 km); 3) Deviations of subglacial effective pressure N from hydrostatic connection; 4) Non-hydrostatic cryostatic stress at grounding transition.
+Explicitly NOT Simulated Physical Processes,1) Time-dependent grounding-line hysteresis or stick-slip; 2) Spatial subglacial drainage morphology (cavities vs conduits); 3) Transient buttressing variations (handled by theta_buttress); 4) Sub-shelf ocean cavity circulation and boundary melting.
+Altimetry Non-Uniqueness Justification,"Calibration against satellite altimetry (dh/dt) adjusts bulk basin mass loss (dh/dt = b_dot - div(H u)). It lumps SMB uncertainty, firn air content compaction, BedMachine bathymetry errors, and rheological temperature into a single scalar prefactor. It does NOT uniquely identify individual boundary-layer physics."
+Scientific Classification Verdict,REDUCED-COMPLEXITY EMPIRICAL CALIBRATION FACTOR. Must NEVER be described as a universal physical constant.

@@ -1,0 +1,17 @@
+Scenario_Name,Basin_Name,Lapse_Rate_Accumulation_mm_m_yr,Lapse_Rate_Melt_mm_m_yr,Mean_Surface_Elevation_m,Mean_Delta_Z_Local_m,Uncorrected_Mass_Gt_yr,Adjusted_Mean_SMB_mm_yr,Adjusted_Integrated_Mass_Gt_yr,Mass_Difference_Gt_yr,Relative_Change_Pct,Provenance_and_Scientific_Status
+Zero_Correction_Primary_Baseline,Hp-I,0.0,0.0,1106.9,2.39,105.31,966.59,105.31,0.0,0.0,"RECOMMENDED PRIMARY FORCING (Physically Defensible, Preserves RACMO Climatology)"
+Zero_Correction_Primary_Baseline,I-Ipp,0.0,0.0,884.6,19.64,100.32,2016.22,100.32,0.0,0.0,"RECOMMENDED PRIMARY FORCING (Physically Defensible, Preserves RACMO Climatology)"
+Zero_Correction_Primary_Baseline,Ipp-J,0.0,0.0,1101.3,9.97,23.11,402.82,23.11,0.0,0.0,"RECOMMENDED PRIMARY FORCING (Physically Defensible, Preserves RACMO Climatology)"
+Zero_Correction_Primary_Baseline,Domain A Unified Total,0.0,0.0,1047.7,8.66,228.73,1058.65,228.73,0.0,0.0,"RECOMMENDED PRIMARY FORCING (Physically Defensible, Preserves RACMO Climatology)"
+Lower_Lapse_Rate_Sensitivity,Hp-I,0.4,-1.0,1106.9,2.39,105.31,967.43,105.4,0.092,0.09,SENSITIVITY EXPERIMENT (50% Attenuated van Wessem Parameterization)
+Lower_Lapse_Rate_Sensitivity,I-Ipp,0.4,-1.0,884.6,19.64,100.32,2023.91,100.71,0.382,0.38,SENSITIVITY EXPERIMENT (50% Attenuated van Wessem Parameterization)
+Lower_Lapse_Rate_Sensitivity,Ipp-J,0.4,-1.0,1101.3,9.97,23.11,406.47,23.31,0.21,0.91,SENSITIVITY EXPERIMENT (50% Attenuated van Wessem Parameterization)
+Lower_Lapse_Rate_Sensitivity,Domain A Unified Total,0.4,-1.0,1047.7,8.66,228.73,1061.81,229.42,0.684,0.3,SENSITIVITY EXPERIMENT (50% Attenuated van Wessem Parameterization)
+Reported_Nominal_Lapse_Rate,Hp-I,0.8,-2.0,1106.9,2.39,105.31,968.27,105.49,0.183,0.17,SENSITIVITY EXPERIMENT (Nominal van Wessem 2016 Parameterization)
+Reported_Nominal_Lapse_Rate,I-Ipp,0.8,-2.0,884.6,19.64,100.32,2031.6,101.09,0.765,0.76,SENSITIVITY EXPERIMENT (Nominal van Wessem 2016 Parameterization)
+Reported_Nominal_Lapse_Rate,Ipp-J,0.8,-2.0,1101.3,9.97,23.11,410.13,23.52,0.419,1.81,SENSITIVITY EXPERIMENT (Nominal van Wessem 2016 Parameterization)
+Reported_Nominal_Lapse_Rate,Domain A Unified Total,0.8,-2.0,1047.7,8.66,228.73,1064.97,230.1,1.368,0.6,SENSITIVITY EXPERIMENT (Nominal van Wessem 2016 Parameterization)
+Higher_Lapse_Rate_Sensitivity,Hp-I,1.2,-3.0,1106.9,2.39,105.31,969.11,105.58,0.275,0.26,SENSITIVITY EXPERIMENT (150% Amplified Greenland-Style Parameterization)
+Higher_Lapse_Rate_Sensitivity,I-Ipp,1.2,-3.0,884.6,19.64,100.32,2039.28,101.47,1.147,1.14,SENSITIVITY EXPERIMENT (150% Amplified Greenland-Style Parameterization)
+Higher_Lapse_Rate_Sensitivity,Ipp-J,1.2,-3.0,1101.3,9.97,23.11,413.78,23.73,0.629,2.72,SENSITIVITY EXPERIMENT (150% Amplified Greenland-Style Parameterization)
+Higher_Lapse_Rate_Sensitivity,Domain A Unified Total,1.2,-3.0,1047.7,8.66,228.73,1068.14,230.78,2.051,0.9,SENSITIVITY EXPERIMENT (150% Amplified Greenland-Style Parameterization)

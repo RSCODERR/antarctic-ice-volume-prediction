@@ -1,0 +1,9 @@
+Model_Name,Physical_Samples_N,Pooled_RMSE,Pooled_MAE,Pooled_Mean_Bias,Pooled_R2,Domain_A_Agg_RMSE,Domain_A_Agg_MAE,Domain_A_Agg_Bias,Domain_A_Agg_R2
+M2_Bayesian_Ridge_Weighted,60,14.515,12.089,3.495,-0.023,37.862,32.33,10.484,-0.0307
+M5_Gradient_Boosting,60,14.566,11.905,3.607,-0.0303,38.951,32.153,10.821,-0.0908
+M4_Random_Forest,60,14.595,11.999,3.438,-0.0344,38.776,31.802,10.313,-0.081
+M0_Historical_Mean,60,14.704,12.361,3.704,-0.0499,38.751,32.961,11.111,-0.0796
+M6_Gaussian_Process,60,14.772,12.4,3.704,-0.0597,38.75,32.96,11.111,-0.0796
+M2_Bayesian_Ridge,60,14.773,12.401,3.704,-0.0598,38.752,32.963,11.111,-0.0797
+M3_ElasticNet,60,14.904,12.538,3.646,-0.0788,39.273,33.499,10.937,-0.109
+M0_Persistence,60,21.83,16.882,0.17,-1.3142,60.455,50.56,0.51,-1.6277

@@ -1,0 +1,7 @@
+Risk_ID,Risk_Description,Severity_Pre_Mitigation,Verification_Test,Mitigation_Applied,Current_Status,Post_Mitigation_Severity
+RISK-1,Flux dimensionality mismatch (m^3/s vs kg/s),HIGH,TEST-1 TEST-2 TEST-3,Standardized on Option B (Mass flux kg/s) with Option A (m^3/s) verified; SMB in m/s ice eq,RESOLVED,VERY_LOW
+RISK-2,Projected vs WGS84 Riemannian divergence inconsistency,HIGH,TEST-5,Decoupled projected vs Riemannian divergence; proved u_phys = k * grad^perp Psi is divergence-free,RESOLVED,VERY_LOW
+RISK-3,Omitted metric scale factor causing volume drift,HIGH,TEST-5,Single-metric conversion dA_true=dx*dy/k^2; ds_true=ds/k applied exactly once (< 1.8e-16 drift),RESOLVED,VERY_LOW
+RISK-4,AMR 2:1 interface non-conservative mass leakage,MEDIUM,TEST-2,Composite quadrature on sub-faces matching coarse macro-face (< 1e-14 kg/s residual),RESOLVED,VERY_LOW
+RISK-5,Cut-cell mass imbalance at rock nunatak boundaries,MEDIUM,TEST-3,Exact geometric face fractions beta_f enforce divergence theorem (< 1e-14 kg/s residual),RESOLVED,VERY_LOW
+RISK-6,Discrete VAF jump during grounding line retreat,HIGH,TEST-6,Discrete ungrounding remapping term Delta M_remap closes discrete VAF budget (< 1e-12),RESOLVED,VERY_LOW

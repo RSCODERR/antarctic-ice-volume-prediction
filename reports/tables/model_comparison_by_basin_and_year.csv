@@ -1,0 +1,81 @@
+Validation_Year,Basin_ID,y_true_km3_yr,pred_BRW_km3_yr,res_BRW_km3_yr,sqerr_BRW,pred_Historical_Mean_km3_yr,res_Historical_Mean_km3_yr,sqerr_Historical_Mean,pred_Persistence_km3_yr,res_Persistence_km3_yr,sqerr_Persistence,SqErr_Reduction_BRW_vs_Mean,Annual_Model_Winner,Climate_and_Glaciological_Context
+1995,Hp-I,-3.12,-3.814,-0.694,0.482,-6.534,-3.414,11.654,-16.7,-13.58,184.416,11.171,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+1995,I-Ipp,-3.92,-3.814,0.106,0.011,-4.822,-0.902,0.815,-11.23,-7.31,53.436,0.803,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+1995,Ipp-J,-6.26,-3.814,2.446,5.981,-2.321,3.939,15.519,-5.39,0.87,0.757,9.537,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+1996,Hp-I,7.54,-3.88,-11.42,130.428,-6.333,-13.873,192.458,-3.12,-10.66,113.636,62.031,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+1996,I-Ipp,2.03,-3.881,-5.911,34.934,-4.769,-6.799,46.232,-3.92,-5.95,35.402,11.298,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+1996,Ipp-J,-2.08,-3.88,-1.8,3.242,-2.552,-0.472,0.223,-6.26,-4.18,17.472,-3.019,M0_Historical_Mean,Standard Interannual Fluctuation
+1997,Hp-I,-22.64,-3.63,19.01,361.387,-5.562,17.078,291.65,7.54,30.18,910.832,-69.736,M0_Historical_Mean,Extreme El Niño / ENSO Phase Shift
+1997,I-Ipp,-15.4,-3.63,11.77,138.536,-4.392,11.008,121.183,2.03,17.43,303.805,-17.353,M0_Historical_Mean,Extreme El Niño / ENSO Phase Shift
+1997,Ipp-J,-12.97,-3.63,9.34,87.239,-2.526,10.444,109.075,-2.08,10.89,118.592,21.836,M2_Bayesian_Ridge_Weighted,Extreme El Niño / ENSO Phase Shift
+1998,Hp-I,15.25,-4.226,-19.476,379.312,-6.461,-21.711,471.37,-22.64,-37.89,1435.652,92.058,M2_Bayesian_Ridge_Weighted,Extreme El Niño / ENSO Phase Shift
+1998,I-Ipp,6.15,-4.226,-10.376,107.658,-4.971,-11.121,123.678,-15.4,-21.55,464.403,16.02,M2_Bayesian_Ridge_Weighted,Extreme El Niño / ENSO Phase Shift
+1998,Ipp-J,1.26,-4.226,-5.486,30.094,-3.076,-4.336,18.799,-12.97,-14.23,202.493,-11.294,M0_Historical_Mean,Extreme El Niño / ENSO Phase Shift
+1999,Hp-I,18.96,-3.778,-22.738,517.02,-5.375,-24.335,592.217,15.25,-3.71,13.764,75.197,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+1999,I-Ipp,8.13,-3.778,-11.908,141.803,-4.415,-12.545,157.377,6.15,-1.98,3.92,15.574,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+1999,Ipp-J,2.86,-3.778,-6.638,44.064,-2.859,-5.719,32.707,1.26,-1.6,2.56,-11.357,M0_Historical_Mean,Standard Interannual Fluctuation
+2000,Hp-I,-8.41,-3.279,5.131,26.323,-4.217,4.193,17.584,18.96,27.37,749.117,-8.739,M0_Historical_Mean,Standard Interannual Fluctuation
+2000,I-Ipp,-7.75,-3.279,4.471,19.986,-3.818,3.932,15.464,8.13,15.88,252.174,-4.522,M0_Historical_Mean,Standard Interannual Fluctuation
+2000,Ipp-J,-7.08,-3.279,3.801,14.444,-2.587,4.493,20.19,2.86,9.94,98.804,5.746,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2001,Hp-I,12.93,-3.537,-16.467,271.178,-4.407,-17.337,300.581,-8.41,-21.34,455.396,29.404,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2001,I-Ipp,4.47,-3.537,-8.007,64.119,-3.996,-8.466,71.679,-7.75,-12.22,149.328,7.56,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2001,Ipp-J,0.78,-3.537,-4.317,18.64,-2.791,-3.571,12.751,-7.08,-7.86,61.78,-5.889,M0_Historical_Mean,Standard Interannual Fluctuation
+2002,Hp-I,-19.16,-3.127,16.033,257.041,-3.653,15.507,240.452,12.93,32.09,1029.768,-16.589,M0_Historical_Mean,Larsen B Ice Shelf Collapse Transition
+2002,I-Ipp,-14.16,-3.128,11.032,121.715,-3.628,10.532,110.918,4.47,18.63,347.077,-10.797,M0_Historical_Mean,Larsen B Ice Shelf Collapse Transition
+2002,Ipp-J,-15.5,-3.128,12.372,153.078,-2.636,12.864,165.491,0.78,16.28,265.038,12.414,M2_Bayesian_Ridge_Weighted,Larsen B Ice Shelf Collapse Transition
+2003,Hp-I,-5.08,-3.784,1.296,1.681,-4.3,0.78,0.609,-19.16,-14.08,198.246,-1.072,M0_Historical_Mean,Standard Interannual Fluctuation
+2003,I-Ipp,-6.18,-3.784,2.396,5.743,-4.067,2.113,4.464,-14.16,-7.98,63.68,-1.279,M0_Historical_Mean,Standard Interannual Fluctuation
+2003,Ipp-J,-14.74,-3.784,10.956,120.044,-3.172,11.568,133.826,-15.5,-0.76,0.578,13.782,M2_Bayesian_Ridge_Weighted,Post-Larsen-B Dynamic Discharge Acceleration Era
+2004,Hp-I,11.81,-4.097,-15.907,253.043,-4.331,-16.141,260.525,-5.08,-16.89,285.272,7.482,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2004,I-Ipp,3.43,-4.097,-7.527,56.661,-4.152,-7.582,57.481,-6.18,-9.61,92.352,0.82,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2004,Ipp-J,-12.92,-4.097,8.823,77.839,-3.634,9.286,86.222,-14.74,-1.82,3.312,8.383,M2_Bayesian_Ridge_Weighted,Post-Larsen-B Dynamic Discharge Acceleration Era
+2005,Hp-I,-9.27,-4.047,5.223,27.285,-3.71,5.56,30.914,11.81,21.08,444.366,3.629,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2005,I-Ipp,-8.73,-4.047,4.683,21.935,-3.86,4.87,23.717,3.43,12.16,147.866,1.782,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2005,Ipp-J,-25.12,-4.047,21.073,444.087,-3.992,21.128,446.412,-12.92,12.2,148.84,2.325,M2_Bayesian_Ridge_Weighted,Post-Larsen-B Dynamic Discharge Acceleration Era
+2006,Hp-I,12.15,-4.607,-16.757,280.797,-3.916,-16.066,258.114,-9.27,-21.42,458.816,-22.683,M0_Historical_Mean,Extreme Snow Drought / Negative SAM Anomaly
+2006,I-Ipp,3.46,-4.607,-8.067,65.076,-4.04,-7.5,56.256,-8.73,-12.19,148.596,-8.82,M0_Historical_Mean,Extreme Snow Drought / Negative SAM Anomaly
+2006,Ipp-J,-21.63,-4.607,17.023,289.78,-4.774,16.856,284.122,-25.12,-3.49,12.18,-5.658,M0_Historical_Mean,Extreme Snow Drought / Negative SAM Anomaly
+2007,Hp-I,-36.35,-4.708,31.642,1001.214,-3.342,33.008,1089.519,12.15,48.5,2352.25,88.305,M2_Bayesian_Ridge_Weighted,Extreme Snow Drought / Negative SAM Anomaly
+2007,I-Ipp,-24.68,-4.708,19.972,398.877,-3.772,20.907,437.124,3.46,28.14,791.86,38.246,M2_Bayesian_Ridge_Weighted,Extreme Snow Drought / Negative SAM Anomaly
+2007,Ipp-J,-37.01,-4.709,32.301,1043.379,-5.376,31.634,1000.705,-21.63,15.38,236.544,-42.674,M0_Historical_Mean,Extreme Snow Drought / Negative SAM Anomaly
+2008,Hp-I,18.83,-5.841,-24.671,608.634,-4.48,-23.31,543.372,-36.35,-55.18,3044.832,-65.262,M0_Historical_Mean,Standard Interannual Fluctuation
+2008,I-Ipp,6.75,-5.84,-12.59,158.51,-4.493,-11.243,126.415,-24.68,-31.43,987.845,-32.094,M0_Historical_Mean,Standard Interannual Fluctuation
+2008,Ipp-J,-15.11,-5.841,9.269,85.92,-6.467,8.643,74.703,-37.01,-21.9,479.61,-11.216,M0_Historical_Mean,Post-Larsen-B Dynamic Discharge Acceleration Era
+2009,Hp-I,-26.38,-5.676,20.704,428.637,-3.703,22.677,514.231,18.83,45.21,2043.944,85.594,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2009,I-Ipp,-19.34,-5.676,13.664,186.699,-4.119,15.221,231.689,6.75,26.09,680.688,44.99,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2009,Ipp-J,-30.27,-5.677,24.593,604.814,-6.755,23.515,552.955,-15.11,15.16,229.826,-51.859,M0_Historical_Mean,Post-Larsen-B Dynamic Discharge Acceleration Era
+2010,Hp-I,24.55,-6.43,-30.98,959.762,-4.435,-28.985,840.121,-26.38,-50.93,2593.865,-119.641,M0_Historical_Mean,Record Accumulation Surge Year
+2010,I-Ipp,9.67,-6.43,-16.1,259.195,-4.61,-14.28,203.909,-19.34,-29.01,841.58,-55.286,M0_Historical_Mean,Record Accumulation Surge Year
+2010,Ipp-J,-10.0,-6.431,3.569,12.74,-7.514,2.486,6.182,-30.27,-20.27,410.873,-6.557,M0_Historical_Mean,Record Accumulation Surge Year
+2011,Hp-I,-29.98,-6.1,23.88,570.274,-3.529,26.451,699.652,24.55,54.53,2973.521,129.378,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2011,I-Ipp,-21.75,-6.099,15.651,244.939,-4.163,17.587,309.287,9.67,31.42,987.216,64.348,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2011,Ipp-J,-28.67,-6.1,22.57,509.418,-7.591,21.079,444.314,-10.0,18.67,348.569,-65.104,M0_Historical_Mean,Post-Larsen-B Dynamic Discharge Acceleration Era
+2012,Hp-I,-22.24,-6.809,15.431,238.103,-4.331,17.909,320.746,-29.98,-7.74,59.908,82.643,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2012,I-Ipp,-17.49,-6.809,10.681,114.077,-4.696,12.794,163.677,-21.75,-4.26,18.148,49.601,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2012,Ipp-J,-24.41,-6.81,17.6,309.774,-8.23,16.18,261.792,-28.67,-4.26,18.148,-47.981,M0_Historical_Mean,Post-Larsen-B Dynamic Discharge Acceleration Era
+2013,Hp-I,-10.45,-7.309,3.141,9.867,-4.857,5.593,31.278,-22.24,-11.79,139.004,21.41,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2013,I-Ipp,-10.92,-7.309,3.611,13.043,-5.073,5.847,34.192,-17.49,-6.57,43.165,21.149,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2013,Ipp-J,-18.68,-7.309,11.371,129.305,-8.706,9.974,99.483,-24.41,-5.73,32.833,-29.822,M0_Historical_Mean,Post-Larsen-B Dynamic Discharge Acceleration Era
+2014,Hp-I,-12.54,-7.548,4.992,24.924,-5.017,7.523,56.593,-10.45,2.09,4.368,31.67,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2014,I-Ipp,-11.66,-7.547,4.113,16.918,-5.24,6.42,41.22,-10.92,0.74,0.548,24.302,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2014,Ipp-J,-19.32,-7.548,11.772,138.587,-8.991,10.329,106.691,-18.68,0.64,0.41,-31.895,M0_Historical_Mean,Post-Larsen-B Dynamic Discharge Acceleration Era
+1995,Domain_A,-13.3,-11.443,1.857,3.448,-13.677,-0.377,0.142,-33.32,-20.02,400.8,-3.306,M0_Historical_Mean,Standard Interannual Fluctuation
+1996,Domain_A,7.49,-11.641,-19.131,366.013,-13.655,-21.145,447.099,-13.3,-20.79,432.224,81.085,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+1997,Domain_A,-51.01,-10.89,40.12,1609.653,-12.48,38.53,1484.561,7.49,58.5,3422.25,-125.092,M0_Historical_Mean,Extreme El Niño / ENSO Phase Shift
+1998,Domain_A,22.66,-12.678,-35.338,1248.741,-14.508,-37.168,1381.452,-51.01,-73.67,5427.269,132.712,M2_Bayesian_Ridge_Weighted,Extreme El Niño / ENSO Phase Shift
+1999,Domain_A,29.950000000000003,-11.334,-41.284,1704.389,-12.649,-42.6,1814.717,22.66,-7.29,53.144,110.329,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2000,Domain_A,-23.240000000000002,-9.838,13.402,179.605,-10.621,12.619,159.24,29.95,53.19,2829.176,-20.365,M0_Historical_Mean,Standard Interannual Fluctuation
+2001,Domain_A,18.18,-10.612,-28.792,828.999,-11.195,-29.375,862.864,-23.24,-41.42,1715.616,33.865,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2002,Domain_A,-48.82,-9.383,39.437,1555.308,-9.917,38.903,1513.413,18.18,67.0,4489.0,-41.895,M0_Historical_Mean,Larsen B Ice Shelf Collapse Transition
+2003,Domain_A,-26.0,-11.351,14.649,214.603,-11.538,14.462,209.14,-48.82,-22.82,520.752,-5.464,M0_Historical_Mean,Standard Interannual Fluctuation
+2004,Domain_A,2.3200000000000003,-12.292,-14.612,213.512,-12.117,-14.437,208.421,-26.0,-28.32,802.022,-5.091,M0_Historical_Mean,Standard Interannual Fluctuation
+2005,Domain_A,-43.120000000000005,-12.14,30.98,959.778,-11.562,31.558,995.936,2.32,45.44,2064.794,36.158,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2006,Domain_A,-6.02,-13.821,-7.801,60.856,-12.73,-6.71,45.029,-43.12,-37.1,1376.41,-15.827,M0_Historical_Mean,Extreme Snow Drought / Negative SAM Anomaly
+2007,Domain_A,-98.03999999999999,-14.125,83.915,7041.771,-12.491,85.549,7318.68,-6.02,92.02,8467.68,276.909,M2_Bayesian_Ridge_Weighted,Extreme Snow Drought / Negative SAM Anomaly
+2008,Domain_A,10.469999999999999,-17.521,-27.991,783.513,-15.441,-25.911,671.364,-98.04,-108.51,11774.42,-112.149,M0_Historical_Mean,Standard Interannual Fluctuation
+2009,Domain_A,-75.99,-17.03,58.96,3476.316,-14.577,61.413,3771.557,10.47,86.46,7475.332,295.241,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2010,Domain_A,24.22,-19.29,-43.51,1893.148,-16.558,-40.778,1662.851,-75.99,-100.21,10042.044,-230.297,M0_Historical_Mean,Record Accumulation Surge Year
+2011,Domain_A,-80.4,-18.299,62.101,3856.563,-15.284,65.116,4240.126,24.22,104.62,10945.344,383.563,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2012,Domain_A,-64.14,-20.428,43.712,1910.708,-17.257,46.883,2198.019,-80.4,-16.26,264.388,287.311,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2013,Domain_A,-40.05,-21.926,18.124,328.477,-18.636,21.414,458.564,-64.14,-24.09,580.328,130.088,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation
+2014,Domain_A,-43.519999999999996,-22.642,20.878,435.883,-19.248,24.272,589.144,-40.05,3.47,12.041,153.261,M2_Bayesian_Ridge_Weighted,Standard Interannual Fluctuation

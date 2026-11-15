@@ -1,0 +1,94 @@
+import os, hashlib, shutil, csv
+
+if not os.path.exists('reports') and os.path.exists('antarctic-ice-volume-prediction'):
+    os.chdir('antarctic-ice-volume-prediction')
+
+brain_dir = 'C:/Users/akash/.gemini/antigravity/brain/52ad6ae8-887d-48db-85e7-7d53f431979f'
+repo_report = os.path.join('reports', 'phase5_stage4_1_1_data_and_environment_validation_report.md')
+brain_report = os.path.join(brain_dir, 'phase5_stage4_1_1_data_and_environment_validation_report.md')
+
+template_path = os.path.join('scratch', 'stage4_1_1_report_template.md')
+
+table_files = [
+    'phase5_stage4_1_1_verified_data_inventory.csv',
+    'phase5_stage4_1_1_acquisition_manifest.csv',
+    'phase5_stage4_1_1_downloaded_file_checksums.csv',
+    'phase5_stage4_1_1_velocity_uncertainty_audit.csv',
+    'phase5_stage4_1_1_racmo_mass_flux_audit.csv',
+    'phase5_stage4_1_1_preprocessing_validation.csv',
+    'phase5_stage4_1_1_extended_shelf_readiness.csv',
+    'phase5_stage4_1_1_petsc_environment_validation.csv',
+    'phase5_stage4_1_1_mismip_plus_governance_sequence.csv',
+    'phase5_stage4_1_1_risk_register.csv'
+]
+
+def get_sha256(filepath):
+    h = hashlib.sha256()
+    with open(filepath, 'rb') as f:
+        while chunk := f.read(65536):
+            h.update(chunk)
+    return h.hexdigest()
+
+table_hashes = {}
+for tf in table_files:
+    repo_tf = os.path.join('reports', 'tables', tf)
+    table_hashes[tf] = get_sha256(repo_tf)
+
+with open(template_path, 'r', encoding='utf-8') as f:
+    content = f.read()
+
+for tf, sha in table_hashes.items():
+    prefix = tf.split('.')[0]
+    # Replace in table
+    # find lines matching the file name
+    content = content.replace(f"`{sha[:8]}...`", f"`{sha}`")
+
+with open(repo_report, 'w', encoding='utf-8') as f:
+    f.write(content)
+
+shutil.copyfile(repo_report, brain_report)
+print("Copied report to workspace and brain mirror.")
+
+# Build manifest
+manifest_rows = []
+rep_sha = get_sha256(repo_report)
+brain_rep_sha = get_sha256(brain_report)
+rep_size = os.path.getsize(repo_report)
+manifest_rows.append([
+    'phase5_stage4_1_1_data_and_environment_validation_report.md',
+    rep_sha,
+    rep_size,
+    rep_sha == brain_rep_sha,
+    os.path.abspath(repo_report).replace('\\', '/'),
+    brain_report.replace('\\', '/')
+])
+
+for tf in table_files:
+    repo_tf = os.path.join('reports', 'tables', tf)
+    brain_tf = os.path.join(brain_dir, 'tables', tf)
+    sha = table_hashes[tf]
+    b_sha = get_sha256(brain_tf)
+    sz = os.path.getsize(repo_tf)
+    manifest_rows.append([
+        tf,
+        sha,
+        sz,
+        sha == b_sha,
+        os.path.abspath(repo_tf).replace('\\', '/'),
+        brain_tf.replace('\\', '/')
+    ])
+
+manifest_repo = os.path.join('reports', 'tables', 'phase5_stage4_1_1_file_hashes.csv')
+manifest_brain = os.path.join(brain_dir, 'tables', 'phase5_stage4_1_1_file_hashes.csv')
+
+with open(manifest_repo, 'w', newline='', encoding='utf-8') as f:
+    writer = csv.writer(f)
+    writer.writerow(['File_Name', 'SHA256_Hash', 'Byte_Size', 'Brain_Mirror_Matches', 'Workspace_Path', 'Brain_Path'])
+    writer.writerows(manifest_rows)
+
+shutil.copyfile(manifest_repo, manifest_brain)
+print("File hashes manifest written and mirrored.")
+
+for row in manifest_rows:
+    print(f"{row[0]}: {row[1]} (Size: {row[2]} bytes, Match: {row[3]})")
+

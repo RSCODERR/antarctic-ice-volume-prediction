@@ -1,0 +1,4 @@
+Mesh_Configuration,Active_Cell_Count,Velocity_DOFs,Sparse_Jacobian_Nonzeros,Matrix_Memory_Footprint_MB,Peak_RAM_Direct_LU_GB,Peak_RAM_Iterative_GMRES_GB,Target_Solver_Engine,Feasibility_Verdict
+1.0 km Conservative Macro-Mesh (Uniform),365534,731068,~18.2 Million nonzeros (25 nonzeros/row),146.2,3.2,1.4,PETSc SNES (Newtonls) / SciPy Splu Fallback,100% FEASIBLE on Standard Workstation (16 GB RAM)
+500 m Native Uniform Grid (Full Domain),1401226,2802452,~70.1 Million nonzeros (25 nonzeros/row),560.8,14.8,4.6,PETSc Distributed Parallel MPI (MUMPS / BoomerAMG),FEASIBLE with Iterative GMRES; Direct LU near RAM limit
+Adaptive Multi-Resolution AMR (500m Margins / 1km Interior),722751,1445502,~36.1 Million nonzeros,289.1,6.8,2.5,PETSc DMPlex / Quadtree AMR with BoomerAMG,"OPTIMAL ARCHITECTURE: 48.4% DOF reduction, full boundary fidelity"

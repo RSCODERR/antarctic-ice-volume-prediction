@@ -1,0 +1,5 @@
+Mesh_Configuration,Nominal_dx_km,Total_Active_Cells,Velocity_DOFs,Sparse_Matrix_Nonzeros,Memory_RAM_Estimate_GB,SciPy_Serial_Solve_Time_Estimate,Feasibility_Verdict
+Full 500 m Uniform Grid (Domain A Grounded Only),0.5,866358,1732716,15594444,8.5,35-60 min / Picard iteration (Computationally Intractable),REJECTED for serial Picard; requires PETSc MPI or Adaptive Refinement
+Full 500 m Uniform Grid (Coupled Grounded + Floating),0.5,1401226,2802452,25222068,14.2,>2 hours / iteration (High Risk of OOM),BLOCKED in serial SciPy; strictly gates PETSc parallel deployment
+1.0 km Uniform Grid (Subsampled 2x2),1.0,350306,700612,6305508,2.2,2-4 min / iteration,FEASIBLE for regional diagnostic testing; high memory overhead
+Multi-Resolution Adaptive Mesh (1 km Margins / 2-5 km Interior),1.0 - 5.0,85000,170000,1530000,0.8,15-30 s / iteration,RECOMMENDED LEVEL B TARGET: Resolves 100% of shear margins within SciPy memory limits

@@ -1,0 +1,13 @@
+Basin_ID,Partition_Name,Area_km2,Mean_Thickness_H_m,Mean_Velocity_u_m_yr,Advective_Flux_q_m2_yr,Longitudinal_Strain_Rate_yr_inv,Transverse_Strain_Rate_yr_inv,Advective_Thickness_Grad_Term_m_yr,Velocity_Divergence_Term_m_yr,Total_Flux_Divergence_m_yr,Mean_RACMO_SMB_m_ice_yr,Dynamic_to_SMB_Ratio_Pct,Dynamic_Classification,Physical_Model_Treatment
+Hp-I,Palmer Land Interior Dyer Plateau Remainder,28374.93,1200,4.5,5400,0.000045,0.000030,0.018,0.090,0.108,0.95,11.4,Dynamically Passive (Remainder),Passive SMB update valid in baseline; 11% divergence tested in Exp Rem-B
+Hp-I,Ryder / Bertram Trunk Stream,42150.20,950,185.0,175750,0.000420,0.000180,0.380,0.570,0.950,0.98,96.9,Dynamically Active (Flowline),1D SSA dynamic flowline with regularized basal sliding and Schoof GL flux
+Hp-I,Millett / Dyer Trunk Stream,38420.50,910,145.0,131950,0.000380,0.000150,0.320,0.482,0.802,0.89,90.1,Dynamically Active (Flowline),1D SSA dynamic flowline with regularized basal sliding and Schoof GL flux
+I-Ipp,Graham Land West Plateau Remainder,7351.53,520,18.5,9620,0.000650,0.000420,0.145,0.556,0.701,0.82,85.5,Dynamically Active (Spine),Passive SMB invalid; requires SIA-coupled remainder or tributary extension
+I-Ipp,Flanders Bay Fjord Network,14210.40,410,210.0,86100,0.001850,0.000850,0.520,1.107,1.627,1.15,141.5,Highly Dynamic (Fjord),1D SSA with steep fjord lateral wall drag (F_shape) and unbuttressed front
+I-Ipp,Beascochea / Barilari Fjord Network,16845.20,440,195.0,85800,0.001620,0.000780,0.460,1.056,1.516,1.08,140.4,Highly Dynamic (Fjord),1D SSA with steep fjord lateral wall drag (F_shape) and unbuttressed front
+I-Ipp,Bigo Bay Fjord Network,11350.60,390,175.0,68250,0.001550,0.000720,0.410,0.885,1.295,0.98,132.1,Highly Dynamic (Fjord),1D SSA with steep fjord lateral wall drag (F_shape) and unbuttressed front
+Ipp-J,Graham Land East Plateau Remainder,6907.62,490,16.0,7840,0.000580,0.000380,0.125,0.470,0.595,0.72,82.6,Dynamically Active (Spine),Passive SMB invalid; requires SIA-coupled remainder or tributary extension
+Ipp-J,Drygalski Glacier (Larsen A),15120.30,480,260.0,124800,0.002100,0.000950,0.610,1.464,2.074,0.68,305.0,Surging / Post-Collapse,1D SSA with unbuttressed Schoof GL boundary condition (post-1995 regime)
+Ipp-J,Crane Glacier (Larsen B),18450.40,510,320.0,163200,0.002450,0.001100,0.740,1.811,2.551,0.65,392.5,Surging / Post-Collapse,1D SSA with unbuttressed Schoof GL boundary condition (post-2002 regime)
+Ipp-J,Flask / Leppard (Larsen C),16880.50,560,95.0,53200,0.000720,0.000350,0.280,0.599,0.879,0.62,141.8,Buttressed Outlet,1D SSA with buttressed Schoof GL boundary condition (theta_butt in [0.7 0.9])
+

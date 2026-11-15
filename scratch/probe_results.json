@@ -1,0 +1,76 @@
+{
+  "NSIDC-0720": [],
+  "NSIDC-0720_error": "'related_urls'",
+  "NSIDC-0761": [],
+  "NSIDC-0761_error": "'related_urls'",
+  "NSIDC-0498": [],
+  "NSIDC-0498_error": "'related_urls'",
+  "zenodo_7961733": {
+    "title": "Data set: Monthly averaged RACMO2.3p2 variables; Antarctic Peninsula",
+    "files": [
+      {
+        "key": "trds_monthlyS_XPEN055_ERAINx_RACMO2.3p2_197901_201908.nc",
+        "size_MB": 42.58189582824707,
+        "link": "https://zenodo.org/api/records/7961733/files/trds_monthlyS_XPEN055_ERAINx_RACMO2.3p2_197901_201908.nc/content"
+      },
+      {
+        "key": "rh2m_monthlyA_XPEN055_ERA5-3H_RACMO2.3p2_201601_202212.nc",
+        "size_MB": 21.538230895996094,
+        "link": "https://zenodo.org/api/records/7961733/files/rh2m_monthlyA_XPEN055_ERA5-3H_RACMO2.3p2_201601_202212.nc/content"
+      },
+      {
+        "key": "swsd_monthlyS_XPEN055_ERAINx_RACMO2.3p2_197901_201908.nc",
+        "size_MB": 94.96290016174316,
+        "link": "https://zenodo.org/api/records/7961733/files/swsd_monthlyS_XPEN055_ERAINx_RACMO2.3p2_197901_201908.nc/content"
+      },
+      {
+        "key": "rh2m_monthlyA_XPEN055_ERAINx_RACMO2.3p2_197901_201908.nc",
+        "size_MB": 112.28011417388916,
+        "link": "https://zenodo.org/api/records/7961733/files/rh2m_monthlyA_XPEN055_ERAINx_RACMO2.3p2_197901_201908.nc/content"
+      },
+      {
+        "key": "v10m_monthlyA_XPEN055_ERAINx_RACMO2.3p2_197901_201908.nc",
+        "size_MB": 158.76119899749756,
+        "link": "https://zenodo.org/api/records/7961733/files/v10m_monthlyA_XPEN055_ERAINx_RACMO2.3p2_197901_201908.nc/content"
+      }
+    ]
+  },
+  "zenodo_10007855": {
+    "title": "Data set: \"Higher Antarctic ice sheet accumulation and surface melt rates revealed at 2 km resolution\"",
+    "files": [
+      {
+        "key": "SMB-ANT-Sectors-1979-2021-RACMO2.3p2-ERA5-2km.txt",
+        "size_MB": 0.0023126602172851562,
+        "link": "https://zenodo.org/api/records/10007855/files/SMB-ANT-Sectors-1979-2021-RACMO2.3p2-ERA5-2km.txt/content"
+      },
+      {
+        "key": "Melt-ANT-Sectors-1979-2021-RACMO2.3p2-ERA5-2km.txt",
+        "size_MB": 0.0017957687377929688,
+        "link": "https://zenodo.org/api/records/10007855/files/Melt-ANT-Sectors-1979-2021-RACMO2.3p2-ERA5-2km.txt/content"
+      },
+      {
+        "key": "Melt-ANT-Sectors-1950-2014-RACMO2.3p2-CESM2-HIST-2km.txt",
+        "size_MB": 0.0026493072509765625,
+        "link": "https://zenodo.org/api/records/10007855/files/Melt-ANT-Sectors-1950-2014-RACMO2.3p2-CESM2-HIST-2km.txt/content"
+      },
+      {
+        "key": "Melt-ANT-Sectors-2015-2099-RACMO2.3p2-CESM2-SSP126-2km.txt",
+        "size_MB": 0.0035867691040039062,
+        "link": "https://zenodo.org/api/records/10007855/files/Melt-ANT-Sectors-2015-2099-RACMO2.3p2-CESM2-SSP126-2km.txt/content"
+      },
+      {
+        "key": "Melt-ANT-Sectors-2015-2099-RACMO2.3p2-CESM2-SSP245-2km.txt",
+        "size_MB": 0.0035924911499023438,
+        "link": "https://zenodo.org/api/records/10007855/files/Melt-ANT-Sectors-2015-2099-RACMO2.3p2-CESM2-SSP245-2km.txt/content"
+      }
+    ]
+  },
+  "its_live_ANT_G0240_2015.nc": {
+    "status": 404,
+    "size_MB": 0.0
+  },
+  "its_live_ANT_G0120_2015.nc": {
+    "status": 404,
+    "size_MB": 0.0
+  }
+}

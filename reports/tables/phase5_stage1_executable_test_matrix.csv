@@ -1,0 +1,13 @@
+Test_ID,Category,Test_Name,Target_Specification,Actual_Value,Tolerance,Status,Runtime_ms
+TEST_CONST_01,Dimensional & Governance,Domain A Frozen Baseline Audit,"dx=500m, N=866,358, Area=216,062.17 km²","dx=500m, N=866358, Area=216062.17km²",Exact match,PASS,0.003
+TEST_DRAG_01,Rheology & Friction,Basal Drag Divide Regularization β_b(0),4.634e14 Pa s m⁻¹ (Phase 5.2.1 arithmetic),4.6340e+14 Pa s m⁻¹,< 1.0% relative error,PASS,0.015
+TEST_LAT_01,Rheology & Friction,Lateral Rock-Wall Drag Formulation,(5 u / (A W))^(1/n) [No factor of 2 in denom],131297.36 Pa (vs correct 131297.36 Pa),< 1e-10 relative error,PASS,0.01
+TEST_GL_01,Grounding-Line Dynamics,Schoof Grounding-Line Flux Boundary Exponent,"q ∝ H^4.75 for n=3, m=1/3; 2^4.75 ≈ 26.91",2^4.75 = 26.9087,< 0.1% relative error,PASS,0.012
+TEST_CONS_01,Finite-Volume Continuity,Fixed-Boundary Steady Conservation (Zero Flux),ΔM_gr = 0.0 kg; residual < 1e-6,"ΔM_gr = -7.3360e+03 kg, Res = 0.0000e+00 kg",< 1e-7 relative mass change,PASS,1.25
+TEST_CONS_02,Finite-Volume Continuity,Fixed-Boundary SMB Mass Accumulation,ΔM_gr = dt · Mdot_SMB exactly,"ΔM_actual = 9.1700e+09 kg, Expected = 9.1700e+09 kg",< 1e-5 relative discrepancy,PASS,1.18
+TEST_RET_01,Moving-Boundary FGE-FR,Retreat Mass Reclassification to Floating Ledger,Ungrounded ice transferred to Floating_ledger; Res = 0.0,"Transferred = 2.5809e+12 kg, Res = 0.0000e+00 kg",Residual < 1e-5 · M_gr,PASS,3.42
+TEST_ADV_01,Moving-Boundary FGE-FR,Advance Mass Reclassification from Floating Ledger,Newly grounded ice drawn from Floating_ledger; Res = 0.0,"Drawn = 1.5230e+12 kg, Res = -7.8125e-03 kg",Residual < 1e-5 · M_gr,PASS,3.15
+TEST_ADC_01,Conservation Architecture,Advective Q_GL vs Boundary Migration Independence,Q_GL (advective flux) and dM_boundary (domain migration) independent,"Q_GL = 18.90 m³/s, dM_boundary = -2.5809e+12 kg",Algebraic orthogonality confirmed,PASS,0.01
+TEST_CFL_01,Numerical Robustness,Multi-Cell Grounding-Line Crossing CFL Guard,Raise CFLViolation if |g(n+1) - g(n)| > 1; no silent stepping,CFLViolation exception successfully trapped and verified,Mandatory failure on multi-cell jump,PASS,0.52
+TEST_10YR_01,Full Forward Integration,10-Year Continuous Integration Mass Closure (200 Steps),Every step satisfies discrete conservation residual; zero drift,Max residual = 3.65e-02 kg across 200 steps (10.0 yr),Residual < 1e-5 · M_gr on every step,PASS,52.4
+TEST_CONV_01,Numerical Convergence,Temporal Timestep Convergence Under Refinement,Error(dt=0.025) < Error(dt=0.05),"Err(0.05)=7.2312e-03m, Err(0.025)=3.5145e-03m (reduction 2.06x)",Monotonic convergence,PASS,8.12

@@ -1,0 +1,8 @@
+Audit_Item,Equation,Verification_Status,Technical_Details
+Mathematical Definition,"VAF = int_Omega max(0, H + (rho_w / rho_i) * min(0, b)) dA",VERIFIED (EXACT),Rigorous Archimedean formulation. Correctly distinguishes submarine beds (b < 0) from subaerial beds (b >= 0).
+Density Parameter Values,"rho_ice = 918.0 kg/m³, rho_water = 1028.0 kg/m³ (ratio = 1.1198257)",VERIFIED (EXACT),Matches Asay-Davis (2016) Table 1 exactly. (Distinct from BedMachine rho_ice = 917.0 kg/m³).
+Floating Ice Shelf Contribution,If H <= - (rho_w / rho_i) * b: H_af = 0.0,VERIFIED (EXACT),"np.maximum(0.0, ...) strictly sets floating cells to zero. Melting shelf ice causes zero direct VAF loss."
+Subaerial Grounded Contribution,"If b >= 0: min(0, b) = 0.0 => H_af = H",VERIFIED (EXACT),Ice resting on land above sea level contributes its full solid column thickness.
+Submarine Grounded Contribution,If b < 0 and H > H_flot: H_af = H - (- (rho_w / rho_i) * b),VERIFIED (EXACT),Only ice volume exceeding the displaced seawater volume counts toward sea-level potential.
+Spatial Integration & Units,VAF_km3 = sum(H_af) * dx * dy / 1.0e9,VERIFIED (EXACT),"dx = 10,000 m, dy = 8,888.89 m. Area = 8.88889e7 m². Division by 1e9 m³/km³ gives cubic kilometers."
+Sub-grid Weighting Discrepancy,Cell-centered vs f_gr weighted: |VAF_cell - VAF_subgrid| < 0.05 km³,VERIFIED (MINOR DIFFERENCE),"At grounding line, H_af -> 0 smoothly, so whether f_gr is multiplied introduces < 0.0002% difference."

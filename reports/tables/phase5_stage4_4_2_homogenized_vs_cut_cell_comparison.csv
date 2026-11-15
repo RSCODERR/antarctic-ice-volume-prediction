@@ -1,0 +1,4 @@
+Mesh_Treatment,Mesh_Resolution,Represented_Ice_Area_km2,Area_Representation_Error_Pct,Volume_Conservation_Error_Pct,Boundary_Flux_Truncation_Error_Pct,Computational_Cost_DOFs,Physical_Certification_Status
+Native Fine Reference (250m),250m x 250m (256 cells),12.0,0.0,0.0,0.0,256 elements,GOLD STANDARD REFERENCE
+Conservative Area-Fraction Macro-Mesh (1km),1000m x 1000m (16 macro-cells),12.0,0.0,0.0,8.4,16 elements (16x reduction),"FIRST-ORDER APPROXIMATION (Exact Volume, O(dx) Boundary Gradient Error)"
+Exact Geometric Cut-Cell Formulation (1km),1000m x 1000m with polygon clipping,12.0,0.0,0.0,0.0,16 elements + sub-polygon quadrature,EXACT HIGH-ACCURACY BENCHMARK

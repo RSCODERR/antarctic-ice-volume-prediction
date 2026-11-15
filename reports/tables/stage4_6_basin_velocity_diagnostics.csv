@@ -1,0 +1,5 @@
+Basin_Name,Basal_Friction_Status,Active_Grounded_Macro_Cells,Model_Mean_Speed_m_yr,Model_Median_Speed_m_yr,Model_IQR_Speed_m_yr,Model_Max_Speed_m_yr,Obs_0720_Mean_Speed_m_yr,Obs_0720_Median_Speed_m_yr,Obs_0720_Max_Speed_m_yr,Obs_0761_Mean_Speed_m_yr,Obs_0761_Median_Speed_m_yr,Obs_0761_Max_Speed_m_yr,Physical_Interpretability_Verdict
+Hp-I,CALIBRATED_FROZEN_RYDER,109512,111.92,102.4,82.26,4145.82,71.32,34.16,3098.0,66.13,31.17,2870.42,REALISTIC_INTERIOR_WITH_DRAINAGE_TROUGHS
+I-Ipp,UNRESOLVED_PRIOR,53269,248.23,94.04,180.42,81089.05,67.81,22.52,1462.39,65.22,21.02,1818.24,EXCESSIVE_VELOCITY_FROM_UNINVERTED_PRIOR
+Ipp-J,UNRESOLVED_PRIOR,58111,111.01,60.03,76.51,353749.32,20.53,8.13,499.05,17.95,6.8,343.75,EXCESSIVE_VELOCITY_FROM_UNINVERTED_PRIOR
+Domain A Unified Total,MIXED (Hp-I Frozen Ryder; I-Ipp & Ipp-J Unresolved Prior),220284,144.85,90.19,101.41,353749.32,56.1,21.27,3098.0,53.01,20.0,2870.42,DIAGNOSTIC_BASELINE_ESTABLISHED (Requires Stage 4.7 Regional Inversion)

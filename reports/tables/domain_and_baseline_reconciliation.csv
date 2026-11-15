@@ -1,0 +1,6 @@
+Spatial_Domain,Audited_Cell_Count,Draft_Clerical_Count,Discrepancy_Cells,Ground_Corrected_Area_km2,BM3_Ice_Eq_Baseline_km3,BM4_Ice_Eq_Baseline_km3,Inter_Product_Delta_km3,Status
+Domain A: Common Grounded Footprint (Primary Target),866358,863979,2379,216062.17,133497.59,140702.51,7204.92,"CONFIRMED AUDITED (866,358 cells = exactly 216,062.17 km2 and 133,497.59 / 140,702.51 km3 baselines)"
+Domain B1: Bedmap3-Only Candidate Nunataks,18628,18628,0,4608.52,620.32,0.0,-620.32,"CONFIRMED (Kept outside Domain A; tracked under Hypotheses H1, H2, H3)"
+Domain B2: Bedmap3-Only Floating Ice Shelf,2053,2053,0,506.37,133.85,0.0,-133.85,CONFIRMED (Strictly excluded from grounded targets)
+Domain B3: Bedmap3-Only Coastal Ocean / Waterline,1554,1554,0,376.58,30.43,0.0,-30.43,CONFIRMED (Strictly excluded from grounded targets)
+Bedmap3 Full Mainland Grounded Domain,888593,886214,2379,221553.64,134282.19,140702.51,6419.68,"CONFIRMED AUDITED (888,593 = 866,358 Domain A + 22,235 Domain B)"

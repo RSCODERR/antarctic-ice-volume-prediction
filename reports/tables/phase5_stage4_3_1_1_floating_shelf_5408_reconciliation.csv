@@ -1,0 +1,4 @@
+Ledger_Category,Stage_4_1_1_Table_7_Cells,Stage_4_3_1_1_Reconciled_Cells,Cell_Delta,Delta_Projected_Area_km2,Delta_Explanation
+"Five Primary Ice Shelf Systems (Larsen C, George VI, Wilkins, Bach, Stange)",417610,423018,5408,1352.0,Connected-component segmentation expanded boundaries to true fjord headwalls & grounding lines vs arbitrary Stage 4.1.1 manual cuts
+"Secondary & Dispersed Subsystems (Larsen D, Minor Tongues, Larsen A, Larsen B, Marguerite Bay, Ronne Margin)",117258,111850,-5408,-1352.0,"Stage 4.1.1 unlisted residual (117,258) included 5,408 cells that physically belong to Larsen C & George VI connected bodies"
+TOTAL FLOATING SHELF DOMAIN,534868,534868,0,0.0,"EXACT ZERO CLOSURE: Full 534,868 cells verified across both revisions"

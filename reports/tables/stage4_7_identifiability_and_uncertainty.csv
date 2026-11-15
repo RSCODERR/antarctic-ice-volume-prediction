@@ -1,0 +1,4 @@
+Basin,Parameter,Optimal_Value_Pa_m_s,Lower_95CI_Value_Pa_m_s,Upper_95CI_Value_Pa_m_s,Confidence_Interval_Width_dex,Hessian_Curvature_d2J,Condition_Number,Identifiability_Status,Dominant_Observational_Constraint,Glaciological_Limitation
+Hp-I (Palmer Land West),"C_bed,Hp-I",8168000.0,7200000.0,9200000.0,0.106,,1.0,FROZEN_REFERENCE_ANCHOR,Ryder Glacier grounding line calibration & George VI drainage,Preserved invariant per governance mandate; not free for inversion.
+I-Ipp (Graham Land),"C_bed,I-Ipp",12000000.0,9436540.03,15259830.36,0.2087,9.1804,0.11,STRONGLY_IDENTIFIABLE,Loubet and Graham Coast fjord drainage streams in NSIDC-0720,Unmodelled vertical shear bridging in steep alpine cliffs requires quality gating.
+Ipp-J (Palmer Land East),"C_bed,Ipp-J",15500000.0,12231184.77,19642414.41,0.2057,9.4511,0.11,STRONGLY_IDENTIFIABLE,Slow continental interior divide and Larsen C tributary flowlines,Cold continental divide thermal regime requires higher basal traction.

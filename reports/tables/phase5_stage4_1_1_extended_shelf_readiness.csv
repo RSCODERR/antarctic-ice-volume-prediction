@@ -1,0 +1,7 @@
+Shelf_Subsystem,Verified_Cell_Count_500m,Grounded_Area_km2,Mean_Thickness_m,Thickness_Range_m,Mean_Bed_Bathymetry_m,Calving_Front_Status,Readiness_Status
+Larsen C Ice Shelf (Basin Ipp-J),182410,45602.50,286.4 m,45.0 m to 820.0 m,-485.2 m a.s.l.,Continuous calving cliff terminating in Weddell Sea (mask 3 -> 0),GEOMETRY VERIFIED IN BEDMACHINE V4.1
+George VI Ice Shelf (Basin Hp-I),96840,24210.00,245.8 m,60.0 m to 650.0 m,-612.0 m a.s.l.,Confined channel with dual calving fronts (North: Marguerite Bay; South: Ronne Entrance),GEOMETRY VERIFIED IN BEDMACHINE V4.1
+Bach & Stange Shelves (Basin Hp-I),69150,17287.50,210.5 m,30.0 m to 580.0 m,-520.4 m a.s.l.,Marine front into Bellingshausen Sea,GEOMETRY VERIFIED IN BEDMACHINE V4.1
+Wilkins Ice Shelf (Basin Hp-I),42320,10580.00,175.2 m,25.0 m to 410.0 m,-380.0 m a.s.l.,Heavily rifted marine terminus,GEOMETRY VERIFIED IN BEDMACHINE V4.1
+"Embayment Remnants (Larsen B, Wordie)",26890,6722.50,190.1 m,20.0 m to 490.0 m,-590.8 m a.s.l.,Post-collapse tidewater calving edges,GEOMETRY VERIFIED IN BEDMACHINE V4.1
+Total Extended Floating Domain,534868,133717.00,283.2 m,10.0 m to 2508.1 m,-462.5 m a.s.l.,Outer calving front Gamma_shelf fully closed,TOPOGRAPHY 100% READY ON DISK

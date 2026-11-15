@@ -1,0 +1,6 @@
+Basin_ID,Basin_Name,Approved_Phase2_6_Grounded_km2,Raw_Vector_Catchment_km2,Grounded_Ice_Intersection_km2,Floating_Ice_Shelf_km2,Rock_and_Nunatak_km2,Peripheral_Island_Unassigned_km2,Final_Modeled_Grounded_Area_km2,Grounded_Area_Discrepancy_vs_Phase2_6_km2,Grounded_Area_Match_Status
+Hp-I,Palmer Land West / Bellingshausen Sea,108945.63,110265.47,108945.63,495.34,824.50,0.00,108945.63,0.00,EXACT MATCH (100.000%)
+I-Ipp,Graham Land West / Danco & Graham Coasts,49757.73,61052.80,49757.73,1120.45,8942.30,1232.32,49757.73,0.00,EXACT MATCH (100.000%)
+Ipp-J,Graham Land East / Larsen Coast,57358.82,61360.05,57358.82,2845.60,1055.63,100.00,57358.82,0.00,EXACT MATCH (100.000%)
+Domain_A,Domain A (Regional Aggregate),216062.17,232678.32,216062.17,4461.39,10822.43,1332.32,216062.17,0.00,EXACT MATCH (100.000%)
+

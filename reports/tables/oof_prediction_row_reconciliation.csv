@@ -1,0 +1,10 @@
+Model_Name,Validation_Years_N,Physical_Basin_Rows_N,Derived_Domain_A_Rows_N,Total_Rows_N,Duplicate_Keys_N,Missing_Predictions_N,Unexpected_Records_N,Row_Reconciliation_Verdict
+M0_Persistence,20,60,20,80,0,0,0,VERIFIED EXACT (60 Physical + 20 Domain A = 80 Rows)
+M0_Historical_Mean,20,60,20,80,0,0,0,VERIFIED EXACT (60 Physical + 20 Domain A = 80 Rows)
+M2_Bayesian_Ridge,20,60,20,80,0,0,0,VERIFIED EXACT (60 Physical + 20 Domain A = 80 Rows)
+M2_Bayesian_Ridge_Weighted,20,60,20,80,0,0,0,VERIFIED EXACT (60 Physical + 20 Domain A = 80 Rows)
+M3_ElasticNet,20,60,20,80,0,0,0,VERIFIED EXACT (60 Physical + 20 Domain A = 80 Rows)
+M4_Random_Forest,20,60,20,80,0,0,0,VERIFIED EXACT (60 Physical + 20 Domain A = 80 Rows)
+M5_Gradient_Boosting,20,60,20,80,0,0,0,VERIFIED EXACT (60 Physical + 20 Domain A = 80 Rows)
+M6_Gaussian_Process,20,60,20,80,0,0,0,VERIFIED EXACT (60 Physical + 20 Domain A = 80 Rows)
+ALL_8_MODELS_COMBINED,20,480,160,640,0,0,0,100% RECONCILED: Exactly 480 Physical + 160 Diagnostic = 640 Total Rows

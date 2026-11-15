@@ -1,0 +1,4 @@
+Run_ID,Glacier_System,Basin_ID,Run_Description,C_bed_Value_log10_Pa_units,C_schoof,theta_buttress,A_glen,h_exp,kappa_shape,mu_buttress,Target_GL_Velocity_m_yr,Simulated_GL_Velocity_m_yr,Objective_Value_J,Run_Status
+RUN_STAGE3B1_RYDER_PRE,FL_HPI_01 (Ryder Glacier),Hp-I,Pre-calibration baseline diagnostic,7.0000 (1.000e7 Pa (m/s)^-1/3),0.61,1.00 (Intact shelf),3.5e-25,4.75,5.0,1.583,385.0 +- 18.03 m/yr,224.86 m/yr,39.443,BASELINE_UNFITTED
+RUN_STAGE3B1_RYDER_POST,FL_HPI_01 (Ryder Glacier),Hp-I,Optimal regularized least-squares fit,6.9121 +- 0.0152 (8.168e6 Pa (m/s)^-1/3),0.61,1.00 (Intact shelf),3.5e-25,4.75,5.0,1.583,385.0 +- 18.03 m/yr,384.95 m/yr,0.015,OPTIMAL_CONVERGED
+RUN_STAGE3B1_CRANE_AUDIT,FL_IPPJ_02 (Crane Glacier),Ipp-J,Preflight Synchronization Evaluation,7.0000 (Uncalibrated),0.61,0.00 (Post-collapse),3.5e-25,4.75,5.0,1.583,680.0 +- 25.00 m/yr,N/A (Excluded),N/A,PREFLIGHT_FAIL_DEFERRED

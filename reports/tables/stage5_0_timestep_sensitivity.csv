@@ -1,0 +1,5 @@
+Time_Step_dt_yr,Time_Step_Days,Number_of_Steps_Per_Year,Max_CFL_Number,Solver_Convergence_Status,Max_Local_Thickness_Update_m,Cumulative_Mass_Residual_Gt,Final_Grounded_Mass_Gt,Final_Floating_Mass_Gt,Total_Migrating_Cells_Annual,Grounded_Volume_Change_km3,Negative_Thickness_Violations,Wall_Clock_Time_sec,Stability_Verdict
+0.05,18.3,20,0.25,CONVERGED_AT_EACH_STEP,168.89,3.5359626338049566e-10,129777.83,35372.56,354,-73.39,0,6.9,"STABLE (CFL < 1.0, Exact Conservation)"
+0.1,36.5,10,0.5,CONVERGED_AT_EACH_STEP,337.77,2.702407186916389e-10,129776.68,35373.63,358,-74.64,0,3.38,"STABLE (CFL < 1.0, Exact Conservation)"
+0.25,91.3,4,1.25,CONVERGED_AT_EACH_STEP,844.44,4.280054428991079,129776.28,35376.61,362,-75.08,63,1.22,MARGINAL_CFL (Cliff local CFL >= 1.0)
+0.5,182.6,2,2.5,CONVERGED_AT_EACH_STEP,2351.83,24.90280951076373,129786.47,35382.28,344,-63.96,147,0.66,MARGINAL_CFL (Cliff local CFL >= 1.0)

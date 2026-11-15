@@ -1,0 +1,19 @@
+Manifest_ID,NetCDF_File,Variable_Name,Shape,Dtype,Memory_MB,Units,Missing_Value,SSA_Solver_Role,Diagnostic_Run_Readiness
+1,stage4_5_3_unified_physical_fields.nc,thickness,"(1700, 1300)",float64,17.68,m,-9999.0,Primary State Variable (Ice thickness H),READY_FOR_DIAGNOSTIC_RUN
+2,stage4_5_3_unified_physical_fields.nc,surface,"(1700, 1300)",float64,17.68,m,-9999.0,"Geometry / Surface Elevation s(x, y)",READY_FOR_DIAGNOSTIC_RUN
+3,stage4_5_3_unified_physical_fields.nc,bed,"(1700, 1300)",float64,17.68,m,-9999.0,"Geometry / Bedrock Elevation b(x, y)",READY_FOR_DIAGNOSTIC_RUN
+4,stage4_5_3_unified_physical_fields.nc,driving_stress,"(1700, 1300)",float64,17.68,Pa,-9999.0,RHS Gravitational Driving Force tau_d,READY_FOR_DIAGNOSTIC_RUN
+5,stage4_5_3_unified_physical_fields.nc,smb,"(1700, 1300)",float64,17.68,mm w.e. yr-1,-9999.0,Kinematic Mass Continuity Source Term a_dot,READY_FOR_DIAGNOSTIC_RUN
+6,stage4_5_3_unified_physical_fields.nc,vx_0720,"(1700, 1300)",float64,17.68,m yr-1,NaN,"Observational Inversion Target (u_obs,x)",READY_FOR_DIAGNOSTIC_RUN
+7,stage4_5_3_unified_physical_fields.nc,vy_0720,"(1700, 1300)",float64,17.68,m yr-1,NaN,"Observational Inversion Target (u_obs,y)",READY_FOR_DIAGNOSTIC_RUN
+8,stage4_5_3_unified_physical_fields.nc,error_0720,"(1700, 1300)",float64,17.68,m yr-1,NaN,Inversion Cost Function Weighting Matrix W_v,READY_FOR_DIAGNOSTIC_RUN
+9,stage4_5_3_unified_physical_fields.nc,vx_0761,"(1700, 1300)",float64,17.68,m yr-1,NaN,Multi-Year Velocity Benchmark / Target,READY_FOR_DIAGNOSTIC_RUN
+10,stage4_5_3_unified_physical_fields.nc,vy_0761,"(1700, 1300)",float64,17.68,m yr-1,NaN,Multi-Year Velocity Benchmark / Target,READY_FOR_DIAGNOSTIC_RUN
+11,stage4_5_3_unified_physical_fields.nc,c_bed_prior,"(1700, 1300)",float64,17.68,Pa (m s-1)^(-1/3),NaN,"Basal Friction Prior Field C_bed,prior",READY_FOR_DIAGNOSTIC_RUN
+12,stage4_5_3_unified_physical_fields.nc,c_bed_status,"(1700, 1300)",uint8,2.21,1 (flag),255,Parameter Identifiability Control Mask,READY_FOR_DIAGNOSTIC_RUN
+13,stage4_5_3_unified_physical_fields.nc,rheology_B,"(1700, 1300)",float64,17.68,Pa s^(1/3),-9999.0,Effective Viscosity Parameter B,READY_FOR_DIAGNOSTIC_RUN
+14,stage4_5_3_unified_physical_fields.nc,alpha_grounded,"(1700, 1300)",float64,17.68,1 (fraction),-9999.0,Finite Volume Partial Cell Grounded Area Fraction,READY_FOR_DIAGNOSTIC_RUN
+15,stage4_5_3_unified_physical_fields.nc,gl_proximity_mask,"(1700, 1300)",uint8,2.21,1 (flag),255,Grounding Line Boundary Flux Formulation Selector,READY_FOR_DIAGNOSTIC_RUN
+16,stage4_5_3_quality_masks.nc,quality_mask_nsidc0720,"(1700, 1300)",uint8,2.21,1 (flag),255,Obs Quality Filtering (Exclude non-direct obs from loss),READY_FOR_DIAGNOSTIC_RUN
+17,stage4_5_3_quality_masks.nc,quality_mask_nsidc0761,"(1700, 1300)",uint8,2.21,1 (flag),255,Obs Quality Filtering (Exclude voids and unaggregated),READY_FOR_DIAGNOSTIC_RUN
+18,stage4_5_3_quality_masks.nc,quality_mask_thickness,"(1700, 1300)",uint8,2.21,1 (flag),255,Geometry Source Provenance & Error Weighting,READY_FOR_DIAGNOSTIC_RUN
