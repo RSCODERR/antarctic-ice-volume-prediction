@@ -404,17 +404,35 @@ export const PredictionLabPage: React.FC = () => {
                     >
                       {historicalYearsList.map((yr) => (
                         <option key={yr} value={yr}>
-                          Year {yr} {yr >= 2016 ? '(Held-out Test)' : yr <= 2005 ? '(Training)' : '(Validation)'}
+                          Year {yr} {yr >= 2016 ? '(Held-out Test: 2016–2024)' : yr === 2015 ? '(Embargo Buffer 2: 2015)' : yr >= 2008 ? '(Validation: 2008–2014)' : yr >= 2006 ? '(Embargo Buffer 1: 2006–2007)' : '(Training: 1979–2005)'}
                         </option>
                       ))}
                     </select>
                   </div>
 
                   <div className="p-2.5 rounded border border-cryo-border bg-cryo-surface/40 flex flex-col justify-center">
-                    <span className="text-[10px] text-slate-400 uppercase tracking-wider">Split Partition</span>
-                    <span className="text-xs text-white font-semibold mt-0.5">
-                      {historicalData ? `${historicalData.split_status} (${historicalData.epoch})` : 'Loading...'}
-                    </span>
+                    <span className="text-[10px] text-slate-400 uppercase tracking-wider">Split Partition & Observational Epoch</span>
+                    <div className="text-xs text-white font-semibold mt-0.5">
+                      {historicalData ? (
+                        <>
+                          <span className={
+                            historicalData.split_status === 'TEST' ? 'text-emerald-400' :
+                            historicalData.split_status === 'VALIDATION' ? 'text-sky-400' :
+                            historicalData.split_status.includes('EMBARGO') ? 'text-amber-400' : 'text-slate-200'
+                          }>
+                            {historicalData.split_status === 'TEST' ? 'Held-Out Test (2016–2024)' :
+                             historicalData.split_status === 'VALIDATION' ? 'Validation (2008–2014)' :
+                             historicalData.split_status === 'TRAINING' ? 'Training (1979–2005)' :
+                             historicalData.split_status === 'EMBARGO_BUFFER_1' ? 'Embargo Buffer 1 (2006–2007)' :
+                             historicalData.split_status === 'EMBARGO_BUFFER_2' ? 'Embargo Buffer 2 (2015)' :
+                             historicalData.split_status}
+                          </span>
+                          <span className="text-[10px] text-slate-400 block mt-0.5 font-normal">
+                            Sensor Era: {historicalData.epoch}
+                          </span>
+                        </>
+                      ) : 'Loading...'}
+                    </div>
                   </div>
                 </div>
 

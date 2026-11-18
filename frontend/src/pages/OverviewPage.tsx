@@ -115,7 +115,7 @@ export const OverviewPage: React.FC = () => {
         <div>
           <div className="flex items-center gap-2 mb-1.5">
             <Badge variant="cyan">Academic Research Platform</Badge>
-            <Badge variant="neutral">Domain A (866,358 Cells)</Badge>
+            <Badge variant="neutral">Domain A (BedMachine v4.1 Baseline)</Badge>
           </div>
           <h1 className="text-2xl sm:text-3xl font-bold font-mono tracking-tight text-white">
             Antarctic Peninsula Ice Intelligence
@@ -136,7 +136,7 @@ export const OverviewPage: React.FC = () => {
           label="Total Grounded Area"
           value={overview.total_grounded_area_km2.toLocaleString()}
           unit="km²"
-          subtext="BedMachine v4.1 reconciled mask"
+          subtext="BedMachine v4.1 (866,358 cells)"
           icon={<Compass className="w-4 h-4" />}
           highlight
         />
@@ -144,7 +144,7 @@ export const OverviewPage: React.FC = () => {
           label="Baseline Ice Volume"
           value={overview.total_ice_volume_km3.toLocaleString()}
           unit="km³"
-          subtext="140,702.51 km³ solid-ice equivalent"
+          subtext="140,702.51 km³ solid eq (BedMachine v4.1)"
           icon={<Box className="w-4 h-4" />}
         />
         <StatCard
@@ -310,7 +310,8 @@ export const OverviewPage: React.FC = () => {
           <div className="space-y-3 text-xs font-mono text-slate-300 leading-relaxed">
             <p>
               The physical foundation employs a non-linear Shallow Shelf Approximation (SSA) solver discretized on a
-              regular finite-volume grid across 866,358 grounded cells in Antarctic Peninsula Domain A.
+              regular finite-volume grid across 866,358 grounded cells in Antarctic Peninsula Domain A, anchored to the authoritative
+              BedMachine Antarctica v4.1 geometry (216,062.17 km² grounded area, 140,702.51 km³ solid-ice volume).
             </p>
             <div className="grid grid-cols-2 gap-2 p-3 rounded bg-cryo-surface border border-cryo-border text-[11px]">
               <div>

@@ -409,10 +409,10 @@ export const FutureProjectionsPage: React.FC = () => {
                     onChange={(e) => handleToggle90(e.target.checked)}
                     className="w-3.5 h-3.5 rounded bg-slate-900 border-cryo-border text-cryo-cyan focus:ring-cryo-cyan focus:ring-offset-0"
                   />
-                  <span className="text-xs font-mono text-slate-300">Show 90% Risk Interval (q10–q90)</span>
+                  <span className="text-xs font-mono text-slate-300">Show Central 80% Prediction Interval (q10–q90)</span>
                 </label>
                 <p className="text-[10px] font-mono text-cryo-muted mt-1">
-                  68% interval (q16–q84) is displayed by default per scientific protocol.
+                  Central 68% prediction interval (q16–q84) is displayed by default per scientific protocol.
                 </p>
               </div>
             </div>
@@ -446,12 +446,13 @@ export const FutureProjectionsPage: React.FC = () => {
           </div>
         ) : (
           <div className="space-y-4">
-            <div className="h-[420px] w-full">
+            <div className="h-[420px] min-h-[420px] w-full">
               <ResponsiveContainer width="100%" height="100%">
                 <ComposedChart data={chartData} margin={{ top: 10, right: 30, left: 20, bottom: 20 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" opacity={0.6} />
                   <XAxis
                     dataKey="year"
+                    type="number"
                     stroke="#64748b"
                     tick={{ fill: '#94a3b8', fontSize: 11, fontFamily: 'monospace' }}
                     domain={[2015, 2100]}
@@ -460,6 +461,7 @@ export const FutureProjectionsPage: React.FC = () => {
                   <YAxis
                     stroke="#64748b"
                     tick={{ fill: '#94a3b8', fontSize: 11, fontFamily: 'monospace' }}
+                    domain={['auto', 'auto']}
                     label={{
                       value: targetMetric === 'vaf' ? 'ΔVAF (km³ ice)' : 'Sea-Level Rise SLE (mm)',
                       angle: -90,
@@ -477,28 +479,30 @@ export const FutureProjectionsPage: React.FC = () => {
                     wrapperStyle={{ paddingBottom: '12px', fontSize: '11px', fontFamily: 'monospace' }}
                   />
 
-                  {/* 90% Uncertainty Envelope (q10 - q90) */}
+                  {/* Central 80% Prediction Interval (q10 - q90) */}
                   {show90Envelope && (
                     <Area
-                      name="90% Risk Interval (q10–q90)"
+                      name="Central 80% Prediction Interval (q10–q90)"
                       dataKey="band90"
                       stroke="#818cf8"
                       strokeWidth={1}
                       strokeDasharray="2 2"
                       fill="#6366f1"
                       fillOpacity={0.12}
+                      isAnimationActive={false}
                     />
                   )}
 
-                  {/* 68% Uncertainty Envelope (q16 - q84, Default) */}
+                  {/* Central 68% Prediction Interval (q16 - q84, Default) */}
                   <Area
-                    name="68% Prediction Interval (q16–q84)"
+                    name="Central 68% Prediction Interval (q16–q84)"
                     dataKey="band68"
                     stroke="#38bdf8"
                     strokeWidth={1.5}
                     strokeDasharray="4 4"
                     fill="#0284c7"
                     fillOpacity={0.22}
+                    isAnimationActive={false}
                   />
 
                   {/* Median Line (q50) */}
@@ -510,6 +514,7 @@ export const FutureProjectionsPage: React.FC = () => {
                     strokeWidth={2.5}
                     dot={false}
                     activeDot={{ r: 5, fill: '#00f0ff', stroke: '#0f172a', strokeWidth: 2 }}
+                    isAnimationActive={false}
                   />
                 </ComposedChart>
               </ResponsiveContainer>
@@ -521,11 +526,11 @@ export const FutureProjectionsPage: React.FC = () => {
                 <span className="inline-block w-3 h-0.5 bg-cryo-cyan" />
                 <span>Solid Cyan: Median (q50)</span>
                 <span className="inline-block w-3 h-2 bg-sky-600/30 border border-sky-400 border-dashed ml-3" />
-                <span>Shaded Blue: 68% Envelope (q16–q84)</span>
+                <span>Shaded Blue: Central 68% Interval (q16–q84)</span>
                 {show90Envelope && (
                   <>
                     <span className="inline-block w-3 h-2 bg-indigo-600/20 border border-indigo-400 border-dotted ml-3" />
-                    <span>Shaded Purple: 90% Envelope (q10–q90)</span>
+                    <span>Shaded Purple: Central 80% Interval (q10–q90)</span>
                   </>
                 )}
               </div>
@@ -561,7 +566,7 @@ export const FutureProjectionsPage: React.FC = () => {
                     <span className="text-xs text-cryo-muted font-normal">km³</span>
                   </div>
                   <div className="text-[10px] text-slate-400 mt-1">
-                    68% CI: [{trajectoryData.summary_2050.delta_vaf_16th_km3.toFixed(1)}, {trajectoryData.summary_2050.delta_vaf_84th_km3.toFixed(1)}]
+                    Central 68% PI: [{trajectoryData.summary_2050.delta_vaf_16th_km3.toFixed(1)}, {trajectoryData.summary_2050.delta_vaf_84th_km3.toFixed(1)}]
                   </div>
                 </div>
 
@@ -573,13 +578,13 @@ export const FutureProjectionsPage: React.FC = () => {
                     <span className="text-xs text-cryo-muted font-normal">mm</span>
                   </div>
                   <div className="text-[10px] text-slate-400 mt-1">
-                    68% CI: [{trajectoryData.summary_2050.sle_16th_mm.toFixed(3)}, {trajectoryData.summary_2050.sle_84th_mm.toFixed(3)}]
+                    Central 68% PI: [{trajectoryData.summary_2050.sle_16th_mm.toFixed(3)}, {trajectoryData.summary_2050.sle_84th_mm.toFixed(3)}]
                   </div>
                 </div>
               </div>
 
               <div className="p-2.5 rounded bg-cryo-dark/80 border border-cryo-border/40 text-[11px] text-slate-400 flex items-center justify-between">
-                <span>90% Risk Interval (q10–q90):</span>
+                <span>Central 80% Prediction Interval (q10–q90):</span>
                 <span className="text-slate-200">
                   [{trajectoryData.summary_2050.delta_vaf_10th_km3.toFixed(1)}, {trajectoryData.summary_2050.delta_vaf_90th_km3.toFixed(1)}] km³
                   {' '}(SLE: [{trajectoryData.summary_2050.sle_10th_mm.toFixed(3)}, {trajectoryData.summary_2050.sle_90th_mm.toFixed(3)}] mm)
@@ -621,7 +626,7 @@ export const FutureProjectionsPage: React.FC = () => {
                     <span className="text-xs text-cryo-muted font-normal">km³</span>
                   </div>
                   <div className="text-[10px] text-slate-400 mt-1">
-                    68% CI: [{trajectoryData.summary_2100.delta_vaf_16th_km3.toFixed(1)}, {trajectoryData.summary_2100.delta_vaf_84th_km3.toFixed(1)}]
+                    Central 68% PI: [{trajectoryData.summary_2100.delta_vaf_16th_km3.toFixed(1)}, {trajectoryData.summary_2100.delta_vaf_84th_km3.toFixed(1)}]
                   </div>
                 </div>
 
@@ -633,13 +638,13 @@ export const FutureProjectionsPage: React.FC = () => {
                     <span className="text-xs text-cryo-muted font-normal">mm</span>
                   </div>
                   <div className="text-[10px] text-slate-400 mt-1">
-                    68% CI: [{trajectoryData.summary_2100.sle_16th_mm.toFixed(3)}, {trajectoryData.summary_2100.sle_84th_mm.toFixed(3)}]
+                    Central 68% PI: [{trajectoryData.summary_2100.sle_16th_mm.toFixed(3)}, {trajectoryData.summary_2100.sle_84th_mm.toFixed(3)}]
                   </div>
                 </div>
               </div>
 
               <div className="p-2.5 rounded bg-cryo-dark/80 border border-cryo-border/40 text-[11px] text-slate-400 flex items-center justify-between">
-                <span>90% Risk Interval (q10–q90):</span>
+                <span>Central 80% Prediction Interval (q10–q90):</span>
                 <span className="text-slate-200">
                   [{trajectoryData.summary_2100.delta_vaf_10th_km3.toFixed(1)}, {trajectoryData.summary_2100.delta_vaf_90th_km3.toFixed(1)}] km³
                   {' '}(SLE: [{trajectoryData.summary_2100.sle_10th_mm.toFixed(3)}, {trajectoryData.summary_2100.sle_90th_mm.toFixed(3)}] mm)
@@ -909,12 +914,12 @@ const CustomTooltip: React.FC<CustomTooltipProps> = ({ active, payload, label, t
           <span>{formatVal(data.median)}</span>
         </div>
         <div className="flex items-center justify-between text-slate-400">
-          <span>68% Envelope:</span>
+          <span>Central 68% Interval:</span>
           <span>[{formatVal(data.q16)}, {formatVal(data.q84)}]</span>
         </div>
         {show90 && (
           <div className="flex items-center justify-between text-indigo-300">
-            <span>90% Risk Interval:</span>
+            <span>Central 80% Interval:</span>
             <span>[{formatVal(data.q10)}, {formatVal(data.q90)}]</span>
           </div>
         )}
