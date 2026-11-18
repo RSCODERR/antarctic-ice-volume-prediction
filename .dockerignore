@@ -1,0 +1,30 @@
+# Git & Virtual Environments
+.git
+.gitignore
+.venv
+venv
+ENV
+
+# Python Cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+.coverage
+
+# Node.js
+frontend/node_modules
+frontend/dist
+npm-debug.log*
+
+# Environment & Credentials
+.env
+.env.*
+!.env.example
+*.token
+*.key
+
+# Temporary Scratch Files & Logs
+scratch/
+*.log

@@ -5,7 +5,17 @@
 [![Model Status](https://img.shields.io/badge/models-frozen-orange.svg)]()
 [![License: Academic Research](https://img.shields.io/badge/license-Academic%20Research-lightgrey.svg)]()
 
-A physics-informed cryosphere data science framework integrating satellite observations, numerical ice-sheet mechanics, and machine learning to model historical solid-ice mass balance and volume changes across the Antarctic Peninsula (1979–2024).
+A physics-informed cryosphere data science framework integrating satellite observations, numerical ice-sheet mechanics, and machine learning to model historical solid-ice mass balance and volume changes across the Antarctic Peninsula (1979–2024), coupled with multi-model future projections through 2100.
+
+---
+
+## Authoritative Research Documentation
+
+The complete scientific methodology, empirical findings, and validation audits are documented in our final research publications:
+
+- **[Final Research Report (12 Chapters)](reports/CryoPredict_Final_Research_Report.md):** Comprehensive academic monograph covering problem formulation, spatial frameworks, remote sensing datasets, 2D SSA flow equations, historical ML benchmarks, ISMIP6 multi-model future projection emulation (2015–2100), monotone rearrangement, and scientific limitations.
+- **[Technical Methodology & Formulation Reference](reports/CryoPredict_Methodology_Reference.md):** Detailed reference manual of governing equations, physical constants, model hyperparameters, dataset schemas, feature dictionary definitions, LOMFO validation designs, and units.
+- **[Stage 8.2 Research Documentation Audit](reports/stage8_2_research_documentation_report.md):** Quality assurance ledger verifying all empirical figures, equations, table cross-references, and academic citations against frozen project artifacts.
 
 ---
 
@@ -50,6 +60,42 @@ The Antarctic Peninsula is among the fastest-warming cryospheric regions on Eart
 
 ---
 
+## CryoPredict Web Platform & Interactive Laboratories
+
+The repository includes a modern full-stack web application designed for interactive scientific exploration and peer-review dissemination:
+
+- **FastAPI Backend (`backend/`):** High-performance asynchronous API serving verified model metadata, 46-year historical predictions, interactive inference with verified saved artifacts, and 2015–2100 multi-model future projections.
+- **React Frontend (`frontend/`):** Sophisticated scientific research interface built with React, Vite, TypeScript, Tailwind CSS, and Recharts, featuring dark-theme glaciological data visualizers and responsive layouts.
+- **Future Projection Engine (Stage 7.1–7.3):** Multi-model Quantile Gradient Boosting (QGB) emulator synthesizing 64,344 basin-year records from the audited ISMIP6 archive across RCP8.5, RCP2.6, and SSP2-4.5, post-processed with Chernozhukov (2010) monotone quantile rearrangement.
+
+### Running the Web Platform Locally:
+
+```bash
+# 1. Start the FastAPI Backend (Port 8000)
+cd backend
+python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
+
+# 2. In a separate terminal, start the React Frontend (Port 5173)
+cd frontend
+npm install
+npm run dev
+```
+
+Visit `http://localhost:5173` to explore the interactive laboratories.
+
+---
+
+## Production Deployment
+
+Production deployment is fully supported via Docker Compose or native Linux systemd. See [DEPLOYMENT.md](DEPLOYMENT.md) for full configuration details.
+
+```bash
+# Quick production container launch
+docker compose up -d --build
+```
+
+---
+
 ## Quickstart & Verification
 
 ```bash
@@ -73,8 +119,12 @@ python scripts/export_website_assets.py
 
 ## Repository Documentation Index
 
+- **[CryoPredict Final Research Report](reports/CryoPredict_Final_Research_Report.md):** Authoritative 12-chapter research monograph.
+- **[CryoPredict Technical Methodology Reference](reports/CryoPredict_Methodology_Reference.md):** Complete reference of equations, constants, schemas, and parameters.
+- **[Stage 8.2 Research Documentation Report](reports/stage8_2_research_documentation_report.md):** Full quality assurance audit and citation ledger.
 - [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md): Detailed architectural mapping of directories, modules, and datasets.
 - [MODEL_ARTIFACTS.md](MODEL_ARTIFACTS.md): Serialized model specifications, hyperparameters, feature dictionary, and Python APIs.
+- [DEPLOYMENT.md](DEPLOYMENT.md): Production containerization, environment variables, systemd, and reverse-proxy deployment guide.
 - [REPRODUCIBILITY.md](REPRODUCIBILITY.md): Exact commands to reproduce all physics and machine-learning results.
 - [CLEANUP_REPORT.md](CLEANUP_REPORT.md): Audit ledger of repository reorganization and safety proofs.
 - [reports/](reports/): Complete archive of 98 scientific stage audit reports and 450+ data tables.

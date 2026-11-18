@@ -1,0 +1,5 @@
+Candidate_Model_Name,Model_Type,Out_of_Family_RMSE_km3,Out_of_Family_MAE_km3,Out_of_Family_Bias_km3,Out_of_Family_R2,MAE_at_2050_km3,MAE_at_2100_km3,Supports_Non_Gaussian_Quantiles,Validation_Recommendation
+"Quantile Gradient Boosting (QGB, Median)",Nonlinear Quantile Ensemble,567.18,256.85,-12.7,0.4843,182.49,542.15,True,SELECTED_PRODUCTION_PROJECTION_ENGINE
+"Random Forest Regressor (RF, Benchmark)",Tree Ensemble,574.39,273.09,1.4,0.4711,197.96,558.39,False,BENCHMARK_ONLY
+"Regularized Ridge Regression (Ridge, Benchmark)",Linear Regularized,782.74,394.03,2.17,0.0178,247.76,964.98,False,BENCHMARK_ONLY
+Zero Anomaly Persistence (Baseline),Baseline Zero,789.91,371.94,-13.21,-0.0003,230.27,964.6,False,BENCHMARK_ONLY

@@ -1,0 +1,18 @@
+Feature_ID,Feature_Name,Mathematical_Symbol,Physical_Units,Feature_Category,Feature_Description,Role_in_Emulator
+FEAT-FUT-01,Projection_Horizon_yr,t - t_0,years,Temporal Horizon,"Elapsed integer forecast time since reference baseline (t0 = 2015, horizon 1 to 85 yrs)",PRIMARY_TEMPORAL_COORDINATE
+FEAT-FUT-02,Scenario_Code,S,dimensionless,Emissions Pathway,"Binary emissions pathway code (1.0 = RCP8.5 high-warming, 0.0 = RCP2.6 Paris mitigation)",SCENARIO_INDICATOR
+FEAT-FUT-03,Global_Mean_Temp_Anomaly_degC,Delta T_gmean,deg C,Atmospheric Forcing,GCM global mean annual surface temperature anomaly relative to pre-industrial (1850-1900),MACROSCOPIC_THERMAL_FORCING
+FEAT-FUT-04,Radiative_Forcing_W_m2,R(t),W/m^2,Radiative Forcing,Top-of-atmosphere net anthropogenic greenhouse radiative forcing trajectory at year t,ENERGY_BALANCE_FORCING
+FEAT-FUT-05,Cumulative_Radiative_Forcing_W_m2_yr,int R dt,W yr / m^2,Integrated Energy,Cumulative time-integral of radiative forcing from 2015 to year t (climate thermal memory),INTEGRATED_HEAT_FORCING
+FEAT-FUT-06,GCM_ECS_degC,ECS,deg C,Climate Sensitivity,Equilibrium Climate Sensitivity of driving CMIP5 general circulation model,GCM_STRUCTURAL_SENSITIVITY
+FEAT-FUT-07,GCM_TCR_degC,TCR,deg C,Climate Sensitivity,Transient Climate Response of driving CMIP5 general circulation model,GCM_TRANSIENT_RESPONSE
+FEAT-FUT-08,Ocean_Thermal_Regime_Code,Regime_ocean,dimensionless,Ocean Parameterization,"Cavity circulation regime (1.0 = Open cavity circulation, 0.0 = Standard non-local cavity)",OCEAN_CAVITY_CIRCULATION
+FEAT-FUT-09,Ocean_Sensitivity_Factor,gamma_factor,dimensionless,Ocean Parameterization,Ocean thermal melt sensitivity multiplier factor gamma_0 / gamma_med (0.5 to 2.0),OCEAN_MELT_SENSITIVITY
+FEAT-FUT-10,Grounded_Area_km2,A_ground,km^2,Basin Physiography,Time-invariant grounded basin area from BedMachine V4.1 mask,BASIN_SCALE_DESCRIPTOR
+FEAT-FUT-11,Mean_Ice_Thickness_m,H_bar,m,Basin Physiography,Mean baseline grounded ice column thickness from BedMachine V4.1,BASIN_GEOMETRY_DESCRIPTOR
+FEAT-FUT-12,Bed_Elevation_Gates_m,z_bed,m,Basin Physiography,Mean bedrock elevation at marine grounding line flux gates,MARINE_INSTABILITY_VULNERABILITY
+FEAT-FUT-13,Driving_Stress_kPa,tau_d,kPa,Basin Physiography,Gravitational driving shear stress proxy from REMA + BedMachine,DYNAMIC_ENERGY_INDEX
+FEAT-FUT-14,is_Hp_I,I_Hp-I,binary,Spatial Indicator,Fixed-effect indicator for Palmer Land West (Sector 16),SPATIAL_FIXED_EFFECT
+FEAT-FUT-15,is_I_Ipp,I_I-Ipp,binary,Spatial Indicator,Fixed-effect indicator for Graham Land West (Sector 17),SPATIAL_FIXED_EFFECT
+FEAT-FUT-16,is_Ipp_J,I_Ipp-J,binary,Spatial Indicator,Fixed-effect indicator for Graham Land East / Larsen Coast (Sector 18),SPATIAL_FIXED_EFFECT
+FEAT-FUT-17,is_Domain_A,I_Domain_A,binary,Spatial Indicator,Fixed-effect indicator for Total Antarctic Peninsula Regional Domain (Region 3),SPATIAL_FIXED_EFFECT

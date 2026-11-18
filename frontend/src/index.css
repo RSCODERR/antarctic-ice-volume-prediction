@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cryo-darkest text-slate-100 font-sans;
+  }
+
+  /* Custom scrollbar for dark scientific interface */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #050811;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #334155;
+  }
+}
+
+/* Custom chart tooltip styles */
+.recharts-default-tooltip {
+  background-color: #0F172A !important;
+  border: 1px solid #1E293B !important;
+  border-radius: 6px !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5) !important;
+  padding: 8px 12px !important;
+}
+
+.recharts-tooltip-label {
+  color: #F8FAFC !important;
+  font-weight: 600 !important;
+  font-size: 0.85rem !important;
+  margin-bottom: 4px !important;
+}
+
+.recharts-tooltip-item {
+  color: #94A3B8 !important;
+  font-size: 0.8rem !important;
+  padding: 2px 0 !important;
+}
